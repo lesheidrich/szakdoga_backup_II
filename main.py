@@ -6,7 +6,7 @@ from log.logger import Logger
 if __name__ == "__main__":
 
 
-    pass
+    print(Logger.__doc__)
 
 
     # logger = Logger(name='MyAppLogger', log_level="DEBUG")

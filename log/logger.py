@@ -4,6 +4,38 @@ from typing import Literal
 
 
 class Logger:
+    """
+        LOGGER:
+        A custom logger for handling application logs.
+
+        Attributes:
+            log_file (str): The path to the log file.
+            log_formatter (logging.Formatter): The formatter for log messages.
+            log_handler (logging.Handler): The log handler for writing logs to a file.
+            console_handler (logging.Handler): The log handler for writing logs to the console.
+
+        Methods:
+            __init__(self, log_file: str)
+                Initialize the logger.
+
+            info(self, message: str)
+                Log informational messages.
+
+            exception(self, message: str)
+                Log an exception message.
+
+            configure_console_logging(self)
+                Configure the logger to log messages to the console.
+
+            add_context(self, key: str, value: str)
+                Add contextual information to logs.
+
+        Usage:
+            logger = MyLogger("app.log")
+            logger.info("This is an informational message.")
+            logger.exception("An error occurred.")
+            logger.configure_console_logging()
+    """
     def __init__(self,
                  log_level: Literal["INFO", "DEBUG"] = "INFO",
                  name=__name__,
