@@ -1,7 +1,6 @@
 import os
 import unittest
 from datetime import datetime
-
 from log.logger import Logger
 
 
@@ -27,12 +26,13 @@ class TestLogger(unittest.TestCase):
         Checks successful creation of log file from different dir.
         :return: None
         """
+        cwd = os.getcwd()
         os.chdir("../")
         test = Logger(log_file="app_test_log_elsewhere.log")
         test.info("Test log message from elsewhere")
         self.assertTrue(os.path.exists(test.log_file_path))
         test.delete_log()
-        os.chdir("./test/unit")
+        os.chdir(cwd)
 
     def test_build_path(self):
         """
@@ -40,8 +40,9 @@ class TestLogger(unittest.TestCase):
         :return: None
         """
         mock_path = self.log._build_path("test.file")
-        parent_dir = os.path.dirname(os.getcwd())
-        log_path = os.path.join(os.path.join(parent_dir, "log"), "test.file")
+        project_dir = os.getcwd().rsplit("test", 1)[0]
+        log_dir = os.path.join(project_dir, 'log')
+        log_path = os.path.join(log_dir, "test.file")
         self.assertTrue(mock_path == log_path)
         os.remove(mock_path)
 
