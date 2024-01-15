@@ -3,7 +3,7 @@ import requests
 import time
 
 from fake_user_agent import user_agent
-from proxy.proxy_handler import ProxyHandler
+from scraper.proxy.proxy_handler import ProxyHandler
 from typing import Literal
 
 

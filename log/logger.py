@@ -1,7 +1,12 @@
 import logging
 import os
 from typing import Literal
+from secrets import PROJECT_FOLDER
 
+"""
+make more instaneces for test
+make get_timestamp_comment
+"""
 
 class Logger:
     """
@@ -39,7 +44,7 @@ class Logger:
     def __init__(self,
                  log_level: Literal["INFO", "DEBUG"] = "INFO",
                  name=__name__,
-                 log_file='application_log.log'):
+                 log_file: str = 'application_log.log'):
         level = getattr(logging, log_level)
         self.log_file_path = self._build_path(log_file)
         self.logger = logging.getLogger(name)
@@ -78,8 +83,7 @@ class Logger:
         :param file: str application filename (can add subdirectories in log dir)
         :return: str of absolute log file path
         """
-        project_folder = "WebScraping_and_MonteCarloSim_gwjz4t"
-        project_dir = os.getcwd().rsplit(project_folder, 1)[0] + project_folder
+        project_dir = os.getcwd().rsplit(PROJECT_FOLDER, 1)[0] + PROJECT_FOLDER
         log_dir = os.path.join(project_dir, 'log')
         path = os.path.join(log_dir, file)
 

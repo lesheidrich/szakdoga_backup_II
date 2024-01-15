@@ -4,30 +4,53 @@
 
     Maps proxy list to a request testing website to filter currently working
     proxies into a list.
-    Default arg: proxy/proxy.csv.
+    Default arg: proxy/proxies_full.csv.
 """
-
+import os
 import requests
 import csv
 import multiprocessing
 from log.logger import Logger
+from secrets import PROJECT_FOLDER
 
 
 class ProxyHandler:
-    log = Logger()
+    """
 
-    def __init__(self, proxies_file: str = "proxy/proxy.csv"):
-        self.proof_link = "http://icanhazip.com/"  # dummy website returns req ip
-        self.proxies = self.load_proxies(proxies_file)
+    Input file specifications:
+        - must be csv
+        - assumes first row is headers
+        - first 2 columns must contain:
+            1) ip address
+            2) port number
+    """
+    def __init__(self, proxies_file: str = "proxies_full.csv"):
+        self.test_url = "http://icanhazip.com/"  # dummy website returns req ip
+        self.log = Logger(log_file="application_log.log",
+                          name="APP_LOG",
+                          log_level="DEBUG")
+        self.file_path = self._build_path(proxies_file)
+        self.proxies = self.load_proxies()
 
-    def load_proxies(self, proxies_csv: str) -> [str]:
+    def _build_path(self, file_name: str) -> str:
+        """
+        Builds absolute path to csv file. Returns arg if already absolute path.
+        :param file_name: str name of csv file containing proxies
+        :return: absolute file path str
+        """
+        if ":\\" in file_name:
+            return file_name
+        project_dir = os.getcwd().rsplit(PROJECT_FOLDER, 1)[0] + PROJECT_FOLDER
+        return project_dir + f"\\scraper\\proxy\\{file_name}"
+
+    def load_proxies(self) -> [str]:
         """
         Allocates all proxies to a list of strings, concatenating ip:port
-        :param proxies_csv: path to csv file containing proxies
         :return: list of proxy strings
         """
-        with open(proxies_csv, "r") as file:
-            return [f"{row[0]}:{row[1]}" for row in csv.reader(file)][1:]
+        with open(self.file_path, "r") as file:
+            result = [f"{row[0]}:{row[1]}" for row in csv.reader(file)][1:]
+        return result
 
     def handle_proxy(self, proxy_address: str) -> str:
         """
@@ -41,7 +64,7 @@ class ProxyHandler:
         }
 
         try:
-            res = requests.get(self.proof_link, proxies=proxies, timeout=1)
+            res = requests.get(self.test_url, proxies=proxies, timeout=1)
             response_txt = res.text
 
             if res.status_code == 200 and 0 < len(response_txt) < 22:  # weed out html res to unset ubuntu servers
@@ -49,7 +72,6 @@ class ProxyHandler:
                     f"Proxy check succeeded\nIP: {proxy_address}\nStatus Code: {res.status_code}\nResponse: {response_txt}"
                 )
                 return proxy_address
-
         except requests.RequestException as e:
             self.log.warning(f"Proxy check failed for request {proxy_address}: {e}")
 
@@ -58,9 +80,11 @@ class ProxyHandler:
         Maps proxies to handle_proxy()
         :return: list of working proxy strings
         """
+        self.log.info(30*"*")
         self.log.info("COMMENCING PROXY LIST CHECK")
         with multiprocessing.Pool(multiprocessing.cpu_count()) as process:
             result = list(filter(None, process.map(self.handle_proxy, self.proxies)))
-            self.log.info("CURRENT WORKING PROXY LIST:\n" + "\n".join(result))
-            self.log.close_log()
-            return result
+
+        self.log.info("CURRENT WORKING PROXY LIST:\n" + "\n".join(result) + "\n")
+        # self.log.close_log()
+        return result
