@@ -93,19 +93,6 @@ class Logger:
                 pass
         return path
 
-    # def log(self, message, log_type: Literal["INFO", "WARNING", "ERROR"] = "INFO") -> None:
-    #     """
-    #
-    #     :param message: message to log (auto-converts to str)
-    #     :param log_type: The type of log ("INFO", "WARNING", "ERROR")
-    #     :return:
-    #     """
-    #     log_function = getattr(self.logger, message, log_type.lower())
-    #     try:
-    #         log_function(message)
-    #     except Exception as e:
-    #         print(f"Error logging message: {message}\n{e}")
-
     def info(self, message) -> None:
         """
         Logs arg message as INFO.
