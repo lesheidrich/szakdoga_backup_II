@@ -1,11 +1,4 @@
-"""
-    h = ProxyHandler([Optional: path_to_your_proxy_list.csv])
-    working_proxy_list = h.process_proxies()
 
-    Maps proxy list to a request testing website to filter currently working
-    proxies into a list.
-    Default arg: proxy/proxies_full.csv.
-"""
 import os
 import requests
 import csv
@@ -16,13 +9,50 @@ from secrets import PROJECT_FOLDER
 
 class ProxyHandler:
     """
+    ProxyHandler:
+    h = ProxyHandler([Optional: path_to_your_proxy_list.csv])
+    working_proxy_list = h.process_proxies()
+
+    Maps proxy list to a request testing website to filter currently working
+    proxies into a list.
+    Default arg: proxy/proxies_full.csv.
 
     Input file specifications:
         - must be csv
-        - assumes first row is headers
+        - assumes the first row is headers
         - first 2 columns must contain:
             1) ip address
             2) port number
+
+    Usage Example:
+    --------------
+    h = ProxyHandler("path/to/your/proxy_list.csv")
+    working_proxy_list = h.process_proxies()
+
+    Attributes:
+    -----------
+    - test_url (str): Dummy website URL that returns the requesting IP.
+    - log (Logger): Instance of Logger class for logging.
+    - file_path (str): Absolute path to the CSV file containing proxies.
+    - proxies (list): List of proxy strings loaded from the CSV file.
+
+    Methods:
+    --------
+    - __init__(self, proxies_file: str = "proxies_full.csv"):
+        Initializes the ProxyHandler object.
+
+    - _build_path(self, file_name: str) -> str:
+        Builds the absolute path to the CSV file. Returns the argument if already an absolute path.
+
+    - load_proxies(self) -> [str]:
+        Loads proxies from the CSV file into a list of strings.
+
+    - handle_proxy(self, proxy_address: str) -> str:
+        Sets an individual proxy IP:port as http/https to attempt a request.
+
+    - process_proxies(self) -> [str]:
+        Maps proxies to handle_proxy() using multiprocessing.
+
     """
     def __init__(self, proxies_file: str = "proxies_full.csv"):
         self.test_url = "http://icanhazip.com/"  # dummy website returns req ip

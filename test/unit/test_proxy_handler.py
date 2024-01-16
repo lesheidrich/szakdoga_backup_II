@@ -1,11 +1,7 @@
 import os
 import unittest
-from datetime import datetime
-from unittest.mock import patch, Mock, MagicMock
-
+from unittest.mock import patch, Mock
 import requests
-
-from log.logger import Logger
 from scraper.proxy.proxy_handler import ProxyHandler
 from secrets import PROJECT_FOLDER
 
