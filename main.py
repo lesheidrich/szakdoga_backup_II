@@ -8,7 +8,28 @@ from scraper.proxy.proxy_handler import ProxyHandler
 from secrets import PROJECT_FOLDER
 
 if __name__ == "__main__":
+    print(PROJECT_FOLDER)
 
+
+    """
+    regression:
+    loader = unittest.TestLoader()
+
+    # Replace 'path/to/your/project' with the actual path to your project directory
+    project_directory = 'path/to/your/project'
+
+    # Creating a test suite using discover
+    suite = loader.discover(project_directory, pattern='test_*.py')
+
+    # Running the test suite
+    unittest.TextTestRunner().run(suite)
+    
+    
+    
+    ***TESTRUNNER
+    unittest.TextTestRunner().run(suite)
+    should be able to run tests and integrate with logger
+    """
 
 
 

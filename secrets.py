@@ -1,0 +1,1 @@
+PROJECT_FOLDER = "WebScraping_and_MonteCarloSim_gwjz4t"

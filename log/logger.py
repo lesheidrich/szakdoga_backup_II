@@ -147,8 +147,10 @@ class Logger:
             with open(self.log_file_path, 'w'):
                 pass
             print(f"Log file '{self.log_file_path}' truncated.")
+        except FileNotFoundError as e:
+            print(f"File {self.log_file_path} not found! {e}")
         except Exception as e:
-            print(f"Error clearing log file{self.log_file_path}!\n{e}")
+            print(f"Error clearing log file! {e}")
 
     def has_open_handlers(self) -> bool:
         """
