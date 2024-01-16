@@ -12,14 +12,7 @@ from secrets import PROJECT_FOLDER
 
 class TestProxyHandler(unittest.TestCase):
     def setUp(self) -> None:
-        # self.log = Logger(log_file="app_test_log.log",
-        #                   name="UNIT_TEST_LOG",
-        #                   log_level="DEBUG")
         self.handler = ProxyHandler("proxies_test.csv")
-
-    # def tearDown(self) -> None:
-        # self.log.clear_log()
-        # self.log.close_log()
 
     def test_relative_build_path(self):
         """
@@ -78,16 +71,8 @@ class TestProxyHandler(unittest.TestCase):
         Test run on proxies_test.csv. Both functions used are tested separately as well.
         :return: None
         """
-        result = self.handler.process_proxies()
-
-        timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S,%f")[:-2]
-        comment = "APP_LOG - INFO - CURRENT WORKING PROXY LIST"
-        # def self.get_timestamp_matched_content(self, comment) -> bool:
-        content = self.handler.log.get_content().split("\n")
-        for row in content:
-            if timestamp in row and comment in row:
-                self.assertTrue(1 == 1)
-
-        self.assertIsNotNone(result)
-        # self.assertIn(comment, self.handler.log.get_content())
-
+        return_list = self.handler.process_proxies()
+        comment = " - APP_LOG - INFO - CURRENT WORKING PROXY LIST"
+        result = self.handler.log.check_comment_for_timestamp(comment)
+        self.assertTrue(result)
+        self.assertIsNotNone(return_list)

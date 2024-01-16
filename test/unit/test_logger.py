@@ -1,4 +1,5 @@
 import os
+import time
 import unittest
 from datetime import datetime
 from log.logger import Logger
@@ -15,14 +16,24 @@ class TestLogger(unittest.TestCase):
         self.log.clear_log()
         self.log.close_log()
 
-    def test_file_creation(self):
+    def test_log_file_created(self):
         """
         Ensures existence of test log file.
         :return: None
         """
         self.assertTrue(os.path.exists(self.log.log_file_path))
 
-    def test_creation_from_elsewhere(self):
+    def test_extensionless_file_name_arg(self):
+        """
+        Ensures .log extension added in case of extensionless log_file param.
+        :return: None
+        """
+        test = Logger(log_file="extensionless")
+        self.assertTrue(test.log_file_path.endswith(".log"))
+        test.close_log()
+        test.delete_log()
+
+    def test_instantiation_from_different_dir(self):
         """
         Checks successful creation of log file from different dir.
         :return: None
@@ -35,18 +46,6 @@ class TestLogger(unittest.TestCase):
         test.delete_log()
         os.chdir(cwd)
 
-    def test_build_path(self):
-        """
-        Ensures log file build path functionality.
-        :return: None
-        """
-        mock_path = self.log._build_path("test.file")
-        project_dir = os.getcwd().rsplit(PROJECT_FOLDER, 1)[0] + PROJECT_FOLDER
-        log_dir = os.path.join(project_dir, 'log')
-        log_path = os.path.join(log_dir, "test.file")
-        self.assertTrue(mock_path == log_path)
-        os.remove(mock_path)
-
     def test_init_arg_error(self):
         """
         Ensures AttributeError is thrown for instantiation attempt with wrong arg.
@@ -54,6 +53,18 @@ class TestLogger(unittest.TestCase):
         """
         with self.assertRaises(AttributeError):
             Logger(log_file="wrong_param.log", name="UNIT_TEST_LOG", log_level="wrong")
+
+    def test_build_path(self):
+        """
+        Ensures log file build path functionality.
+        :return: None
+        """
+        mock_path = self.log._build_path("test.log")
+        project_dir = os.getcwd().rsplit(PROJECT_FOLDER, 1)[0] + PROJECT_FOLDER
+        log_dir = os.path.join(project_dir, 'log')
+        log_path = os.path.join(log_dir, "test.log")
+        self.assertTrue(mock_path == log_path)
+        os.remove(mock_path)
 
     def test_get_content(self):
         """
@@ -71,24 +82,25 @@ class TestLogger(unittest.TestCase):
         :return: None
         """
         self.log.info(True)
+        comment = " - UNIT_TEST_LOG - INFO - True"
+        result = self.log.check_comment_for_timestamp(comment)
         content = self.log.get_content()
-        current_datetime = datetime.now().strftime("%Y-%m-%d %H:%M")
         self.assertIn("True", content)
         self.assertIn("INFO", content)
-        self.assertIn(current_datetime, content)
+        self.assertTrue(result)
 
     def test_warning_str_logging(self):
         """
         Test str input for log. Ensure warning function logs properly through time check of INFO log.
         :return: None
         """
-        comment = "This is a warning check string"
-        self.log.warning(comment)
+        self.log.warning("This is a warning check string")
+        comment = " - UNIT_TEST_LOG - WARNING - This is a warning check string"
+        result = self.log.check_comment_for_timestamp(comment)
         content = self.log.get_content()
-        current_datetime = datetime.now().strftime("%Y-%m-%d %H:%M")
         self.assertIn(comment, content)
         self.assertIn("WARNING", content)
-        self.assertIn(current_datetime, content)
+        self.assertTrue(result)
 
     def test_int_error_logging(self):
         """
@@ -96,11 +108,42 @@ class TestLogger(unittest.TestCase):
         :return: None
         """
         self.log.error(5)
+        comment = " - UNIT_TEST_LOG - ERROR - 5"
+        result = self.log.check_comment_for_timestamp(comment)
         content = self.log.get_content()
-        current_datetime = datetime.now().strftime("%Y-%m-%d %H:%M")
         self.assertIn("5", content)
         self.assertIn("ERROR", content)
-        self.assertIn(current_datetime, content)
+        self.assertTrue(result)
+
+    def test_check_comment_for_timestamp_true(self):
+        """
+        Ensures check_comment_for_timestamp returns True if comment gets logged at the right time.
+        :return: None
+        """
+        self.log.info("test_check_comment_for_timestamp_true")
+        comment = " - UNIT_TEST_LOG - INFO - test_check_comment_for_timestamp_true"
+        result = self.log.check_comment_for_timestamp(comment)
+        self.assertTrue(result)
+
+    def test_check_comment_for_timestamp_false(self):
+        """
+        Ensures check_comment_for_timestamp returns False if comment not in log.
+        :return: None
+        """
+        comment = "This comment is not in the log file."
+        result = self.log.check_comment_for_timestamp(comment)
+        self.assertFalse(result)
+
+    def test_check_comment_for_timestamp_false_wrong_timestamp(self):
+        """
+        Ensures check_comment_for_timestamp returns False if comment in log but timestamp is off.
+        :return: None
+        """
+        self.log.info("test_check_comment_for_timestamp_true")
+        time.sleep(1.2)
+        comment = " - UNIT_TEST_LOG - INFO - test_check_comment_for_timestamp_true"
+        result = self.log.check_comment_for_timestamp(comment)
+        self.assertFalse(result)
 
     def test_clear_log(self):
         """

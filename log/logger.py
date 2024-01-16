@@ -1,12 +1,10 @@
 import logging
 import os
+import re
+from datetime import datetime
 from typing import Literal
 from secrets import PROJECT_FOLDER
 
-"""
-make more instaneces for test
-make get_timestamp_comment
-"""
 
 class Logger:
     """
@@ -87,6 +85,9 @@ class Logger:
         log_dir = os.path.join(project_dir, 'log')
         path = os.path.join(log_dir, file)
 
+        if not path.endswith(".log"):
+            path += ".log"
+
         if not os.path.exists(path):
             with open(path, 'w'):
                 pass
@@ -137,6 +138,18 @@ class Logger:
         with open(self.log_file_path, "r") as f:
             content = f.read()
         return content
+
+    def check_comment_for_timestamp(self, comment) -> bool:
+        """
+        Checks if the log contains any rows matching the current timestamp and comment.
+        :return: True if comment match for timestamp
+        """
+        timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S,%f")[:-5]
+        pattern = rf"{timestamp}\d+{comment}"
+
+        with open(self.log_file_path, "r") as f:
+            content = f.read()
+        return re.search(pattern, content) is not None
 
     def clear_log(self) -> None:
         """

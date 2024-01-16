@@ -1,5 +1,7 @@
 # Example usage
 import os
+import re
+from datetime import datetime
 
 from log.logger import Logger
 from scraper.proxy.proxy_handler import ProxyHandler
@@ -8,15 +10,13 @@ from secrets import PROJECT_FOLDER
 if __name__ == "__main__":
 
 
-    h = ProxyHandler("proxies_test.csv")
+
+
+
+
+    # h = ProxyHandler("proxies_test.csv")
     # working_proxy_list = h.process_proxies()
 
-    s = os.getcwd()
-
-    if ":\\" in s:
-        print("pina")
-
-    print(PROJECT_FOLDER)
 
     """
     TODO:
