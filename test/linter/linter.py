@@ -13,6 +13,7 @@ def list_files_recursively(folder_path):
                 file_list.append(os.path.join(root, file))
     return file_list
 
+
 files = list_files_recursively(project_directory)
 
 for f in files:
