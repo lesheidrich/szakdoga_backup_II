@@ -12,28 +12,10 @@ if __name__ == "__main__":
 
 
     """
-    regression:
-    loader = unittest.TestLoader()
-
-    # Replace 'path/to/your/project' with the actual path to your project directory
-    project_directory = 'path/to/your/project'
-
-    # Creating a test suite using discover
-    suite = loader.discover(project_directory, pattern='test_*.py')
-
-    # Running the test suite
-    unittest.TextTestRunner().run(suite)
-    
-    
-    
     ***TESTRUNNER
     unittest.TextTestRunner().run(suite)
     should be able to run tests and integrate with logger
     """
-
-
-
-
 
     # h = ProxyHandler("proxies_test.csv")
     # working_proxy_list = h.process_proxies()
@@ -41,13 +23,6 @@ if __name__ == "__main__":
 
     """
     TODO:
-    - CI: github
-    - linter
-    
-    - proxy
-    - proxy unit test
-    
-    - regression test
     - integration test
     
     - webscraper

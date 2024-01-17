@@ -12,8 +12,10 @@ def list_files_recursively(folder_path):
     return file_list
 
 
-if __name__ == '__main__':
-    path = os.path.dirname(os.path.dirname(os.getcwd()))
+def run_linter():
+    # path = os.path.dirname(os.path.dirname(os.getcwd()))
+    # PROJECT_FOLDER = 'C:\\users\\dblin\\PycharmProjects\\WebScraping_and_MonteCarloSim_gwjz4t'
+    path = 'C:\\users\\dblin\\PycharmProjects\\WebScraping_and_MonteCarloSim_gwjz4t'
     files = list_files_recursively(path)
 
     for f in files:
@@ -22,4 +24,8 @@ if __name__ == '__main__':
         run = lint.Run([f], exit=False)
         score = run.linter.stats.global_note
 
-        print(f"Score: {score}")
+        # print(f"Score: {score}")
+
+
+if __name__ == '__main__':
+    run_linter()
