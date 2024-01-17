@@ -24,8 +24,9 @@ jobs:
           python -m pip install pip --upgrade pip
           if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
 
-      - name: Run unit tests
-        run: python test/regression.py
+      - name: Discover and run unit tests
+        run: |
+          python -m unittest discover -s test -p 'test_*.py'
 
       - name: Run linter (with custom .pylintrc)
         run: python test/linter/linter.py
