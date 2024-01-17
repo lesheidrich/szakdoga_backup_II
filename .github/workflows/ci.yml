@@ -30,4 +30,4 @@ jobs:
 #      continue-on-error: false
 
       - name: Run unit tests
-        run: python -m unittest discover "test_*.py"
+        run: python -m unittest discover "test/unit/test_*.py"
