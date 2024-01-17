@@ -59,8 +59,7 @@ class TestLogger(unittest.TestCase):
         :return: None
         """
         mock_path = self.log._build_path("test.log")
-        project_dir = os.getcwd().rsplit(PROJECT_FOLDER, 1)[0] + PROJECT_FOLDER
-        log_dir = os.path.join(project_dir, 'log')
+        log_dir = os.path.join(PROJECT_FOLDER, 'log')
         log_path = os.path.join(log_dir, "test.log")
         self.assertTrue(mock_path == log_path)
         os.remove(mock_path)

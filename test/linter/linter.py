@@ -1,9 +1,8 @@
-import glob
 import os
 import sys
 from pylint import lint
+from secrets import PROJECT_FOLDER
 
-project_directory = 'C:\\users\\dblin\\PycharmProjects\\WebScraping_and_MonteCarloSim_gwjz4t'
 
 def list_files_recursively(folder_path):
     file_list = []
@@ -14,7 +13,7 @@ def list_files_recursively(folder_path):
     return file_list
 
 
-files = list_files_recursively(project_directory)
+files = list_files_recursively(PROJECT_FOLDER)
 
 for f in files:
     THRESHOLD = 10

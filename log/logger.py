@@ -81,8 +81,7 @@ class Logger:
         :param file: str application filename (can add subdirectories in log dir)
         :return: str of absolute log file path
         """
-        project_dir = os.getcwd().rsplit(PROJECT_FOLDER, 1)[0] + PROJECT_FOLDER
-        log_dir = os.path.join(project_dir, 'log')
+        log_dir = os.path.join(PROJECT_FOLDER, 'log')
         path = os.path.join(log_dir, file)
 
         if not path.endswith(".log"):

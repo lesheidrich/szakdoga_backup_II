@@ -70,8 +70,7 @@ class ProxyHandler:
         """
         if ":\\" in file_name:
             return file_name
-        project_dir = os.getcwd().rsplit(PROJECT_FOLDER, 1)[0] + PROJECT_FOLDER
-        return project_dir + f"\\scraper\\proxy\\{file_name}"
+        return PROJECT_FOLDER + f"\\scraper\\proxy\\{file_name}"
 
     def load_proxies(self) -> [str]:
         """

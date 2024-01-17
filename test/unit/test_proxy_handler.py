@@ -1,4 +1,3 @@
-import os
 import unittest
 from unittest.mock import patch, Mock
 import requests
@@ -16,8 +15,7 @@ class TestProxyHandler(unittest.TestCase):
         :return: None
         """
         test_path = self.handler._build_path("proxies_test.csv")
-        project_dir = os.getcwd().rsplit(PROJECT_FOLDER, 1)[0] + PROJECT_FOLDER
-        absolute_path = project_dir + "\\scraper\\proxy\\proxies_test.csv"
+        absolute_path = PROJECT_FOLDER + "\\scraper\\proxy\\proxies_test.csv"
         self.assertEqual(absolute_path, test_path)
 
     def test_absolute_build_path(self):
@@ -25,8 +23,7 @@ class TestProxyHandler(unittest.TestCase):
         Ensures _build_path() returns correct absolute path for absolute path input.
         :return: None
         """
-        project_dir = os.getcwd().rsplit(PROJECT_FOLDER, 1)[0] + PROJECT_FOLDER
-        absolute_path = project_dir + "\\scraper\\proxy\\proxies_test.csv"
+        absolute_path = PROJECT_FOLDER + "\\scraper\\proxy\\proxies_test.csv"
         test_path = self.handler._build_path(absolute_path)
         self.assertEqual(absolute_path, test_path)
 
