@@ -25,12 +25,10 @@ jobs:
           if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
 
       - name: Run unit tests
-        run: |
-          pwd
-          python main.py
+        run: python main.py
 
       - name: Run linter (with custom .pylintrc)
         run: |
           pwd
-          python /test/linter/linter.py
+          python /test/test.py
         continue-on-error: false
