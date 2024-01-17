@@ -1,7 +1,7 @@
 import os
 import sys
 from pylint import lint
-from secrets import PROJECT_FOLDER
+# from secrets import PROJECT_FOLDER
 
 print("puppyfarts")
 
