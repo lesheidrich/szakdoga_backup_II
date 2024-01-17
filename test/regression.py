@@ -1,6 +1,6 @@
 import unittest
-from test.unit.test_logger import TestLogger
-from test.unit.test_proxy_handler import TestProxyHandler
+from unit.test_logger import TestLogger
+from unit.test_proxy_handler import TestProxyHandler
 
 
 def suite():
