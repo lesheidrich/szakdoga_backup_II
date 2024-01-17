@@ -29,5 +29,5 @@ jobs:
         run: python main.py
 
       - name: Run linter (with custom .pylintrc)
-        run: python ./test/linter/linter.py
+        run: python linter.py
         continue-on-error: false
