@@ -24,7 +24,6 @@ jobs:
           pwd
           python -m pip install pip --upgrade pip
           if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
-          pip install .
 
 #    - name: Run linter.py (with custom .pylintrc)
 #      run: linter.py ./test/linter/
