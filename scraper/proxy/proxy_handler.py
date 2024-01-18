@@ -1,14 +1,55 @@
+"""
+Module: proxy_handler.py
 
-import requests
+This module defines the ProxyHandler class, which is responsible for mapping a proxy list to a request
+testing website to filter currently working proxies into a list.
+
+Usage Example:
+--------------
+h = ProxyHandler("path/to/your/proxy_list.csv")
+working_proxy_list = h.process_proxies()
+
+Input file specifications:
+  - must be csv
+  - assumes the first row is headers
+  - first 2 columns must contain:
+      1) ip address
+      2) port number
+
+Attributes:
+-----------
+- test_url (str): Dummy website URL that returns the requesting IP.
+- log (Logger): Instance of Logger class for logging.
+- file_path (str): Absolute path to the CSV file containing proxies.
+- proxies (list): List of proxy strings loaded from the CSV file.
+
+Methods:
+--------
+- __init__(self, proxies_file: str = "proxies_full.csv"):
+    Initializes the ProxyHandler object.
+
+- _build_path(self, file_name: str) -> str:
+    Builds the absolute path to the CSV file. Returns the argument if already an absolute path.
+
+- load_proxies(self) -> [str]:
+    Loads proxies from the CSV file into a list of strings.
+
+- handle_proxy(self, proxy_address: str) -> str:
+    Sets an individual proxy IP:port as http/https to attempt a request.
+
+- process_proxies(self) -> [str]:
+    Maps proxies to handle_proxy() using multiprocessing.
+"""
 import csv
 import multiprocessing
-from log.logger import Logger
 import secrets
+import requests
+from log.logger import Logger
 
 
 class ProxyHandler:
     """
-    ProxyHandler:
+    class: ProxyHandler
     h = ProxyHandler([Optional: path_to_your_proxy_list.csv])
     working_proxy_list = h.process_proxies()
 
@@ -76,7 +117,7 @@ class ProxyHandler:
         Allocates all proxies to a list of strings, concatenating ip:port
         :return: list of proxy strings
         """
-        with open(self.file_path, "r") as file:
+        with open(self.file_path, "r", encoding="utf-8") as file:
             result = [f"{row[0]}:{row[1]}" for row in csv.reader(file)][1:]
         return result
 
@@ -95,13 +136,17 @@ class ProxyHandler:
             res = requests.get(self.test_url, proxies=proxies, timeout=1)
             response_txt = res.text
 
-            if res.status_code == 200 and 0 < len(response_txt) < 22:  # weed out html res to unset ubuntu servers
+            if res.status_code == 200 and 0 < len(response_txt) < 22:
+                # weed out html res to unset ubuntu servers
                 self.log.info(
-                    f"Proxy check succeeded\nIP: {proxy_address}\nStatus Code: {res.status_code}\nResponse: {response_txt}"
+                    f"Proxy check succeeded\nIP: {proxy_address}\nStatus Code: {res.status_code}"
+                    f"\nResponse: {response_txt}"
                 )
                 return proxy_address
         except requests.RequestException as e:
             self.log.warning(f"Proxy check failed for request {proxy_address}: {e}")
+
+        return ""
 
     def process_proxies(self) -> [str]:
         """

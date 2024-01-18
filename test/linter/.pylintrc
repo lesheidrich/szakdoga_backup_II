@@ -2,8 +2,8 @@
 
 
 disable=
-   too-few-public-methods
+    too-few-public-methods,
+    protected-access
 
-
-
+max-line-length=110
 

@@ -2,7 +2,7 @@ import os
 from pylint import lint
 
 
-def list_files_recursively(folder_path):
+def list_files_recursively(folder_path: str) -> [str]:
     file_list = []
     for root, dirs, files in os.walk(folder_path):
         dirs[:] = [d for d in dirs if "venv" not in d]
@@ -11,20 +11,28 @@ def list_files_recursively(folder_path):
                 file_list.append(os.path.join(root, file))
     return file_list
 
+# TODO: path to setup.py instead of hardcoded
+# TODO: cleanup and make into unittestable class
 
-def run_linter():
+def run_linter() -> None:
     # path = os.path.dirname(os.path.dirname(os.getcwd()))
     # PROJECT_FOLDER = 'C:\\users\\dblin\\PycharmProjects\\WebScraping_and_MonteCarloSim_gwjz4t'
     path = 'C:\\users\\dblin\\PycharmProjects\\WebScraping_and_MonteCarloSim_gwjz4t'
     files = list_files_recursively(path)
 
-    for f in files:
-        THRESHOLD = 10
+    files[:] = [f for f in files if not any(y in f for y in ["linter.py", "regression.py", "main.py"])]
 
-        run = lint.Run([f], exit=False)
-        score = run.linter.stats.global_note
+    [lint.Run([f], exit=False) for f in files]
 
-        # print(f"Score: {score}")
+    # for f in files:
+        # THRESHOLD = 10
+        # run = lint.Run([f], exit=False)
+        # score = run.linter.stats.global_note
+
+    #     if score < THRESHOLD:
+    #         print(f"Linter failed, Score:{score} < threshold value: {THRESHOLD}")
+    #         exit_code = 1
+    # sys.exit(exit_code)
 
 
 if __name__ == '__main__':

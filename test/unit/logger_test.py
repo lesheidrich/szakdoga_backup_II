@@ -1,3 +1,39 @@
+"""
+Module: test_logger.py
+
+This module contains unit tests for the Logger class functionality. The test suite covers various aspects of
+the Logger class, including instantiation, log file creation, path building, logging with different data
+types, and checking log content and timestamps.
+
+Classes:
+- TestLogger: Subclass of unittest.TestCase for testing the Logger class.
+
+Methods:
+- setUp(): Initializes the Logger instance for testing purposes.
+- tearDown(): Clears and closes the test log after each test.
+
+Test Methods:
+- test_log_file_created(): Ensures the existence of the test log file.
+- test_extensionless_file_name_arg(): Ensures the addition of the .log extension for extensionless log_file
+  parameter.
+- test_instantiation_from_different_dir(): Checks successful log file creation from a different directory.
+- test_init_arg_error(): Ensures AttributeError is thrown for instantiation attempts with incorrect arguments.
+- test_build_path(): Ensures proper functionality of the log file build path.
+- test_get_content(): Ensures Logger.get_content() functionality.
+- test_info_bool_logging(): Tests boolean input for log and ensures proper INFO logging.
+- test_warning_str_logging(): Tests string input for log and ensures proper WARNING logging.
+- test_int_error_logging(): Tests integer input for log and ensures proper ERROR logging.
+- test_check_comment_for_timestamp_true(): Ensures check_comment_for_timestamp returns True for the correct
+  timestamp.
+- test_check_comment_for_timestamp_false(): Ensures check_comment_for_timestamp returns False if the comment
+  is not in the log.
+- test_check_comment_for_timestamp_false_wrong_timestamp(): Ensures check_comment_for_timestamp returns False
+  if the timestamp is incorrect.
+- test_clear_log(): Ensures Logger.clear_log() functionality.
+- test_close_log(): Ensures Logger.close_log() functionality.
+- test_has_open_handlers(): Ensures Logger.has_open_handlers() functionality.
+- test_delete_log(): Ensures Logger.delete_log() functionality.
+"""
 import os
 import time
 import unittest
@@ -6,6 +42,40 @@ from log.logger import Logger
 
 
 class TestLogger(unittest.TestCase):
+    """
+    class: TestLogger
+    Unit tests for the Logger class functionality.
+
+    This test suite covers various aspects of the Logger class, including instantiation, log file creation,
+    path building, logging with different data types, and checking log content and timestamps.
+
+    Methods:
+    - setUp(): Initializes the Logger instance for testing purposes.
+    - tearDown(): Clears and closes the test log after each test.
+
+    Test Methods:
+    - test_log_file_created(): Ensures the existence of the test log file.
+    - test_extensionless_file_name_arg(): Ensures the addition of the .log extension for extensionless
+      log_file parameter.
+    - test_instantiation_from_different_dir(): Checks successful log file creation from a different directory.
+    - test_init_arg_error(): Ensures AttributeError is thrown for instantiation attempts with incorrect
+      arguments.
+    - test_build_path(): Ensures proper functionality of the log file build path.
+    - test_get_content(): Ensures Logger.get_content() functionality.
+    - test_info_bool_logging(): Tests boolean input for log and ensures proper INFO logging.
+    - test_warning_str_logging(): Tests string input for log and ensures proper WARNING logging.
+    - test_int_error_logging(): Tests integer input for log and ensures proper ERROR logging.
+    - test_check_comment_for_timestamp_true(): Ensures check_comment_for_timestamp returns True for the
+      correct timestamp.
+    - test_check_comment_for_timestamp_false(): Ensures check_comment_for_timestamp returns False if the
+      comment is not in the log.
+    - test_check_comment_for_timestamp_false_wrong_timestamp(): Ensures check_comment_for_timestamp returns
+      False if the timestamp is incorrect.
+    - test_clear_log(): Ensures Logger.clear_log() functionality.
+    - test_close_log(): Ensures Logger.close_log() functionality.
+    - test_has_open_handlers(): Ensures Logger.has_open_handlers() functionality.
+    - test_delete_log(): Ensures Logger.delete_log() functionality.
+    """
     def setUp(self) -> None:
         self.log = Logger(log_file="app_test_log.log",
                           name="UNIT_TEST_LOG",

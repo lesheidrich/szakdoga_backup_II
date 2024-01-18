@@ -1,6 +1,6 @@
 """
-secrets.py
-----------
+Module: secrets.py
+
 This module is designed to store sensitive information, such as passwords.
 
 Important:
