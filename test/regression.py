@@ -1,4 +1,6 @@
 import unittest
+
+from test.linter.linter import run_linter
 from unit.proxy_handler_test import TestProxyHandler
 from unit.logger_test import TestLogger
 
@@ -17,5 +19,7 @@ def regression_test() -> unittest.TestSuite:
 
 
 if __name__ == '__main__':
-    runner = unittest.TextTestRunner()
-    runner.run(regression_test())
+    # runner = unittest.TextTestRunner()
+    # runner.run(regression_test())
+
+    run_linter()

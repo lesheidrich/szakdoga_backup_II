@@ -1,4 +1,3 @@
-# Example usage
 import os
 import re
 from datetime import datetime
@@ -8,14 +7,12 @@ from scraper.proxy.proxy_handler import ProxyHandler
 from secrets import PROJECT_FOLDER
 
 if __name__ == "__main__":
-    print(PROJECT_FOLDER)
 
 
-    """
-    ***TESTRUNNER
-    unittest.TextTestRunner().run(suite)
-    should be able to run tests and integrate with logger
-    """
+
+
+
+
 
     # h = ProxyHandler("proxies_test.csv")
     # working_proxy_list = h.process_proxies()
@@ -35,10 +32,40 @@ if __name__ == "__main__":
     - unittest + integration test
     
     
+    
+    
+    Request structure
+    try:
+        print("requests")
+        fail = 5/0
+    except Exception:
+        try:
+            print("new proxy, del old one")
+            print("scrapy")
+            fail = 5 / 0
+        except Exception:
+            try:
+                print("new proxy, del old one")
+                print("selenium")
+                fail = 5 / 0
+            except Exception:
+                try:
+                    print("new proxy, del old one")
+                    print("cypress")
+                    fail = 5 / 0
+                except Exception:
+                    print("can't get response")
+    
+    
+    
     - sql alchemy db handler
     - unittest + integration test
     
     - take PROJECT_FOLDER out of secrets.py -> setup.py
+    
+    ***TESTRUNNER
+    unittest.TextTestRunner().run(suite)
+    should be able to run tests and integrate with logger
     """
 
 

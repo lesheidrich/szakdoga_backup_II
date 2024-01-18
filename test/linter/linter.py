@@ -20,6 +20,9 @@ def run_linter() -> None:
     path = 'C:\\users\\dblin\\PycharmProjects\\WebScraping_and_MonteCarloSim_gwjz4t'
     files = list_files_recursively(path)
 
+    if not os.getcwd().endswith("linter"):
+        os.chdir(os.path.join(path, "test\\linter"))
+
     files[:] = [f for f in files if not any(y in f for y in ["linter.py", "regression.py", "main.py"])]
 
     [lint.Run([f], exit=False) for f in files]
@@ -35,5 +38,5 @@ def run_linter() -> None:
     # sys.exit(exit_code)
 
 
-if __name__ == '__main__':
-    run_linter()
+# if __name__ == '__main__':
+#     run_linter()
