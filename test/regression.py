@@ -1,3 +1,4 @@
+import os
 import unittest
 
 from test.linter.linter import run_linter
@@ -22,4 +23,6 @@ if __name__ == '__main__':
     # runner = unittest.TextTestRunner()
     # runner.run(regression_test())
 
-    run_linter()
+    path = 'C:\\users\\dblin\\PycharmProjects\\WebScraping_and_MonteCarloSim_gwjz4t'
+
+    run_linter(path)

@@ -51,7 +51,21 @@ if __name__ == "__main__":
             except Exception:
                 try:
                     print("new proxy, del old one")
-                    print("cypress")
+                    print("pyppeteer") <--cypress uses this
+                    from pyppeteer import launch
+
+                    async def main():
+                        browser = await launch()
+                        page = await browser.newPage()
+                        await page.goto('http://example.com')
+                        content = await page.content()
+                        print(content)
+                        await browser.close()
+                    
+                    # Run the event loop
+                    import asyncio
+                    asyncio.get_event_loop().run_until_complete(main())
+                    
                     fail = 5 / 0
                 except Exception:
                     print("can't get response")
@@ -60,6 +74,9 @@ if __name__ == "__main__":
     
     - sql alchemy db handler
     - unittest + integration test
+    
+    - clean up linter -> make into unittest, subtest for each dir, error if not 10
+    - clean up regression + folders to exclude from linter
     
     - take PROJECT_FOLDER out of secrets.py -> setup.py
     
