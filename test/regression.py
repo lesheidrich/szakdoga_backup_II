@@ -1,8 +1,8 @@
 import unittest
 
 from linter.linter import run_linter
-from unit.test_logger import TestLogger
-from unit.test_proxy_handler import TestProxyHandler
+from unit.logger_test import TestLogger
+from unit.proxy_handler_test import TestProxyHandler
 
 
 def suite():

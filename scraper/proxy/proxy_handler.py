@@ -1,10 +1,9 @@
 
-import os
 import requests
 import csv
 import multiprocessing
 from log.logger import Logger
-from secrets import PROJECT_FOLDER
+import secrets
 
 
 class ProxyHandler:
@@ -70,7 +69,7 @@ class ProxyHandler:
         """
         if ":\\" in file_name:
             return file_name
-        return PROJECT_FOLDER + f"\\scraper\\proxy\\{file_name}"
+        return secrets.get_project_folder() + f"\\scraper\\proxy\\{file_name}"
 
     def load_proxies(self) -> [str]:
         """

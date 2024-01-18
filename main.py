@@ -38,7 +38,7 @@ if __name__ == "__main__":
     - sql alchemy db handler
     - unittest + integration test
     
-    
+    - take PROJECT_FOLDER out of secrets.py -> setup.py
     """
 
 

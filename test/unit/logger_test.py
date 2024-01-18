@@ -1,8 +1,8 @@
 import os
 import time
 import unittest
+import secrets
 from log.logger import Logger
-from secrets import PROJECT_FOLDER
 
 
 class TestLogger(unittest.TestCase):
@@ -59,7 +59,7 @@ class TestLogger(unittest.TestCase):
         :return: None
         """
         mock_path = self.log._build_path("test.log")
-        log_dir = os.path.join(PROJECT_FOLDER, 'log')
+        log_dir = os.path.join(secrets.get_project_folder(), 'log')
         log_path = os.path.join(log_dir, "test.log")
         self.assertTrue(mock_path == log_path)
         os.remove(mock_path)
