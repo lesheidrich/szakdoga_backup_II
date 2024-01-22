@@ -1,6 +1,4 @@
-import os
 import unittest
-
 from test.linter.linter import run_linter
 from unit.proxy_handler_test import TestProxyHandler
 from unit.logger_test import TestLogger
@@ -20,9 +18,9 @@ def regression_test() -> unittest.TestSuite:
 
 
 if __name__ == '__main__':
-    # runner = unittest.TextTestRunner()
-    # runner.run(regression_test())
+    runner = unittest.TextTestRunner()
+    runner.run(regression_test())
 
     path = 'C:\\users\\dblin\\PycharmProjects\\WebScraping_and_MonteCarloSim_gwjz4t'
-
-    run_linter(path)
+    exceptions = ["linter.py", "regression.py", "main.py"]
+    run_linter(path, exceptions)

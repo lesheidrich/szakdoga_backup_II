@@ -89,7 +89,7 @@ class Logger:
         self.logger = logging.getLogger(name)
         self.logger.setLevel(level)
         self._setup_file_handler(self.log_file_path, level)
-        self._setup_console_handler(level)
+        # self._setup_console_handler(level)
 
     def _setup_file_handler(self, log_file: str, log_level) -> None:
         """
@@ -104,17 +104,17 @@ class Logger:
         file_handler.setFormatter(formatter)
         self.logger.addHandler(file_handler)
 
-    def _setup_console_handler(self, log_level) -> None:
-        """
-        Sets up logging formatter for printing to console.
-        :param log_level: sets log level [INFO | DEBUG]
-        :return: None
-        """
-        formatter = logging.Formatter('%(asctime)s - %(levelname)s - %(message)s - %(name)s')
-        console_handler = logging.StreamHandler()
-        console_handler.setLevel(log_level)
-        console_handler.setFormatter(formatter)
-        self.logger.addHandler(console_handler)
+    # def _setup_console_handler(self, log_level) -> None:
+    #     """
+    #     Sets up logging formatter for printing to console.
+    #     :param log_level: sets log level [INFO | DEBUG]
+    #     :return: None
+    #     """
+    #     formatter = logging.Formatter('%(asctime)s - %(levelname)s - %(message)s - %(name)s')
+    #     console_handler = logging.StreamHandler()
+    #     console_handler.setLevel(log_level)
+    #     console_handler.setFormatter(formatter)
+    #     self.logger.addHandler(console_handler)
 
     def _build_path(self, file: str) -> str:
         """

@@ -108,6 +108,9 @@ class ProxyHandler:
         :param file_name: str name of csv file containing proxies
         :return: absolute file path str
         """
+        if not file_name.endswith(".csv"):
+            raise ValueError("Invalid input for proxy list filename. File must be csv!")
+
         if ":\\" in file_name:
             return file_name
         return secrets.get_project_folder() + f"\\scraper\\proxy\\{file_name}"

@@ -1,22 +1,64 @@
 import os
 import re
 from datetime import datetime
-
 from log.logger import Logger
 from scraper.proxy.proxy_handler import ProxyHandler
+from scraper.webscraper import ContentProvider
 from secrets import PROJECT_FOLDER
 
 if __name__ == "__main__":
 
 
+    ip1 = "192.168.0.1:02"
+    ip2 = "not_an_ip_address"
 
+    cp = ContentProvider("proxies_test.csv")
+    sm = cp.session_manager
+    ses = sm.session
 
+    print(ses.proxies)
+    print(ses.headers)
+    print(ses.cookies)
+
+    for i in range(len(sm.proxy_list) + 2):
+        print("Round: ", i+1)
+
+        sm.new_session_info()
+
+        ses.cookies = None
+        ses.params = {}
+
+        print(ses.proxies)
+        print(ses.headers)
+        print(ses.cookies)
+        print(ses.verify)
+        print(ses.cert)
+        print(ses.params, "\n")
 
 
 
     # h = ProxyHandler("proxies_test.csv")
     # working_proxy_list = h.process_proxies()
 
+    """
+    Method/Attribute	Description	Notes
+session.headers	Headers for HTTP requests.	Websites may use headers for user-agent identification.
+session.cookies	Cookies associated with the session.	Used for session management and tracking user behavior.
+session.auth	Authentication tuple (username, password).	Used for HTTP basic authentication.
+session.proxies	Proxy configuration for requests.	May be used to hide the client's IP address.
+session.verify	SSL certificate verification.	If False, may be used to disable SSL certificate checks.
+session.cert	Client-side SSL certificate.	Used for mutual SSL authentication.
+session.timeout	Timeout for requests.	Determines how long the client will wait for a response.
+session.params	URL query parameters.	Additional parameters appended to the URL.
+session.get()	Perform a GET request.	Initiates a GET request to the specified URL.
+session.post()	Perform a POST request.	Initiates a POST request to the specified URL.
+session.put()	Perform a PUT request.	Initiates a PUT request to the specified URL.
+session.delete()	Perform a DELETE request.	Initiates a DELETE request to the specified URL.
+session.request()	Generic HTTP request method.	Provides flexibility for making various HTTP requests.
+session.prepare_request()	Prepares a request for sending.	Allows modification of a request before sending.
+session.send()	Sends a prepared request.	Executes the prepared request and returns a response.
+session.close()	Close the underlying connection.	Should be called to release resources when done.
+    """
 
     """
     TODO:
@@ -85,7 +127,6 @@ if __name__ == "__main__":
     should be able to run tests and integrate with logger
     """
 
-
     # logger = Logger(name='MyAppLogger', log_level="INFO")
     #
     # logger.info("This is an informational message.")
@@ -110,10 +151,3 @@ if __name__ == "__main__":
     # l.delete_log()
     # l.close_log()
     # print(l.has_open_handlers())
-
-
-
-
-
-
-

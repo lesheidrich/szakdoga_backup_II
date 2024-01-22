@@ -1,563 +1,77 @@
-2024-01-15 19:48:00,441 - APP_LOG - INFO - COMMENCING PROXY LIST CHECK
-2024-01-15 19:49:58,873 - APP_LOG - INFO - CURRENT WORKING PROXY LIST:
-111.59.4.88:9002
-113.161.131.43:80
-120.37.121.209:9091
-2024-01-15 19:54:03,707 - MyAppLogger - INFO - This is an informational message.
-2024-01-15 19:54:03,708 - MyAppLogger - WARNING - This is a warning message.
-2024-01-15 19:54:03,708 - MyAppLogger - ERROR - This is an error message.
-2024-01-15 19:55:15,610 - MyAppLogger - INFO - This is an informational message.
-2024-01-15 19:55:15,610 - MyAppLogger - WARNING - This is a warning message.
-2024-01-15 19:55:15,610 - MyAppLogger - ERROR - This is an error message.
-2024-01-15 19:57:08,115 - APP_LOG - INFO - COMMENCING PROXY LIST CHECK
-2024-01-15 19:58:55,357 - APP_LOG - INFO - COMMENCING PROXY LIST CHECK
-2024-01-15 20:00:52,590 - APP_LOG - INFO - CURRENT WORKING PROXY LIST:
-106.105.218.244:80
-120.37.121.209:9091
-2024-01-15 20:08:52,704 - APP_LOG - INFO - COMMENCING PROXY LIST CHECK
-2024-01-15 20:09:05,500 - APP_LOG - INFO - CURRENT WORKING PROXY LIST:
-106.105.218.244:80
-113.161.131.43:80
-120.37.121.209:9091
-122.155.165.191:3128
-2024-01-15 20:11:45,023 - APP_LOG - INFO - COMMENCING PROXY LIST CHECK
-2024-01-15 20:11:58,200 - APP_LOG - INFO - CURRENT WORKING PROXY LIST:
-120.37.121.209:9091
-2024-01-15 20:55:09,415 - APP_LOG - INFO - COMMENCING PROXY LIST CHECK
-2024-01-15 20:55:22,685 - APP_LOG - INFO - CURRENT WORKING PROXY LIST:
-103.83.232.122:80
-106.105.218.244:80
-120.37.121.209:9091
-103.83.232.122:80
-2024-01-15 20:56:31,399 - APP_LOG - INFO - COMMENCING PROXY LIST CHECK
-2024-01-15 20:56:44,688 - APP_LOG - INFO - CURRENT WORKING PROXY LIST:
+2024-01-22 23:18:11,916 - APP_LOG - INFO - ******************************
+2024-01-22 23:18:11,916 - APP_LOG - INFO - COMMENCING PROXY LIST CHECK
+2024-01-22 23:19:41,209 - APP_LOG - WARNING - Proxy check failed for request invalid_proxy:port: Error
+2024-01-22 23:19:41,209 - APP_LOG - WARNING - Proxy check failed for request invalid_proxy:port: Error
+2024-01-22 23:19:41,211 - APP_LOG - INFO - Proxy check succeeded
+IP: unit_test_ip
+Status Code: 200
+Response: unit_test_success
+2024-01-22 23:19:41,211 - APP_LOG - INFO - Proxy check succeeded
+IP: unit_test_ip
+Status Code: 200
+Response: unit_test_success
+2024-01-22 23:19:41,211 - APP_LOG - INFO - Proxy check succeeded
+IP: unit_test_ip
+Status Code: 200
+Response: unit_test_success
+2024-01-22 23:19:41,212 - APP_LOG - INFO - ******************************
+2024-01-22 23:19:41,212 - APP_LOG - INFO - ******************************
+2024-01-22 23:19:41,212 - APP_LOG - INFO - ******************************
+2024-01-22 23:19:41,212 - APP_LOG - INFO - ******************************
+2024-01-22 23:19:41,212 - APP_LOG - INFO - ******************************
+2024-01-22 23:19:41,212 - APP_LOG - INFO - COMMENCING PROXY LIST CHECK
+2024-01-22 23:19:41,212 - APP_LOG - INFO - COMMENCING PROXY LIST CHECK
+2024-01-22 23:19:41,212 - APP_LOG - INFO - COMMENCING PROXY LIST CHECK
+2024-01-22 23:19:41,212 - APP_LOG - INFO - COMMENCING PROXY LIST CHECK
+2024-01-22 23:19:41,212 - APP_LOG - INFO - COMMENCING PROXY LIST CHECK
+2024-01-22 23:19:54,650 - APP_LOG - INFO - CURRENT WORKING PROXY LIST:
 103.83.232.122:80
 111.59.4.88:9002
 113.161.131.43:80
 120.37.121.209:9091
 103.83.232.122:80
-2024-01-15 20:59:34,624 - APP_LOG - INFO - ******************************
-2024-01-15 20:59:34,624 - APP_LOG - INFO - COMMENCING PROXY LIST CHECK
-2024-01-15 20:59:47,896 - APP_LOG - INFO - CURRENT WORKING PROXY LIST:
-103.83.232.122:80
-120.37.121.209:9091
-122.155.165.191:3128
-103.83.232.122:80
-2024-01-15 21:00:26,458 - APP_LOG - INFO - ******************************
-2024-01-15 21:00:26,458 - APP_LOG - INFO - COMMENCING PROXY LIST CHECK
-2024-01-15 21:00:39,316 - APP_LOG - INFO - CURRENT WORKING PROXY LIST:
-103.83.232.122:80
-106.105.218.244:80
-111.59.4.88:9002
-113.161.131.43:80
-120.37.121.209:9091
-154.85.58.149:80
 
-2024-01-15 21:01:02,525 - APP_LOG - INFO - ******************************
-2024-01-15 21:01:02,525 - APP_LOG - INFO - COMMENCING PROXY LIST CHECK
-2024-01-15 21:01:15,324 - APP_LOG - INFO - CURRENT WORKING PROXY LIST:
-103.83.232.122:80
-113.161.131.43:80
-120.37.121.209:9091
-103.83.232.122:80
-
-2024-01-15 23:09:36,481 - APP_LOG - INFO - Proxy check succeeded
-IP: valid_proxy:port
-Status Code: 200
-Response: Success
-2024-01-15 23:09:36,481 - APP_LOG - INFO - Proxy check succeeded
-IP: valid_proxy:port
-Status Code: 200
-Response: Success
-2024-01-15 23:11:00,912 - APP_LOG - INFO - Proxy check succeeded
-IP: unit_test_ip
-Status Code: 200
-Response: Success
-2024-01-15 23:11:00,912 - APP_LOG - INFO - Proxy check succeeded
-IP: unit_test_ip
-Status Code: 200
-Response: Success
-2024-01-15 23:11:07,876 - APP_LOG - INFO - Proxy check succeeded
-IP: unit_test_ip
-Status Code: 200
-Response: Success
-2024-01-15 23:11:07,876 - APP_LOG - INFO - Proxy check succeeded
-IP: unit_test_ip
-Status Code: 200
-Response: Success
-2024-01-15 23:12:14,473 - APP_LOG - INFO - Proxy check succeeded
-IP: unit_test_ip
-Status Code: 200
-Response: unit_test_success
-2024-01-15 23:12:14,473 - APP_LOG - INFO - Proxy check succeeded
-IP: unit_test_ip
-Status Code: 200
-Response: unit_test_success
-2024-01-15 23:14:57,522 - APP_LOG - INFO - Proxy check succeeded
-IP: unit_test_ip
-Status Code: 200
-Response: unit_test_success
-2024-01-15 23:14:57,522 - APP_LOG - INFO - Proxy check succeeded
-IP: unit_test_ip
-Status Code: 200
-Response: unit_test_success
-2024-01-15 23:20:34,657 - APP_LOG - WARNING - Proxy check failed for request invalid_proxy:port: Error
-2024-01-15 23:20:34,657 - APP_LOG - WARNING - Proxy check failed for request invalid_proxy:port: Error
-2024-01-15 23:20:34,660 - APP_LOG - INFO - Proxy check succeeded
-IP: unit_test_ip
-Status Code: 200
-Response: unit_test_success
-2024-01-15 23:20:34,660 - APP_LOG - INFO - Proxy check succeeded
-IP: unit_test_ip
-Status Code: 200
-Response: unit_test_success
-2024-01-15 23:20:34,660 - APP_LOG - INFO - Proxy check succeeded
-IP: unit_test_ip
-Status Code: 200
-Response: unit_test_success
-2024-01-15 23:29:30,304 - APP_LOG - WARNING - Proxy check failed for request invalid_proxy:port: Error
-2024-01-15 23:29:30,304 - APP_LOG - WARNING - Proxy check failed for request invalid_proxy:port: Error
-2024-01-15 23:29:30,307 - APP_LOG - INFO - Proxy check succeeded
-IP: unit_test_ip
-Status Code: 200
-Response: unit_test_success
-2024-01-15 23:29:30,307 - APP_LOG - INFO - Proxy check succeeded
-IP: unit_test_ip
-Status Code: 200
-Response: unit_test_success
-2024-01-15 23:29:30,307 - APP_LOG - INFO - Proxy check succeeded
-IP: unit_test_ip
-Status Code: 200
-Response: unit_test_success
-2024-01-15 23:32:38,530 - APP_LOG - WARNING - Proxy check failed for request invalid_proxy:port: Error
-2024-01-15 23:32:38,530 - APP_LOG - WARNING - Proxy check failed for request invalid_proxy:port: Error
-2024-01-15 23:32:38,533 - APP_LOG - INFO - Proxy check succeeded
-IP: unit_test_ip
-Status Code: 200
-Response: unit_test_success
-2024-01-15 23:32:38,533 - APP_LOG - INFO - Proxy check succeeded
-IP: unit_test_ip
-Status Code: 200
-Response: unit_test_success
-2024-01-15 23:32:38,533 - APP_LOG - INFO - Proxy check succeeded
-IP: unit_test_ip
-Status Code: 200
-Response: unit_test_success
-2024-01-15 23:36:28,144 - APP_LOG - WARNING - Proxy check failed for request invalid_proxy:port: Error
-2024-01-15 23:36:28,144 - APP_LOG - WARNING - Proxy check failed for request invalid_proxy:port: Error
-2024-01-15 23:36:28,146 - APP_LOG - INFO - Proxy check succeeded
-IP: unit_test_ip
-Status Code: 200
-Response: unit_test_success
-2024-01-15 23:36:28,146 - APP_LOG - INFO - Proxy check succeeded
-IP: unit_test_ip
-Status Code: 200
-Response: unit_test_success
-2024-01-15 23:36:28,146 - APP_LOG - INFO - Proxy check succeeded
-IP: unit_test_ip
-Status Code: 200
-Response: unit_test_success
-2024-01-15 23:39:51,750 - APP_LOG - WARNING - Proxy check failed for request invalid_proxy:port: Error
-2024-01-15 23:39:51,750 - APP_LOG - WARNING - Proxy check failed for request invalid_proxy:port: Error
-2024-01-15 23:39:51,754 - APP_LOG - INFO - Proxy check succeeded
-IP: unit_test_ip
-Status Code: 200
-Response: unit_test_success
-2024-01-15 23:39:51,754 - APP_LOG - INFO - Proxy check succeeded
-IP: unit_test_ip
-Status Code: 200
-Response: unit_test_success
-2024-01-15 23:39:51,754 - APP_LOG - INFO - Proxy check succeeded
-IP: unit_test_ip
-Status Code: 200
-Response: unit_test_success
-2024-01-15 23:41:37,557 - APP_LOG - WARNING - Proxy check failed for request invalid_proxy:port: Error
-2024-01-15 23:41:37,557 - APP_LOG - WARNING - Proxy check failed for request invalid_proxy:port: Error
-2024-01-15 23:41:37,560 - APP_LOG - INFO - Proxy check succeeded
-IP: unit_test_ip
-Status Code: 200
-Response: unit_test_success
-2024-01-15 23:41:37,560 - APP_LOG - INFO - Proxy check succeeded
-IP: unit_test_ip
-Status Code: 200
-Response: unit_test_success
-2024-01-15 23:41:37,560 - APP_LOG - INFO - Proxy check succeeded
-IP: unit_test_ip
-Status Code: 200
-Response: unit_test_success
-2024-01-15 23:45:22,789 - APP_LOG - WARNING - Proxy check failed for request invalid_proxy:port: Error
-2024-01-15 23:45:22,789 - APP_LOG - WARNING - Proxy check failed for request invalid_proxy:port: Error
-2024-01-15 23:45:22,791 - APP_LOG - INFO - Proxy check succeeded
-IP: unit_test_ip
-Status Code: 200
-Response: unit_test_success
-2024-01-15 23:45:22,791 - APP_LOG - INFO - Proxy check succeeded
-IP: unit_test_ip
-Status Code: 200
-Response: unit_test_success
-2024-01-15 23:45:22,791 - APP_LOG - INFO - Proxy check succeeded
-IP: unit_test_ip
-Status Code: 200
-Response: unit_test_success
-2024-01-15 23:45:22,796 - APP_LOG - INFO - ******************************
-2024-01-15 23:45:22,796 - APP_LOG - INFO - ******************************
-2024-01-15 23:45:22,796 - APP_LOG - INFO - ******************************
-2024-01-15 23:45:22,796 - APP_LOG - INFO - ******************************
-2024-01-15 23:45:22,796 - APP_LOG - INFO - ******************************
-2024-01-15 23:45:22,796 - APP_LOG - INFO - ******************************
-2024-01-15 23:45:22,797 - APP_LOG - INFO - COMMENCING PROXY LIST CHECK
-2024-01-15 23:45:22,797 - APP_LOG - INFO - COMMENCING PROXY LIST CHECK
-2024-01-15 23:45:22,797 - APP_LOG - INFO - COMMENCING PROXY LIST CHECK
-2024-01-15 23:45:22,797 - APP_LOG - INFO - COMMENCING PROXY LIST CHECK
-2024-01-15 23:45:22,797 - APP_LOG - INFO - COMMENCING PROXY LIST CHECK
-2024-01-15 23:45:22,797 - APP_LOG - INFO - COMMENCING PROXY LIST CHECK
-2024-01-15 23:46:06,501 - APP_LOG - WARNING - Proxy check failed for request invalid_proxy:port: Error
-2024-01-15 23:46:06,501 - APP_LOG - WARNING - Proxy check failed for request invalid_proxy:port: Error
-2024-01-15 23:46:06,504 - APP_LOG - INFO - Proxy check succeeded
-IP: unit_test_ip
-Status Code: 200
-Response: unit_test_success
-2024-01-15 23:46:06,504 - APP_LOG - INFO - Proxy check succeeded
-IP: unit_test_ip
-Status Code: 200
-Response: unit_test_success
-2024-01-15 23:46:06,504 - APP_LOG - INFO - Proxy check succeeded
-IP: unit_test_ip
-Status Code: 200
-Response: unit_test_success
-2024-01-15 23:46:06,509 - APP_LOG - INFO - ******************************
-2024-01-15 23:46:06,509 - APP_LOG - INFO - ******************************
-2024-01-15 23:46:06,509 - APP_LOG - INFO - ******************************
-2024-01-15 23:46:06,509 - APP_LOG - INFO - ******************************
-2024-01-15 23:46:06,509 - APP_LOG - INFO - ******************************
-2024-01-15 23:46:06,509 - APP_LOG - INFO - ******************************
-2024-01-15 23:46:06,510 - APP_LOG - INFO - COMMENCING PROXY LIST CHECK
-2024-01-15 23:46:06,510 - APP_LOG - INFO - COMMENCING PROXY LIST CHECK
-2024-01-15 23:46:06,510 - APP_LOG - INFO - COMMENCING PROXY LIST CHECK
-2024-01-15 23:46:06,510 - APP_LOG - INFO - COMMENCING PROXY LIST CHECK
-2024-01-15 23:46:06,510 - APP_LOG - INFO - COMMENCING PROXY LIST CHECK
-2024-01-15 23:46:06,510 - APP_LOG - INFO - COMMENCING PROXY LIST CHECK
-2024-01-15 23:47:02,839 - APP_LOG - WARNING - Proxy check failed for request invalid_proxy:port: Error
-2024-01-15 23:47:02,839 - APP_LOG - WARNING - Proxy check failed for request invalid_proxy:port: Error
-2024-01-15 23:47:02,842 - APP_LOG - INFO - Proxy check succeeded
-IP: unit_test_ip
-Status Code: 200
-Response: unit_test_success
-2024-01-15 23:47:02,842 - APP_LOG - INFO - Proxy check succeeded
-IP: unit_test_ip
-Status Code: 200
-Response: unit_test_success
-2024-01-15 23:47:02,842 - APP_LOG - INFO - Proxy check succeeded
-IP: unit_test_ip
-Status Code: 200
-Response: unit_test_success
-2024-01-15 23:47:30,715 - APP_LOG - WARNING - Proxy check failed for request invalid_proxy:port: Error
-2024-01-15 23:47:30,715 - APP_LOG - WARNING - Proxy check failed for request invalid_proxy:port: Error
-2024-01-15 23:47:30,717 - APP_LOG - INFO - Proxy check succeeded
-IP: unit_test_ip
-Status Code: 200
-Response: unit_test_success
-2024-01-15 23:47:30,717 - APP_LOG - INFO - Proxy check succeeded
-IP: unit_test_ip
-Status Code: 200
-Response: unit_test_success
-2024-01-15 23:47:30,717 - APP_LOG - INFO - Proxy check succeeded
-IP: unit_test_ip
-Status Code: 200
-Response: unit_test_success
-2024-01-15 23:47:30,723 - APP_LOG - INFO - ******************************
-2024-01-15 23:47:30,723 - APP_LOG - INFO - ******************************
-2024-01-15 23:47:30,723 - APP_LOG - INFO - ******************************
-2024-01-15 23:47:30,723 - APP_LOG - INFO - ******************************
-2024-01-15 23:47:30,723 - APP_LOG - INFO - ******************************
-2024-01-15 23:47:30,723 - APP_LOG - INFO - ******************************
-2024-01-15 23:47:30,725 - APP_LOG - INFO - COMMENCING PROXY LIST CHECK
-2024-01-15 23:47:30,725 - APP_LOG - INFO - COMMENCING PROXY LIST CHECK
-2024-01-15 23:47:30,725 - APP_LOG - INFO - COMMENCING PROXY LIST CHECK
-2024-01-15 23:47:30,725 - APP_LOG - INFO - COMMENCING PROXY LIST CHECK
-2024-01-15 23:47:30,725 - APP_LOG - INFO - COMMENCING PROXY LIST CHECK
-2024-01-15 23:47:30,725 - APP_LOG - INFO - COMMENCING PROXY LIST CHECK
-2024-01-15 23:48:19,884 - APP_LOG - WARNING - Proxy check failed for request invalid_proxy:port: Error
-2024-01-15 23:48:19,884 - APP_LOG - WARNING - Proxy check failed for request invalid_proxy:port: Error
-2024-01-15 23:48:19,887 - APP_LOG - INFO - Proxy check succeeded
-IP: unit_test_ip
-Status Code: 200
-Response: unit_test_success
-2024-01-15 23:48:19,887 - APP_LOG - INFO - Proxy check succeeded
-IP: unit_test_ip
-Status Code: 200
-Response: unit_test_success
-2024-01-15 23:48:19,887 - APP_LOG - INFO - Proxy check succeeded
-IP: unit_test_ip
-Status Code: 200
-Response: unit_test_success
-2024-01-15 23:48:19,894 - APP_LOG - INFO - ******************************
-2024-01-15 23:48:19,894 - APP_LOG - INFO - ******************************
-2024-01-15 23:48:19,894 - APP_LOG - INFO - ******************************
-2024-01-15 23:48:19,894 - APP_LOG - INFO - ******************************
-2024-01-15 23:48:19,894 - APP_LOG - INFO - ******************************
-2024-01-15 23:48:19,894 - APP_LOG - INFO - ******************************
-2024-01-15 23:48:19,895 - APP_LOG - INFO - COMMENCING PROXY LIST CHECK
-2024-01-15 23:48:19,895 - APP_LOG - INFO - COMMENCING PROXY LIST CHECK
-2024-01-15 23:48:19,895 - APP_LOG - INFO - COMMENCING PROXY LIST CHECK
-2024-01-15 23:48:19,895 - APP_LOG - INFO - COMMENCING PROXY LIST CHECK
-2024-01-15 23:48:19,895 - APP_LOG - INFO - COMMENCING PROXY LIST CHECK
-2024-01-15 23:48:19,895 - APP_LOG - INFO - COMMENCING PROXY LIST CHECK
-2024-01-15 23:48:32,736 - APP_LOG - INFO - CURRENT WORKING PROXY LIST:
-103.83.232.122:80
-106.105.218.244:80
-111.59.4.88:9002
-120.37.121.209:9091
-106.105.218.244:80
-103.83.232.122:80
-
-2024-01-15 23:48:32,736 - APP_LOG - INFO - CURRENT WORKING PROXY LIST:
-103.83.232.122:80
-106.105.218.244:80
-111.59.4.88:9002
-120.37.121.209:9091
-106.105.218.244:80
-103.83.232.122:80
-
-2024-01-15 23:48:32,736 - APP_LOG - INFO - CURRENT WORKING PROXY LIST:
-103.83.232.122:80
-106.105.218.244:80
-111.59.4.88:9002
-120.37.121.209:9091
-106.105.218.244:80
-103.83.232.122:80
-
-2024-01-15 23:48:32,736 - APP_LOG - INFO - CURRENT WORKING PROXY LIST:
-103.83.232.122:80
-106.105.218.244:80
-111.59.4.88:9002
-120.37.121.209:9091
-106.105.218.244:80
-103.83.232.122:80
-
-2024-01-15 23:48:32,736 - APP_LOG - INFO - CURRENT WORKING PROXY LIST:
-103.83.232.122:80
-106.105.218.244:80
-111.59.4.88:9002
-120.37.121.209:9091
-106.105.218.244:80
-103.83.232.122:80
-
-2024-01-15 23:48:32,736 - APP_LOG - INFO - CURRENT WORKING PROXY LIST:
-103.83.232.122:80
-106.105.218.244:80
-111.59.4.88:9002
-120.37.121.209:9091
-106.105.218.244:80
-103.83.232.122:80
-
-2024-01-16 00:08:47,279 - APP_LOG - WARNING - Proxy check failed for request invalid_proxy:port: Error
-2024-01-16 00:08:47,279 - APP_LOG - WARNING - Proxy check failed for request invalid_proxy:port: Error
-2024-01-16 00:08:47,282 - APP_LOG - INFO - Proxy check succeeded
-IP: unit_test_ip
-Status Code: 200
-Response: unit_test_success
-2024-01-16 00:08:47,282 - APP_LOG - INFO - Proxy check succeeded
-IP: unit_test_ip
-Status Code: 200
-Response: unit_test_success
-2024-01-16 00:08:47,282 - APP_LOG - INFO - Proxy check succeeded
-IP: unit_test_ip
-Status Code: 200
-Response: unit_test_success
-2024-01-16 00:08:47,285 - APP_LOG - INFO - ******************************
-2024-01-16 00:08:47,285 - APP_LOG - INFO - ******************************
-2024-01-16 00:08:47,285 - APP_LOG - INFO - ******************************
-2024-01-16 00:08:47,285 - APP_LOG - INFO - ******************************
-2024-01-16 00:08:47,285 - APP_LOG - INFO - ******************************
-2024-01-16 00:08:47,287 - APP_LOG - INFO - COMMENCING PROXY LIST CHECK
-2024-01-16 00:08:47,287 - APP_LOG - INFO - COMMENCING PROXY LIST CHECK
-2024-01-16 00:08:47,287 - APP_LOG - INFO - COMMENCING PROXY LIST CHECK
-2024-01-16 00:08:47,287 - APP_LOG - INFO - COMMENCING PROXY LIST CHECK
-2024-01-16 00:08:47,287 - APP_LOG - INFO - COMMENCING PROXY LIST CHECK
-2024-01-16 00:09:00,709 - APP_LOG - INFO - CURRENT WORKING PROXY LIST:
-103.83.232.122:80
-111.59.4.88:9002
-120.37.121.209:9091
-122.155.165.191:3128
-103.83.232.122:80
-
-2024-01-16 00:09:00,709 - APP_LOG - INFO - CURRENT WORKING PROXY LIST:
-103.83.232.122:80
-111.59.4.88:9002
-120.37.121.209:9091
-122.155.165.191:3128
-103.83.232.122:80
-
-2024-01-16 00:09:00,709 - APP_LOG - INFO - CURRENT WORKING PROXY LIST:
-103.83.232.122:80
-111.59.4.88:9002
-120.37.121.209:9091
-122.155.165.191:3128
-103.83.232.122:80
-
-2024-01-16 00:09:00,709 - APP_LOG - INFO - CURRENT WORKING PROXY LIST:
-103.83.232.122:80
-111.59.4.88:9002
-120.37.121.209:9091
-122.155.165.191:3128
-103.83.232.122:80
-
-2024-01-16 00:09:00,709 - APP_LOG - INFO - CURRENT WORKING PROXY LIST:
-103.83.232.122:80
-111.59.4.88:9002
-120.37.121.209:9091
-122.155.165.191:3128
-103.83.232.122:80
-
-2024-01-16 00:19:42,978 - APP_LOG - WARNING - Proxy check failed for request invalid_proxy:port: Error
-2024-01-16 00:19:42,978 - APP_LOG - WARNING - Proxy check failed for request invalid_proxy:port: Error
-2024-01-16 00:19:42,982 - APP_LOG - INFO - Proxy check succeeded
-IP: unit_test_ip
-Status Code: 200
-Response: unit_test_success
-2024-01-16 00:19:42,982 - APP_LOG - INFO - Proxy check succeeded
-IP: unit_test_ip
-Status Code: 200
-Response: unit_test_success
-2024-01-16 00:19:42,982 - APP_LOG - INFO - Proxy check succeeded
-IP: unit_test_ip
-Status Code: 200
-Response: unit_test_success
-2024-01-16 00:19:42,985 - APP_LOG - INFO - ******************************
-2024-01-16 00:19:42,985 - APP_LOG - INFO - ******************************
-2024-01-16 00:19:42,985 - APP_LOG - INFO - ******************************
-2024-01-16 00:19:42,985 - APP_LOG - INFO - ******************************
-2024-01-16 00:19:42,985 - APP_LOG - INFO - ******************************
-2024-01-16 00:19:42,986 - APP_LOG - INFO - COMMENCING PROXY LIST CHECK
-2024-01-16 00:19:42,986 - APP_LOG - INFO - COMMENCING PROXY LIST CHECK
-2024-01-16 00:19:42,986 - APP_LOG - INFO - COMMENCING PROXY LIST CHECK
-2024-01-16 00:19:42,986 - APP_LOG - INFO - COMMENCING PROXY LIST CHECK
-2024-01-16 00:19:42,986 - APP_LOG - INFO - COMMENCING PROXY LIST CHECK
-2024-01-16 00:19:55,774 - APP_LOG - INFO - CURRENT WORKING PROXY LIST:
+2024-01-22 23:19:54,650 - APP_LOG - INFO - CURRENT WORKING PROXY LIST:
 103.83.232.122:80
 111.59.4.88:9002
 113.161.131.43:80
 120.37.121.209:9091
 103.83.232.122:80
-154.85.58.149:80
 
-2024-01-16 00:19:55,774 - APP_LOG - INFO - CURRENT WORKING PROXY LIST:
+2024-01-22 23:19:54,650 - APP_LOG - INFO - CURRENT WORKING PROXY LIST:
 103.83.232.122:80
 111.59.4.88:9002
 113.161.131.43:80
 120.37.121.209:9091
 103.83.232.122:80
-154.85.58.149:80
 
-2024-01-16 00:19:55,774 - APP_LOG - INFO - CURRENT WORKING PROXY LIST:
+2024-01-22 23:19:54,650 - APP_LOG - INFO - CURRENT WORKING PROXY LIST:
 103.83.232.122:80
 111.59.4.88:9002
 113.161.131.43:80
 120.37.121.209:9091
 103.83.232.122:80
-154.85.58.149:80
 
-2024-01-16 00:19:55,774 - APP_LOG - INFO - CURRENT WORKING PROXY LIST:
+2024-01-22 23:19:54,650 - APP_LOG - INFO - CURRENT WORKING PROXY LIST:
 103.83.232.122:80
 111.59.4.88:9002
 113.161.131.43:80
 120.37.121.209:9091
 103.83.232.122:80
-154.85.58.149:80
 
-2024-01-16 00:19:55,774 - APP_LOG - INFO - CURRENT WORKING PROXY LIST:
-103.83.232.122:80
+2024-01-22 23:20:38,893 - APP_LOG - INFO - ******************************
+2024-01-22 23:20:38,893 - APP_LOG - INFO - COMMENCING PROXY LIST CHECK
+2024-01-22 23:20:52,148 - APP_LOG - INFO - CURRENT WORKING PROXY LIST:
 111.59.4.88:9002
 113.161.131.43:80
 120.37.121.209:9091
 103.83.232.122:80
-154.85.58.149:80
 
-2024-01-16 00:21:43,700 - APP_LOG - WARNING - Proxy check failed for request invalid_proxy:port: Error
-2024-01-16 00:21:43,700 - APP_LOG - WARNING - Proxy check failed for request invalid_proxy:port: Error
-2024-01-16 00:21:43,702 - APP_LOG - INFO - Proxy check succeeded
-IP: unit_test_ip
-Status Code: 200
-Response: unit_test_success
-2024-01-16 00:21:43,702 - APP_LOG - INFO - Proxy check succeeded
-IP: unit_test_ip
-Status Code: 200
-Response: unit_test_success
-2024-01-16 00:21:43,702 - APP_LOG - INFO - Proxy check succeeded
-IP: unit_test_ip
-Status Code: 200
-Response: unit_test_success
-2024-01-16 00:21:43,707 - APP_LOG - INFO - ******************************
-2024-01-16 00:21:43,707 - APP_LOG - INFO - ******************************
-2024-01-16 00:21:43,707 - APP_LOG - INFO - ******************************
-2024-01-16 00:21:43,707 - APP_LOG - INFO - ******************************
-2024-01-16 00:21:43,707 - APP_LOG - INFO - ******************************
-2024-01-16 00:21:43,708 - APP_LOG - INFO - COMMENCING PROXY LIST CHECK
-2024-01-16 00:21:43,708 - APP_LOG - INFO - COMMENCING PROXY LIST CHECK
-2024-01-16 00:21:43,708 - APP_LOG - INFO - COMMENCING PROXY LIST CHECK
-2024-01-16 00:21:43,708 - APP_LOG - INFO - COMMENCING PROXY LIST CHECK
-2024-01-16 00:21:43,708 - APP_LOG - INFO - COMMENCING PROXY LIST CHECK
-2024-01-16 00:21:56,493 - APP_LOG - INFO - CURRENT WORKING PROXY LIST:
-103.83.232.122:80
-111.59.4.88:9002
-106.105.218.244:80
-122.155.165.191:3128
-154.85.58.149:80
-
-2024-01-16 00:21:56,493 - APP_LOG - INFO - CURRENT WORKING PROXY LIST:
-103.83.232.122:80
-111.59.4.88:9002
-106.105.218.244:80
-122.155.165.191:3128
-154.85.58.149:80
-
-2024-01-16 00:21:56,493 - APP_LOG - INFO - CURRENT WORKING PROXY LIST:
-103.83.232.122:80
-111.59.4.88:9002
-106.105.218.244:80
-122.155.165.191:3128
-154.85.58.149:80
-
-2024-01-16 00:21:56,493 - APP_LOG - INFO - CURRENT WORKING PROXY LIST:
-103.83.232.122:80
-111.59.4.88:9002
-106.105.218.244:80
-122.155.165.191:3128
-154.85.58.149:80
-
-2024-01-16 00:21:56,493 - APP_LOG - INFO - CURRENT WORKING PROXY LIST:
-103.83.232.122:80
-111.59.4.88:9002
-106.105.218.244:80
-122.155.165.191:3128
-154.85.58.149:80
-
-2024-01-16 00:27:43,740 - APP_LOG - WARNING - Proxy check failed for request invalid_proxy:port: Error
-2024-01-16 00:27:43,740 - APP_LOG - WARNING - Proxy check failed for request invalid_proxy:port: Error
-2024-01-16 00:27:43,746 - APP_LOG - INFO - Proxy check succeeded
-IP: unit_test_ip
-Status Code: 200
-Response: unit_test_success
-2024-01-16 00:27:43,746 - APP_LOG - INFO - Proxy check succeeded
-IP: unit_test_ip
-Status Code: 200
-Response: unit_test_success
-2024-01-16 00:27:43,746 - APP_LOG - INFO - Proxy check succeeded
-IP: unit_test_ip
-Status Code: 200
-Response: unit_test_success
-2024-01-16 00:27:43,756 - APP_LOG - INFO - ******************************
-2024-01-16 00:27:43,756 - APP_LOG - INFO - ******************************
-2024-01-16 00:27:43,756 - APP_LOG - INFO - ******************************
-2024-01-16 00:27:43,756 - APP_LOG - INFO - ******************************
-2024-01-16 00:27:43,756 - APP_LOG - INFO - ******************************
-2024-01-16 00:27:43,758 - APP_LOG - INFO - COMMENCING PROXY LIST CHECK
-2024-01-16 00:27:43,758 - APP_LOG - INFO - COMMENCING PROXY LIST CHECK
-2024-01-16 00:27:43,758 - APP_LOG - INFO - COMMENCING PROXY LIST CHECK
-2024-01-16 00:27:43,758 - APP_LOG - INFO - COMMENCING PROXY LIST CHECK
-2024-01-16 00:27:43,758 - APP_LOG - INFO - COMMENCING PROXY LIST CHECK
-2024-01-16 00:27:56,516 - APP_LOG - INFO - CURRENT WORKING PROXY LIST:
+2024-01-22 23:26:34,799 - APP_LOG - INFO - ******************************
+2024-01-22 23:26:34,800 - APP_LOG - INFO - COMMENCING PROXY LIST CHECK
+2024-01-22 23:27:08,920 - APP_LOG - INFO - ******************************
+2024-01-22 23:27:08,921 - APP_LOG - INFO - COMMENCING PROXY LIST CHECK
+2024-01-22 23:27:22,222 - APP_LOG - INFO - CURRENT WORKING PROXY LIST:
 103.83.232.122:80
 106.105.218.244:80
 111.59.4.88:9002
@@ -566,1216 +80,122 @@ Response: unit_test_success
 106.105.218.244:80
 122.155.165.191:3128
 103.83.232.122:80
-154.85.58.149:80
 
-2024-01-16 00:27:56,516 - APP_LOG - INFO - CURRENT WORKING PROXY LIST:
-103.83.232.122:80
+2024-01-22 23:29:09,275 - APP_LOG - INFO - ******************************
+2024-01-22 23:29:09,275 - APP_LOG - INFO - COMMENCING PROXY LIST CHECK
+2024-01-22 23:29:22,164 - APP_LOG - INFO - CURRENT WORKING PROXY LIST:
 106.105.218.244:80
 111.59.4.88:9002
 113.161.131.43:80
 120.37.121.209:9091
 106.105.218.244:80
-122.155.165.191:3128
+103.83.232.122:80
+
+2024-01-22 23:30:08,589 - APP_LOG - WARNING - Proxy check failed for request invalid_proxy:port: Error
+2024-01-22 23:30:08,589 - APP_LOG - WARNING - Proxy check failed for request invalid_proxy:port: Error
+2024-01-22 23:30:08,591 - APP_LOG - INFO - Proxy check succeeded
+IP: unit_test_ip
+Status Code: 200
+Response: unit_test_success
+2024-01-22 23:30:08,591 - APP_LOG - INFO - Proxy check succeeded
+IP: unit_test_ip
+Status Code: 200
+Response: unit_test_success
+2024-01-22 23:30:08,591 - APP_LOG - INFO - Proxy check succeeded
+IP: unit_test_ip
+Status Code: 200
+Response: unit_test_success
+2024-01-22 23:30:08,592 - APP_LOG - INFO - ******************************
+2024-01-22 23:30:08,592 - APP_LOG - INFO - ******************************
+2024-01-22 23:30:08,592 - APP_LOG - INFO - ******************************
+2024-01-22 23:30:08,592 - APP_LOG - INFO - ******************************
+2024-01-22 23:30:08,592 - APP_LOG - INFO - ******************************
+2024-01-22 23:30:08,593 - APP_LOG - INFO - COMMENCING PROXY LIST CHECK
+2024-01-22 23:30:08,593 - APP_LOG - INFO - COMMENCING PROXY LIST CHECK
+2024-01-22 23:30:08,593 - APP_LOG - INFO - COMMENCING PROXY LIST CHECK
+2024-01-22 23:30:08,593 - APP_LOG - INFO - COMMENCING PROXY LIST CHECK
+2024-01-22 23:30:08,593 - APP_LOG - INFO - COMMENCING PROXY LIST CHECK
+2024-01-22 23:30:21,682 - APP_LOG - INFO - CURRENT WORKING PROXY LIST:
+103.83.232.122:80
+111.59.4.88:9002
+113.161.131.43:80
+120.37.121.209:9091
 103.83.232.122:80
 154.85.58.149:80
 
-2024-01-16 00:27:56,516 - APP_LOG - INFO - CURRENT WORKING PROXY LIST:
-103.83.232.122:80
-106.105.218.244:80
-111.59.4.88:9002
-113.161.131.43:80
-120.37.121.209:9091
-106.105.218.244:80
-122.155.165.191:3128
-103.83.232.122:80
-154.85.58.149:80
-
-2024-01-16 00:27:56,516 - APP_LOG - INFO - CURRENT WORKING PROXY LIST:
-103.83.232.122:80
-106.105.218.244:80
-111.59.4.88:9002
-113.161.131.43:80
-120.37.121.209:9091
-106.105.218.244:80
-122.155.165.191:3128
-103.83.232.122:80
-154.85.58.149:80
-
-2024-01-16 00:27:56,516 - APP_LOG - INFO - CURRENT WORKING PROXY LIST:
-103.83.232.122:80
-106.105.218.244:80
-111.59.4.88:9002
-113.161.131.43:80
-120.37.121.209:9091
-106.105.218.244:80
-122.155.165.191:3128
-103.83.232.122:80
-154.85.58.149:80
-
-2024-01-16 00:34:31,277 - APP_LOG - WARNING - Proxy check failed for request invalid_proxy:port: Error
-2024-01-16 00:34:31,277 - APP_LOG - WARNING - Proxy check failed for request invalid_proxy:port: Error
-2024-01-16 00:34:31,286 - APP_LOG - INFO - Proxy check succeeded
-IP: unit_test_ip
-Status Code: 200
-Response: unit_test_success
-2024-01-16 00:34:31,286 - APP_LOG - INFO - Proxy check succeeded
-IP: unit_test_ip
-Status Code: 200
-Response: unit_test_success
-2024-01-16 00:34:31,286 - APP_LOG - INFO - Proxy check succeeded
-IP: unit_test_ip
-Status Code: 200
-Response: unit_test_success
-2024-01-16 00:34:31,292 - APP_LOG - INFO - ******************************
-2024-01-16 00:34:31,292 - APP_LOG - INFO - ******************************
-2024-01-16 00:34:31,292 - APP_LOG - INFO - ******************************
-2024-01-16 00:34:31,292 - APP_LOG - INFO - ******************************
-2024-01-16 00:34:31,292 - APP_LOG - INFO - ******************************
-2024-01-16 00:34:31,294 - APP_LOG - INFO - COMMENCING PROXY LIST CHECK
-2024-01-16 00:34:31,294 - APP_LOG - INFO - COMMENCING PROXY LIST CHECK
-2024-01-16 00:34:31,294 - APP_LOG - INFO - COMMENCING PROXY LIST CHECK
-2024-01-16 00:34:31,294 - APP_LOG - INFO - COMMENCING PROXY LIST CHECK
-2024-01-16 00:34:31,294 - APP_LOG - INFO - COMMENCING PROXY LIST CHECK
-2024-01-16 00:34:44,234 - APP_LOG - INFO - CURRENT WORKING PROXY LIST:
-111.59.4.88:9002
-113.161.131.43:80
-120.37.121.209:9091
-106.105.218.244:80
-154.85.58.149:80
-
-2024-01-16 00:34:44,234 - APP_LOG - INFO - CURRENT WORKING PROXY LIST:
-111.59.4.88:9002
-113.161.131.43:80
-120.37.121.209:9091
-106.105.218.244:80
-154.85.58.149:80
-
-2024-01-16 00:34:44,234 - APP_LOG - INFO - CURRENT WORKING PROXY LIST:
-111.59.4.88:9002
-113.161.131.43:80
-120.37.121.209:9091
-106.105.218.244:80
-154.85.58.149:80
-
-2024-01-16 00:34:44,234 - APP_LOG - INFO - CURRENT WORKING PROXY LIST:
-111.59.4.88:9002
-113.161.131.43:80
-120.37.121.209:9091
-106.105.218.244:80
-154.85.58.149:80
-
-2024-01-16 00:34:44,234 - APP_LOG - INFO - CURRENT WORKING PROXY LIST:
-111.59.4.88:9002
-113.161.131.43:80
-120.37.121.209:9091
-106.105.218.244:80
-154.85.58.149:80
-
-2024-01-16 00:39:10,587 - APP_LOG - WARNING - Proxy check failed for request invalid_proxy:port: Error
-2024-01-16 00:39:10,587 - APP_LOG - WARNING - Proxy check failed for request invalid_proxy:port: Error
-2024-01-16 00:39:10,589 - APP_LOG - INFO - Proxy check succeeded
-IP: unit_test_ip
-Status Code: 200
-Response: unit_test_success
-2024-01-16 00:39:10,589 - APP_LOG - INFO - Proxy check succeeded
-IP: unit_test_ip
-Status Code: 200
-Response: unit_test_success
-2024-01-16 00:39:10,589 - APP_LOG - INFO - Proxy check succeeded
-IP: unit_test_ip
-Status Code: 200
-Response: unit_test_success
-2024-01-16 00:39:10,594 - APP_LOG - INFO - ******************************
-2024-01-16 00:39:10,594 - APP_LOG - INFO - ******************************
-2024-01-16 00:39:10,594 - APP_LOG - INFO - ******************************
-2024-01-16 00:39:10,594 - APP_LOG - INFO - ******************************
-2024-01-16 00:39:10,594 - APP_LOG - INFO - ******************************
-2024-01-16 00:39:10,596 - APP_LOG - INFO - COMMENCING PROXY LIST CHECK
-2024-01-16 00:39:10,596 - APP_LOG - INFO - COMMENCING PROXY LIST CHECK
-2024-01-16 00:39:10,596 - APP_LOG - INFO - COMMENCING PROXY LIST CHECK
-2024-01-16 00:39:10,596 - APP_LOG - INFO - COMMENCING PROXY LIST CHECK
-2024-01-16 00:39:10,596 - APP_LOG - INFO - COMMENCING PROXY LIST CHECK
-2024-01-16 00:39:24,073 - APP_LOG - INFO - CURRENT WORKING PROXY LIST:
+2024-01-22 23:30:21,682 - APP_LOG - INFO - CURRENT WORKING PROXY LIST:
 103.83.232.122:80
 111.59.4.88:9002
-120.37.121.209:9091
-103.83.232.122:80
-
-2024-01-16 00:39:24,073 - APP_LOG - INFO - CURRENT WORKING PROXY LIST:
-103.83.232.122:80
-111.59.4.88:9002
-120.37.121.209:9091
-103.83.232.122:80
-
-2024-01-16 00:39:24,073 - APP_LOG - INFO - CURRENT WORKING PROXY LIST:
-103.83.232.122:80
-111.59.4.88:9002
-120.37.121.209:9091
-103.83.232.122:80
-
-2024-01-16 00:39:24,073 - APP_LOG - INFO - CURRENT WORKING PROXY LIST:
-103.83.232.122:80
-111.59.4.88:9002
-120.37.121.209:9091
-103.83.232.122:80
-
-2024-01-16 00:39:24,073 - APP_LOG - INFO - CURRENT WORKING PROXY LIST:
-103.83.232.122:80
-111.59.4.88:9002
-120.37.121.209:9091
-103.83.232.122:80
-
-2024-01-16 00:44:56,781 - APP_LOG - WARNING - Proxy check failed for request invalid_proxy:port: Error
-2024-01-16 00:44:56,781 - APP_LOG - WARNING - Proxy check failed for request invalid_proxy:port: Error
-2024-01-16 00:44:56,783 - APP_LOG - INFO - Proxy check succeeded
-IP: unit_test_ip
-Status Code: 200
-Response: unit_test_success
-2024-01-16 00:44:56,783 - APP_LOG - INFO - Proxy check succeeded
-IP: unit_test_ip
-Status Code: 200
-Response: unit_test_success
-2024-01-16 00:44:56,783 - APP_LOG - INFO - Proxy check succeeded
-IP: unit_test_ip
-Status Code: 200
-Response: unit_test_success
-2024-01-16 00:44:56,786 - APP_LOG - INFO - ******************************
-2024-01-16 00:44:56,786 - APP_LOG - INFO - ******************************
-2024-01-16 00:44:56,786 - APP_LOG - INFO - ******************************
-2024-01-16 00:44:56,786 - APP_LOG - INFO - ******************************
-2024-01-16 00:44:56,786 - APP_LOG - INFO - ******************************
-2024-01-16 00:44:56,791 - APP_LOG - INFO - COMMENCING PROXY LIST CHECK
-2024-01-16 00:44:56,791 - APP_LOG - INFO - COMMENCING PROXY LIST CHECK
-2024-01-16 00:44:56,791 - APP_LOG - INFO - COMMENCING PROXY LIST CHECK
-2024-01-16 00:44:56,791 - APP_LOG - INFO - COMMENCING PROXY LIST CHECK
-2024-01-16 00:44:56,791 - APP_LOG - INFO - COMMENCING PROXY LIST CHECK
-2024-01-16 00:45:09,850 - APP_LOG - INFO - CURRENT WORKING PROXY LIST:
-103.83.232.122:80
-111.59.4.88:9002
-113.161.131.43:80
-120.37.121.209:9091
-122.155.165.191:3128
-103.83.232.122:80
-
-2024-01-16 00:45:09,850 - APP_LOG - INFO - CURRENT WORKING PROXY LIST:
-103.83.232.122:80
-111.59.4.88:9002
-113.161.131.43:80
-120.37.121.209:9091
-122.155.165.191:3128
-103.83.232.122:80
-
-2024-01-16 00:45:09,850 - APP_LOG - INFO - CURRENT WORKING PROXY LIST:
-103.83.232.122:80
-111.59.4.88:9002
-113.161.131.43:80
-120.37.121.209:9091
-122.155.165.191:3128
-103.83.232.122:80
-
-2024-01-16 00:45:09,850 - APP_LOG - INFO - CURRENT WORKING PROXY LIST:
-103.83.232.122:80
-111.59.4.88:9002
-113.161.131.43:80
-120.37.121.209:9091
-122.155.165.191:3128
-103.83.232.122:80
-
-2024-01-16 00:45:09,850 - APP_LOG - INFO - CURRENT WORKING PROXY LIST:
-103.83.232.122:80
-111.59.4.88:9002
-113.161.131.43:80
-120.37.121.209:9091
-122.155.165.191:3128
-103.83.232.122:80
-
-2024-01-16 00:47:20,406 - APP_LOG - WARNING - Proxy check failed for request invalid_proxy:port: Error
-2024-01-16 00:47:20,406 - APP_LOG - WARNING - Proxy check failed for request invalid_proxy:port: Error
-2024-01-16 00:47:20,409 - APP_LOG - INFO - Proxy check succeeded
-IP: unit_test_ip
-Status Code: 200
-Response: unit_test_success
-2024-01-16 00:47:20,409 - APP_LOG - INFO - Proxy check succeeded
-IP: unit_test_ip
-Status Code: 200
-Response: unit_test_success
-2024-01-16 00:47:20,409 - APP_LOG - INFO - Proxy check succeeded
-IP: unit_test_ip
-Status Code: 200
-Response: unit_test_success
-2024-01-16 00:47:20,411 - APP_LOG - INFO - ******************************
-2024-01-16 00:47:20,411 - APP_LOG - INFO - ******************************
-2024-01-16 00:47:20,411 - APP_LOG - INFO - ******************************
-2024-01-16 00:47:20,411 - APP_LOG - INFO - ******************************
-2024-01-16 00:47:20,411 - APP_LOG - INFO - ******************************
-2024-01-16 00:47:20,414 - APP_LOG - INFO - COMMENCING PROXY LIST CHECK
-2024-01-16 00:47:20,414 - APP_LOG - INFO - COMMENCING PROXY LIST CHECK
-2024-01-16 00:47:20,414 - APP_LOG - INFO - COMMENCING PROXY LIST CHECK
-2024-01-16 00:47:20,414 - APP_LOG - INFO - COMMENCING PROXY LIST CHECK
-2024-01-16 00:47:20,414 - APP_LOG - INFO - COMMENCING PROXY LIST CHECK
-2024-01-16 00:47:33,943 - APP_LOG - INFO - CURRENT WORKING PROXY LIST:
-103.83.232.122:80
-111.59.4.88:9002
-106.105.218.244:80
-103.83.232.122:80
-
-2024-01-16 00:47:33,943 - APP_LOG - INFO - CURRENT WORKING PROXY LIST:
-103.83.232.122:80
-111.59.4.88:9002
-106.105.218.244:80
-103.83.232.122:80
-
-2024-01-16 00:47:33,943 - APP_LOG - INFO - CURRENT WORKING PROXY LIST:
-103.83.232.122:80
-111.59.4.88:9002
-106.105.218.244:80
-103.83.232.122:80
-
-2024-01-16 00:47:33,943 - APP_LOG - INFO - CURRENT WORKING PROXY LIST:
-103.83.232.122:80
-111.59.4.88:9002
-106.105.218.244:80
-103.83.232.122:80
-
-2024-01-16 00:47:33,943 - APP_LOG - INFO - CURRENT WORKING PROXY LIST:
-103.83.232.122:80
-111.59.4.88:9002
-106.105.218.244:80
-103.83.232.122:80
-
-2024-01-16 12:50:50,626 - APP_LOG - WARNING - Proxy check failed for request invalid_proxy:port: Error
-2024-01-16 12:50:50,626 - APP_LOG - WARNING - Proxy check failed for request invalid_proxy:port: Error
-2024-01-16 12:50:50,629 - APP_LOG - INFO - Proxy check succeeded
-IP: unit_test_ip
-Status Code: 200
-Response: unit_test_success
-2024-01-16 12:50:50,629 - APP_LOG - INFO - Proxy check succeeded
-IP: unit_test_ip
-Status Code: 200
-Response: unit_test_success
-2024-01-16 12:50:50,629 - APP_LOG - INFO - Proxy check succeeded
-IP: unit_test_ip
-Status Code: 200
-Response: unit_test_success
-2024-01-16 12:50:50,631 - APP_LOG - INFO - ******************************
-2024-01-16 12:50:50,631 - APP_LOG - INFO - ******************************
-2024-01-16 12:50:50,631 - APP_LOG - INFO - ******************************
-2024-01-16 12:50:50,631 - APP_LOG - INFO - ******************************
-2024-01-16 12:50:50,631 - APP_LOG - INFO - ******************************
-2024-01-16 12:50:50,635 - APP_LOG - INFO - COMMENCING PROXY LIST CHECK
-2024-01-16 12:50:50,635 - APP_LOG - INFO - COMMENCING PROXY LIST CHECK
-2024-01-16 12:50:50,635 - APP_LOG - INFO - COMMENCING PROXY LIST CHECK
-2024-01-16 12:50:50,635 - APP_LOG - INFO - COMMENCING PROXY LIST CHECK
-2024-01-16 12:50:50,635 - APP_LOG - INFO - COMMENCING PROXY LIST CHECK
-2024-01-16 12:51:03,317 - APP_LOG - INFO - CURRENT WORKING PROXY LIST:
-103.83.232.122:80
 113.161.131.43:80
 120.37.121.209:9091
 103.83.232.122:80
 154.85.58.149:80
 
-2024-01-16 12:51:03,317 - APP_LOG - INFO - CURRENT WORKING PROXY LIST:
+2024-01-22 23:30:21,682 - APP_LOG - INFO - CURRENT WORKING PROXY LIST:
 103.83.232.122:80
+111.59.4.88:9002
 113.161.131.43:80
 120.37.121.209:9091
 103.83.232.122:80
 154.85.58.149:80
 
-2024-01-16 12:51:03,317 - APP_LOG - INFO - CURRENT WORKING PROXY LIST:
+2024-01-22 23:30:21,682 - APP_LOG - INFO - CURRENT WORKING PROXY LIST:
 103.83.232.122:80
+111.59.4.88:9002
 113.161.131.43:80
 120.37.121.209:9091
 103.83.232.122:80
 154.85.58.149:80
 
-2024-01-16 12:51:03,317 - APP_LOG - INFO - CURRENT WORKING PROXY LIST:
+2024-01-22 23:30:21,682 - APP_LOG - INFO - CURRENT WORKING PROXY LIST:
 103.83.232.122:80
+111.59.4.88:9002
 113.161.131.43:80
 120.37.121.209:9091
 103.83.232.122:80
 154.85.58.149:80
 
-2024-01-16 12:51:03,317 - APP_LOG - INFO - CURRENT WORKING PROXY LIST:
+2024-01-22 23:31:18,662 - APP_LOG - WARNING - Proxy check failed for request invalid_proxy:port: Error
+2024-01-22 23:31:18,662 - APP_LOG - WARNING - Proxy check failed for request invalid_proxy:port: Error
+2024-01-22 23:31:18,663 - APP_LOG - INFO - Proxy check succeeded
+IP: unit_test_ip
+Status Code: 200
+Response: unit_test_success
+2024-01-22 23:31:18,663 - APP_LOG - INFO - Proxy check succeeded
+IP: unit_test_ip
+Status Code: 200
+Response: unit_test_success
+2024-01-22 23:31:18,663 - APP_LOG - INFO - Proxy check succeeded
+IP: unit_test_ip
+Status Code: 200
+Response: unit_test_success
+2024-01-22 23:31:18,664 - APP_LOG - INFO - ******************************
+2024-01-22 23:31:18,664 - APP_LOG - INFO - ******************************
+2024-01-22 23:31:18,664 - APP_LOG - INFO - ******************************
+2024-01-22 23:31:18,664 - APP_LOG - INFO - ******************************
+2024-01-22 23:31:18,664 - APP_LOG - INFO - ******************************
+2024-01-22 23:31:18,665 - APP_LOG - INFO - COMMENCING PROXY LIST CHECK
+2024-01-22 23:31:18,665 - APP_LOG - INFO - COMMENCING PROXY LIST CHECK
+2024-01-22 23:31:18,665 - APP_LOG - INFO - COMMENCING PROXY LIST CHECK
+2024-01-22 23:31:18,665 - APP_LOG - INFO - COMMENCING PROXY LIST CHECK
+2024-01-22 23:31:18,665 - APP_LOG - INFO - COMMENCING PROXY LIST CHECK
+2024-01-22 23:31:23,279 - MyAppLogger - INFO - This is an informational message.
+2024-01-22 23:31:23,280 - MyAppLogger - WARNING - This is a warning message.
+2024-01-22 23:31:23,280 - MyAppLogger - ERROR - This is an error message.
+2024-01-22 23:33:27,557 - APP_LOG - INFO - ******************************
+2024-01-22 23:33:27,558 - APP_LOG - INFO - COMMENCING PROXY LIST CHECK
+2024-01-22 23:33:40,858 - APP_LOG - INFO - CURRENT WORKING PROXY LIST:
 103.83.232.122:80
+111.59.4.88:9002
+120.37.121.209:9091
+
+2024-01-22 23:34:41,339 - APP_LOG - INFO - ******************************
+2024-01-22 23:34:41,339 - APP_LOG - INFO - COMMENCING PROXY LIST CHECK
+2024-01-22 23:34:54,376 - APP_LOG - INFO - CURRENT WORKING PROXY LIST:
+103.83.232.122:80
+111.59.4.88:9002
 113.161.131.43:80
 120.37.121.209:9091
-103.83.232.122:80
-154.85.58.149:80
-2024-01-16 19:15:24,687 - log.logger - INFO - cica
-2024-01-16 19:09:48,162 - log.logger - INFO - cica
-2024-01-16 19:09:58,945 - log.logger - INFO - cica
-2024-01-16 19:10:04,224 - log.logger - INFO - cica
-2024-01-16 19:10:14,712 - log.logger - INFO - cica
-2024-01-16 19:11:04,616 - log.logger - INFO - cica
-2024-01-16 19:11:18,393 - log.logger - INFO - cica
-2024-01-16 19:16:07,090 - APP_LOG - INFO - ******************************
-2024-01-16 19:16:07,091 - APP_LOG - INFO - COMMENCING PROXY LIST CHECK
-2024-01-16 19:16:20,228 - APP_LOG - INFO - CURRENT WORKING PROXY LIST:
-120.37.121.209:9091
-103.83.232.122:80
-
-2024-01-16 19:16:44,449 - APP_LOG - WARNING - Proxy check failed for request invalid_proxy:port: Error
-2024-01-16 19:16:44,449 - APP_LOG - WARNING - Proxy check failed for request invalid_proxy:port: Error
-2024-01-16 19:16:44,450 - APP_LOG - INFO - Proxy check succeeded
-IP: unit_test_ip
-Status Code: 200
-Response: unit_test_success
-2024-01-16 19:16:44,450 - APP_LOG - INFO - Proxy check succeeded
-IP: unit_test_ip
-Status Code: 200
-Response: unit_test_success
-2024-01-16 19:16:44,450 - APP_LOG - INFO - Proxy check succeeded
-IP: unit_test_ip
-Status Code: 200
-Response: unit_test_success
-2024-01-16 19:16:44,455 - APP_LOG - INFO - ******************************
-2024-01-16 19:16:44,455 - APP_LOG - INFO - ******************************
-2024-01-16 19:16:44,455 - APP_LOG - INFO - ******************************
-2024-01-16 19:16:44,455 - APP_LOG - INFO - ******************************
-2024-01-16 19:16:44,455 - APP_LOG - INFO - ******************************
-2024-01-16 19:16:44,456 - APP_LOG - INFO - COMMENCING PROXY LIST CHECK
-2024-01-16 19:16:44,456 - APP_LOG - INFO - COMMENCING PROXY LIST CHECK
-2024-01-16 19:16:44,456 - APP_LOG - INFO - COMMENCING PROXY LIST CHECK
-2024-01-16 19:16:44,456 - APP_LOG - INFO - COMMENCING PROXY LIST CHECK
-2024-01-16 19:16:44,456 - APP_LOG - INFO - COMMENCING PROXY LIST CHECK
-2024-01-16 19:16:57,555 - APP_LOG - INFO - CURRENT WORKING PROXY LIST:
-120.37.121.209:9091
-
-2024-01-16 19:16:57,555 - APP_LOG - INFO - CURRENT WORKING PROXY LIST:
-120.37.121.209:9091
-
-2024-01-16 19:16:57,555 - APP_LOG - INFO - CURRENT WORKING PROXY LIST:
-120.37.121.209:9091
-
-2024-01-16 19:16:57,555 - APP_LOG - INFO - CURRENT WORKING PROXY LIST:
-120.37.121.209:9091
-
-2024-01-16 19:16:57,555 - APP_LOG - INFO - CURRENT WORKING PROXY LIST:
-120.37.121.209:9091
-
-2024-01-16 19:20:08,077 - APP_LOG - WARNING - Proxy check failed for request invalid_proxy:port: Error
-2024-01-16 19:20:08,077 - APP_LOG - WARNING - Proxy check failed for request invalid_proxy:port: Error
-2024-01-16 19:20:08,086 - APP_LOG - INFO - Proxy check succeeded
-IP: unit_test_ip
-Status Code: 200
-Response: unit_test_success
-2024-01-16 19:20:08,086 - APP_LOG - INFO - Proxy check succeeded
-IP: unit_test_ip
-Status Code: 200
-Response: unit_test_success
-2024-01-16 19:20:08,086 - APP_LOG - INFO - Proxy check succeeded
-IP: unit_test_ip
-Status Code: 200
-Response: unit_test_success
-2024-01-16 19:20:08,099 - APP_LOG - INFO - ******************************
-2024-01-16 19:20:08,099 - APP_LOG - INFO - ******************************
-2024-01-16 19:20:08,099 - APP_LOG - INFO - ******************************
-2024-01-16 19:20:08,099 - APP_LOG - INFO - ******************************
-2024-01-16 19:20:08,099 - APP_LOG - INFO - ******************************
-2024-01-16 19:20:08,101 - APP_LOG - INFO - COMMENCING PROXY LIST CHECK
-2024-01-16 19:20:08,101 - APP_LOG - INFO - COMMENCING PROXY LIST CHECK
-2024-01-16 19:20:08,101 - APP_LOG - INFO - COMMENCING PROXY LIST CHECK
-2024-01-16 19:20:08,101 - APP_LOG - INFO - COMMENCING PROXY LIST CHECK
-2024-01-16 19:20:08,101 - APP_LOG - INFO - COMMENCING PROXY LIST CHECK
-2024-01-16 19:20:21,393 - APP_LOG - INFO - CURRENT WORKING PROXY LIST:
-111.59.4.88:9002
-120.37.121.209:9091
-122.155.165.191:3128
-
-2024-01-16 19:20:21,393 - APP_LOG - INFO - CURRENT WORKING PROXY LIST:
-111.59.4.88:9002
-120.37.121.209:9091
-122.155.165.191:3128
-
-2024-01-16 19:20:21,393 - APP_LOG - INFO - CURRENT WORKING PROXY LIST:
-111.59.4.88:9002
-120.37.121.209:9091
-122.155.165.191:3128
-
-2024-01-16 19:20:21,393 - APP_LOG - INFO - CURRENT WORKING PROXY LIST:
-111.59.4.88:9002
-120.37.121.209:9091
-122.155.165.191:3128
-
-2024-01-16 19:20:21,393 - APP_LOG - INFO - CURRENT WORKING PROXY LIST:
-111.59.4.88:9002
-120.37.121.209:9091
-122.155.165.191:3128
-
-2024-01-16 20:53:43,290 - APP_LOG - WARNING - Proxy check failed for request invalid_proxy:port: Error
-2024-01-16 20:53:43,290 - APP_LOG - WARNING - Proxy check failed for request invalid_proxy:port: Error
-2024-01-16 20:53:43,293 - APP_LOG - INFO - Proxy check succeeded
-IP: unit_test_ip
-Status Code: 200
-Response: unit_test_success
-2024-01-16 20:53:43,293 - APP_LOG - INFO - Proxy check succeeded
-IP: unit_test_ip
-Status Code: 200
-Response: unit_test_success
-2024-01-16 20:53:43,293 - APP_LOG - INFO - Proxy check succeeded
-IP: unit_test_ip
-Status Code: 200
-Response: unit_test_success
-2024-01-16 20:53:43,298 - APP_LOG - INFO - ******************************
-2024-01-16 20:53:43,298 - APP_LOG - INFO - ******************************
-2024-01-16 20:53:43,298 - APP_LOG - INFO - ******************************
-2024-01-16 20:53:43,298 - APP_LOG - INFO - ******************************
-2024-01-16 20:53:43,298 - APP_LOG - INFO - ******************************
-2024-01-16 20:53:43,299 - APP_LOG - INFO - COMMENCING PROXY LIST CHECK
-2024-01-16 20:53:43,299 - APP_LOG - INFO - COMMENCING PROXY LIST CHECK
-2024-01-16 20:53:43,299 - APP_LOG - INFO - COMMENCING PROXY LIST CHECK
-2024-01-16 20:53:43,299 - APP_LOG - INFO - COMMENCING PROXY LIST CHECK
-2024-01-16 20:53:43,299 - APP_LOG - INFO - COMMENCING PROXY LIST CHECK
-2024-01-16 20:53:56,569 - APP_LOG - INFO - CURRENT WORKING PROXY LIST:
-103.83.232.122:80
-106.105.218.244:80
-120.37.121.209:9091
 106.105.218.244:80
 103.83.232.122:80
-
-2024-01-16 20:53:56,569 - APP_LOG - INFO - CURRENT WORKING PROXY LIST:
-103.83.232.122:80
-106.105.218.244:80
-120.37.121.209:9091
-106.105.218.244:80
-103.83.232.122:80
-
-2024-01-16 20:53:56,569 - APP_LOG - INFO - CURRENT WORKING PROXY LIST:
-103.83.232.122:80
-106.105.218.244:80
-120.37.121.209:9091
-106.105.218.244:80
-103.83.232.122:80
-
-2024-01-16 20:53:56,569 - APP_LOG - INFO - CURRENT WORKING PROXY LIST:
-103.83.232.122:80
-106.105.218.244:80
-120.37.121.209:9091
-106.105.218.244:80
-103.83.232.122:80
-
-2024-01-16 20:53:56,569 - APP_LOG - INFO - CURRENT WORKING PROXY LIST:
-103.83.232.122:80
-106.105.218.244:80
-120.37.121.209:9091
-106.105.218.244:80
-103.83.232.122:80
-
-2024-01-16 21:20:40,442 - APP_LOG - WARNING - Proxy check failed for request invalid_proxy:port: Error
-2024-01-16 21:20:40,442 - APP_LOG - WARNING - Proxy check failed for request invalid_proxy:port: Error
-2024-01-16 21:20:40,444 - APP_LOG - INFO - Proxy check succeeded
-IP: unit_test_ip
-Status Code: 200
-Response: unit_test_success
-2024-01-16 21:20:40,444 - APP_LOG - INFO - Proxy check succeeded
-IP: unit_test_ip
-Status Code: 200
-Response: unit_test_success
-2024-01-16 21:20:40,444 - APP_LOG - INFO - Proxy check succeeded
-IP: unit_test_ip
-Status Code: 200
-Response: unit_test_success
-2024-01-16 21:20:40,449 - APP_LOG - INFO - ******************************
-2024-01-16 21:20:40,449 - APP_LOG - INFO - ******************************
-2024-01-16 21:20:40,449 - APP_LOG - INFO - ******************************
-2024-01-16 21:20:40,449 - APP_LOG - INFO - ******************************
-2024-01-16 21:20:40,449 - APP_LOG - INFO - ******************************
-2024-01-16 21:20:40,450 - APP_LOG - INFO - COMMENCING PROXY LIST CHECK
-2024-01-16 21:20:40,450 - APP_LOG - INFO - COMMENCING PROXY LIST CHECK
-2024-01-16 21:20:40,450 - APP_LOG - INFO - COMMENCING PROXY LIST CHECK
-2024-01-16 21:20:40,450 - APP_LOG - INFO - COMMENCING PROXY LIST CHECK
-2024-01-16 21:20:40,450 - APP_LOG - INFO - COMMENCING PROXY LIST CHECK
-2024-01-16 21:20:53,238 - APP_LOG - INFO - CURRENT WORKING PROXY LIST:
-103.83.232.122:80
-113.161.131.43:80
-120.37.121.209:9091
-103.83.232.122:80
-154.85.58.149:80
-
-2024-01-16 21:20:53,238 - APP_LOG - INFO - CURRENT WORKING PROXY LIST:
-103.83.232.122:80
-113.161.131.43:80
-120.37.121.209:9091
-103.83.232.122:80
-154.85.58.149:80
-
-2024-01-16 21:20:53,238 - APP_LOG - INFO - CURRENT WORKING PROXY LIST:
-103.83.232.122:80
-113.161.131.43:80
-120.37.121.209:9091
-103.83.232.122:80
-154.85.58.149:80
-
-2024-01-16 21:20:53,238 - APP_LOG - INFO - CURRENT WORKING PROXY LIST:
-103.83.232.122:80
-113.161.131.43:80
-120.37.121.209:9091
-103.83.232.122:80
-154.85.58.149:80
-
-2024-01-16 21:20:53,238 - APP_LOG - INFO - CURRENT WORKING PROXY LIST:
-103.83.232.122:80
-113.161.131.43:80
-120.37.121.209:9091
-103.83.232.122:80
-154.85.58.149:80
-
-2024-01-17 13:26:16,207 - APP_LOG - WARNING - Proxy check failed for request invalid_proxy:port: Error
-2024-01-17 13:26:16,207 - APP_LOG - WARNING - Proxy check failed for request invalid_proxy:port: Error
-2024-01-17 13:26:16,211 - APP_LOG - INFO - Proxy check succeeded
-IP: unit_test_ip
-Status Code: 200
-Response: unit_test_success
-2024-01-17 13:26:16,211 - APP_LOG - INFO - Proxy check succeeded
-IP: unit_test_ip
-Status Code: 200
-Response: unit_test_success
-2024-01-17 13:26:16,211 - APP_LOG - INFO - Proxy check succeeded
-IP: unit_test_ip
-Status Code: 200
-Response: unit_test_success
-2024-01-17 13:26:16,214 - APP_LOG - INFO - ******************************
-2024-01-17 13:26:16,214 - APP_LOG - INFO - ******************************
-2024-01-17 13:26:16,214 - APP_LOG - INFO - ******************************
-2024-01-17 13:26:16,214 - APP_LOG - INFO - ******************************
-2024-01-17 13:26:16,214 - APP_LOG - INFO - ******************************
-2024-01-17 13:26:16,215 - APP_LOG - INFO - COMMENCING PROXY LIST CHECK
-2024-01-17 13:26:16,215 - APP_LOG - INFO - COMMENCING PROXY LIST CHECK
-2024-01-17 13:26:16,215 - APP_LOG - INFO - COMMENCING PROXY LIST CHECK
-2024-01-17 13:26:16,215 - APP_LOG - INFO - COMMENCING PROXY LIST CHECK
-2024-01-17 13:26:16,215 - APP_LOG - INFO - COMMENCING PROXY LIST CHECK
-2024-01-17 13:26:29,398 - APP_LOG - INFO - CURRENT WORKING PROXY LIST:
-103.83.232.122:80
-111.59.4.88:9002
-120.37.121.209:9091
-103.83.232.122:80
-154.85.58.149:80
-
-2024-01-17 13:26:29,398 - APP_LOG - INFO - CURRENT WORKING PROXY LIST:
-103.83.232.122:80
-111.59.4.88:9002
-120.37.121.209:9091
-103.83.232.122:80
-154.85.58.149:80
-
-2024-01-17 13:26:29,398 - APP_LOG - INFO - CURRENT WORKING PROXY LIST:
-103.83.232.122:80
-111.59.4.88:9002
-120.37.121.209:9091
-103.83.232.122:80
-154.85.58.149:80
-
-2024-01-17 13:26:29,398 - APP_LOG - INFO - CURRENT WORKING PROXY LIST:
-103.83.232.122:80
-111.59.4.88:9002
-120.37.121.209:9091
-103.83.232.122:80
-154.85.58.149:80
-
-2024-01-17 13:26:29,398 - APP_LOG - INFO - CURRENT WORKING PROXY LIST:
-103.83.232.122:80
-111.59.4.88:9002
-120.37.121.209:9091
-103.83.232.122:80
-154.85.58.149:80
-
-2024-01-17 13:28:03,360 - APP_LOG - WARNING - Proxy check failed for request invalid_proxy:port: Error
-2024-01-17 13:28:03,360 - APP_LOG - WARNING - Proxy check failed for request invalid_proxy:port: Error
-2024-01-17 13:28:03,363 - APP_LOG - INFO - Proxy check succeeded
-IP: unit_test_ip
-Status Code: 200
-Response: unit_test_success
-2024-01-17 13:28:03,363 - APP_LOG - INFO - Proxy check succeeded
-IP: unit_test_ip
-Status Code: 200
-Response: unit_test_success
-2024-01-17 13:28:03,363 - APP_LOG - INFO - Proxy check succeeded
-IP: unit_test_ip
-Status Code: 200
-Response: unit_test_success
-2024-01-17 13:28:03,366 - APP_LOG - INFO - ******************************
-2024-01-17 13:28:03,366 - APP_LOG - INFO - ******************************
-2024-01-17 13:28:03,366 - APP_LOG - INFO - ******************************
-2024-01-17 13:28:03,366 - APP_LOG - INFO - ******************************
-2024-01-17 13:28:03,366 - APP_LOG - INFO - ******************************
-2024-01-17 13:28:03,369 - APP_LOG - INFO - COMMENCING PROXY LIST CHECK
-2024-01-17 13:28:03,369 - APP_LOG - INFO - COMMENCING PROXY LIST CHECK
-2024-01-17 13:28:03,369 - APP_LOG - INFO - COMMENCING PROXY LIST CHECK
-2024-01-17 13:28:03,369 - APP_LOG - INFO - COMMENCING PROXY LIST CHECK
-2024-01-17 13:28:03,369 - APP_LOG - INFO - COMMENCING PROXY LIST CHECK
-2024-01-17 13:28:16,213 - APP_LOG - INFO - CURRENT WORKING PROXY LIST:
-103.83.232.122:80
-106.105.218.244:80
-111.59.4.88:9002
-120.37.121.209:9091
-103.83.232.122:80
-154.85.58.149:80
-
-2024-01-17 13:28:16,213 - APP_LOG - INFO - CURRENT WORKING PROXY LIST:
-103.83.232.122:80
-106.105.218.244:80
-111.59.4.88:9002
-120.37.121.209:9091
-103.83.232.122:80
-154.85.58.149:80
-
-2024-01-17 13:28:16,213 - APP_LOG - INFO - CURRENT WORKING PROXY LIST:
-103.83.232.122:80
-106.105.218.244:80
-111.59.4.88:9002
-120.37.121.209:9091
-103.83.232.122:80
-154.85.58.149:80
-
-2024-01-17 13:28:16,213 - APP_LOG - INFO - CURRENT WORKING PROXY LIST:
-103.83.232.122:80
-106.105.218.244:80
-111.59.4.88:9002
-120.37.121.209:9091
-103.83.232.122:80
-154.85.58.149:80
-
-2024-01-17 13:28:16,213 - APP_LOG - INFO - CURRENT WORKING PROXY LIST:
-103.83.232.122:80
-106.105.218.244:80
-111.59.4.88:9002
-120.37.121.209:9091
-103.83.232.122:80
-154.85.58.149:80
-
-2024-01-17 13:30:51,589 - APP_LOG - WARNING - Proxy check failed for request invalid_proxy:port: Error
-2024-01-17 13:30:51,589 - APP_LOG - WARNING - Proxy check failed for request invalid_proxy:port: Error
-2024-01-17 13:30:51,592 - APP_LOG - INFO - Proxy check succeeded
-IP: unit_test_ip
-Status Code: 200
-Response: unit_test_success
-2024-01-17 13:30:51,592 - APP_LOG - INFO - Proxy check succeeded
-IP: unit_test_ip
-Status Code: 200
-Response: unit_test_success
-2024-01-17 13:30:51,592 - APP_LOG - INFO - Proxy check succeeded
-IP: unit_test_ip
-Status Code: 200
-Response: unit_test_success
-2024-01-17 13:30:51,598 - APP_LOG - INFO - ******************************
-2024-01-17 13:30:51,598 - APP_LOG - INFO - ******************************
-2024-01-17 13:30:51,598 - APP_LOG - INFO - ******************************
-2024-01-17 13:30:51,598 - APP_LOG - INFO - ******************************
-2024-01-17 13:30:51,598 - APP_LOG - INFO - ******************************
-2024-01-17 13:30:51,600 - APP_LOG - INFO - COMMENCING PROXY LIST CHECK
-2024-01-17 13:30:51,600 - APP_LOG - INFO - COMMENCING PROXY LIST CHECK
-2024-01-17 13:30:51,600 - APP_LOG - INFO - COMMENCING PROXY LIST CHECK
-2024-01-17 13:30:51,600 - APP_LOG - INFO - COMMENCING PROXY LIST CHECK
-2024-01-17 13:30:51,600 - APP_LOG - INFO - COMMENCING PROXY LIST CHECK
-2024-01-17 13:31:05,556 - APP_LOG - INFO - CURRENT WORKING PROXY LIST:
-103.83.232.122:80
-120.37.121.209:9091
-103.83.232.122:80
-
-2024-01-17 13:31:05,556 - APP_LOG - INFO - CURRENT WORKING PROXY LIST:
-103.83.232.122:80
-120.37.121.209:9091
-103.83.232.122:80
-
-2024-01-17 13:31:05,556 - APP_LOG - INFO - CURRENT WORKING PROXY LIST:
-103.83.232.122:80
-120.37.121.209:9091
-103.83.232.122:80
-
-2024-01-17 13:31:05,556 - APP_LOG - INFO - CURRENT WORKING PROXY LIST:
-103.83.232.122:80
-120.37.121.209:9091
-103.83.232.122:80
-
-2024-01-17 13:31:05,556 - APP_LOG - INFO - CURRENT WORKING PROXY LIST:
-103.83.232.122:80
-120.37.121.209:9091
-103.83.232.122:80
-
-2024-01-17 21:10:58,391 - APP_LOG - WARNING - Proxy check failed for request invalid_proxy:port: Error
-2024-01-17 21:10:58,391 - APP_LOG - WARNING - Proxy check failed for request invalid_proxy:port: Error
-2024-01-17 21:10:58,393 - APP_LOG - INFO - Proxy check succeeded
-IP: unit_test_ip
-Status Code: 200
-Response: unit_test_success
-2024-01-17 21:10:58,393 - APP_LOG - INFO - Proxy check succeeded
-IP: unit_test_ip
-Status Code: 200
-Response: unit_test_success
-2024-01-17 21:10:58,393 - APP_LOG - INFO - Proxy check succeeded
-IP: unit_test_ip
-Status Code: 200
-Response: unit_test_success
-2024-01-17 21:10:58,394 - APP_LOG - INFO - ******************************
-2024-01-17 21:10:58,394 - APP_LOG - INFO - ******************************
-2024-01-17 21:10:58,394 - APP_LOG - INFO - ******************************
-2024-01-17 21:10:58,394 - APP_LOG - INFO - ******************************
-2024-01-17 21:10:58,394 - APP_LOG - INFO - ******************************
-2024-01-17 21:10:58,394 - APP_LOG - INFO - COMMENCING PROXY LIST CHECK
-2024-01-17 21:10:58,394 - APP_LOG - INFO - COMMENCING PROXY LIST CHECK
-2024-01-17 21:10:58,394 - APP_LOG - INFO - COMMENCING PROXY LIST CHECK
-2024-01-17 21:10:58,394 - APP_LOG - INFO - COMMENCING PROXY LIST CHECK
-2024-01-17 21:10:58,394 - APP_LOG - INFO - COMMENCING PROXY LIST CHECK
-2024-01-17 21:11:11,079 - APP_LOG - INFO - CURRENT WORKING PROXY LIST:
-103.83.232.122:80
-120.37.121.209:9091
-122.155.165.191:3128
-103.83.232.122:80
-154.85.58.149:80
-
-2024-01-17 21:11:11,079 - APP_LOG - INFO - CURRENT WORKING PROXY LIST:
-103.83.232.122:80
-120.37.121.209:9091
-122.155.165.191:3128
-103.83.232.122:80
-154.85.58.149:80
-
-2024-01-17 21:11:11,079 - APP_LOG - INFO - CURRENT WORKING PROXY LIST:
-103.83.232.122:80
-120.37.121.209:9091
-122.155.165.191:3128
-103.83.232.122:80
-154.85.58.149:80
-
-2024-01-17 21:11:11,079 - APP_LOG - INFO - CURRENT WORKING PROXY LIST:
-103.83.232.122:80
-120.37.121.209:9091
-122.155.165.191:3128
-103.83.232.122:80
-154.85.58.149:80
-
-2024-01-17 21:11:11,079 - APP_LOG - INFO - CURRENT WORKING PROXY LIST:
-103.83.232.122:80
-120.37.121.209:9091
-122.155.165.191:3128
-103.83.232.122:80
-154.85.58.149:80
-
-2024-01-17 21:12:02,331 - APP_LOG - WARNING - Proxy check failed for request invalid_proxy:port: Error
-2024-01-17 21:12:02,331 - APP_LOG - WARNING - Proxy check failed for request invalid_proxy:port: Error
-2024-01-17 21:12:02,332 - APP_LOG - INFO - Proxy check succeeded
-IP: unit_test_ip
-Status Code: 200
-Response: unit_test_success
-2024-01-17 21:12:02,332 - APP_LOG - INFO - Proxy check succeeded
-IP: unit_test_ip
-Status Code: 200
-Response: unit_test_success
-2024-01-17 21:12:02,332 - APP_LOG - INFO - Proxy check succeeded
-IP: unit_test_ip
-Status Code: 200
-Response: unit_test_success
-2024-01-17 21:12:02,334 - APP_LOG - INFO - ******************************
-2024-01-17 21:12:02,334 - APP_LOG - INFO - ******************************
-2024-01-17 21:12:02,334 - APP_LOG - INFO - ******************************
-2024-01-17 21:12:02,334 - APP_LOG - INFO - ******************************
-2024-01-17 21:12:02,334 - APP_LOG - INFO - ******************************
-2024-01-17 21:12:02,334 - APP_LOG - INFO - COMMENCING PROXY LIST CHECK
-2024-01-17 21:12:02,334 - APP_LOG - INFO - COMMENCING PROXY LIST CHECK
-2024-01-17 21:12:02,334 - APP_LOG - INFO - COMMENCING PROXY LIST CHECK
-2024-01-17 21:12:02,334 - APP_LOG - INFO - COMMENCING PROXY LIST CHECK
-2024-01-17 21:12:02,334 - APP_LOG - INFO - COMMENCING PROXY LIST CHECK
-2024-01-17 21:12:15,056 - APP_LOG - INFO - CURRENT WORKING PROXY LIST:
-103.83.232.122:80
-104.225.220.233:80
-120.37.121.209:9091
-122.155.165.191:3128
-103.83.232.122:80
-154.85.58.149:80
-
-2024-01-17 21:12:15,056 - APP_LOG - INFO - CURRENT WORKING PROXY LIST:
-103.83.232.122:80
-104.225.220.233:80
-120.37.121.209:9091
-122.155.165.191:3128
-103.83.232.122:80
-154.85.58.149:80
-
-2024-01-17 21:12:15,056 - APP_LOG - INFO - CURRENT WORKING PROXY LIST:
-103.83.232.122:80
-104.225.220.233:80
-120.37.121.209:9091
-122.155.165.191:3128
-103.83.232.122:80
-154.85.58.149:80
-
-2024-01-17 21:12:15,056 - APP_LOG - INFO - CURRENT WORKING PROXY LIST:
-103.83.232.122:80
-104.225.220.233:80
-120.37.121.209:9091
-122.155.165.191:3128
-103.83.232.122:80
-154.85.58.149:80
-
-2024-01-17 21:12:15,056 - APP_LOG - INFO - CURRENT WORKING PROXY LIST:
-103.83.232.122:80
-104.225.220.233:80
-120.37.121.209:9091
-122.155.165.191:3128
-103.83.232.122:80
-154.85.58.149:80
-
-2024-01-17 21:13:13,760 - APP_LOG - WARNING - Proxy check failed for request invalid_proxy:port: Error
-2024-01-17 21:13:13,760 - APP_LOG - WARNING - Proxy check failed for request invalid_proxy:port: Error
-2024-01-17 21:13:13,762 - APP_LOG - INFO - Proxy check succeeded
-IP: unit_test_ip
-Status Code: 200
-Response: unit_test_success
-2024-01-17 21:13:13,762 - APP_LOG - INFO - Proxy check succeeded
-IP: unit_test_ip
-Status Code: 200
-Response: unit_test_success
-2024-01-17 21:13:13,762 - APP_LOG - INFO - Proxy check succeeded
-IP: unit_test_ip
-Status Code: 200
-Response: unit_test_success
-2024-01-17 21:13:13,763 - APP_LOG - INFO - ******************************
-2024-01-17 21:13:13,763 - APP_LOG - INFO - ******************************
-2024-01-17 21:13:13,763 - APP_LOG - INFO - ******************************
-2024-01-17 21:13:13,763 - APP_LOG - INFO - ******************************
-2024-01-17 21:13:13,763 - APP_LOG - INFO - ******************************
-2024-01-17 21:13:13,763 - APP_LOG - INFO - COMMENCING PROXY LIST CHECK
-2024-01-17 21:13:13,763 - APP_LOG - INFO - COMMENCING PROXY LIST CHECK
-2024-01-17 21:13:13,763 - APP_LOG - INFO - COMMENCING PROXY LIST CHECK
-2024-01-17 21:13:13,763 - APP_LOG - INFO - COMMENCING PROXY LIST CHECK
-2024-01-17 21:13:13,763 - APP_LOG - INFO - COMMENCING PROXY LIST CHECK
-2024-01-17 21:13:26,551 - APP_LOG - INFO - CURRENT WORKING PROXY LIST:
-103.83.232.122:80
-104.225.220.233:80
-111.59.4.88:9002
-120.37.121.209:9091
-103.83.232.122:80
-154.85.58.149:80
-
-2024-01-17 21:13:26,551 - APP_LOG - INFO - CURRENT WORKING PROXY LIST:
-103.83.232.122:80
-104.225.220.233:80
-111.59.4.88:9002
-120.37.121.209:9091
-103.83.232.122:80
-154.85.58.149:80
-
-2024-01-17 21:13:26,551 - APP_LOG - INFO - CURRENT WORKING PROXY LIST:
-103.83.232.122:80
-104.225.220.233:80
-111.59.4.88:9002
-120.37.121.209:9091
-103.83.232.122:80
-154.85.58.149:80
-
-2024-01-17 21:13:26,551 - APP_LOG - INFO - CURRENT WORKING PROXY LIST:
-103.83.232.122:80
-104.225.220.233:80
-111.59.4.88:9002
-120.37.121.209:9091
-103.83.232.122:80
-154.85.58.149:80
-
-2024-01-17 21:13:26,551 - APP_LOG - INFO - CURRENT WORKING PROXY LIST:
-103.83.232.122:80
-104.225.220.233:80
-111.59.4.88:9002
-120.37.121.209:9091
-103.83.232.122:80
-154.85.58.149:80
-
-2024-01-17 21:17:25,837 - APP_LOG - WARNING - Proxy check failed for request invalid_proxy:port: Error
-2024-01-17 21:17:25,837 - APP_LOG - WARNING - Proxy check failed for request invalid_proxy:port: Error
-2024-01-17 21:17:25,838 - APP_LOG - INFO - Proxy check succeeded
-IP: unit_test_ip
-Status Code: 200
-Response: unit_test_success
-2024-01-17 21:17:25,838 - APP_LOG - INFO - Proxy check succeeded
-IP: unit_test_ip
-Status Code: 200
-Response: unit_test_success
-2024-01-17 21:17:25,838 - APP_LOG - INFO - Proxy check succeeded
-IP: unit_test_ip
-Status Code: 200
-Response: unit_test_success
-2024-01-17 21:17:25,840 - APP_LOG - INFO - ******************************
-2024-01-17 21:17:25,840 - APP_LOG - INFO - ******************************
-2024-01-17 21:17:25,840 - APP_LOG - INFO - ******************************
-2024-01-17 21:17:25,840 - APP_LOG - INFO - ******************************
-2024-01-17 21:17:25,840 - APP_LOG - INFO - ******************************
-2024-01-17 21:17:25,840 - APP_LOG - INFO - COMMENCING PROXY LIST CHECK
-2024-01-17 21:17:25,840 - APP_LOG - INFO - COMMENCING PROXY LIST CHECK
-2024-01-17 21:17:25,840 - APP_LOG - INFO - COMMENCING PROXY LIST CHECK
-2024-01-17 21:17:25,840 - APP_LOG - INFO - COMMENCING PROXY LIST CHECK
-2024-01-17 21:17:25,840 - APP_LOG - INFO - COMMENCING PROXY LIST CHECK
-2024-01-17 21:17:38,635 - APP_LOG - INFO - CURRENT WORKING PROXY LIST:
-103.83.232.122:80
-106.105.218.244:80
-104.225.220.233:80
-120.37.121.209:9091
-103.83.232.122:80
-154.85.58.149:80
-
-2024-01-17 21:17:38,635 - APP_LOG - INFO - CURRENT WORKING PROXY LIST:
-103.83.232.122:80
-106.105.218.244:80
-104.225.220.233:80
-120.37.121.209:9091
-103.83.232.122:80
-154.85.58.149:80
-
-2024-01-17 21:17:38,635 - APP_LOG - INFO - CURRENT WORKING PROXY LIST:
-103.83.232.122:80
-106.105.218.244:80
-104.225.220.233:80
-120.37.121.209:9091
-103.83.232.122:80
-154.85.58.149:80
-
-2024-01-17 21:17:38,635 - APP_LOG - INFO - CURRENT WORKING PROXY LIST:
-103.83.232.122:80
-106.105.218.244:80
-104.225.220.233:80
-120.37.121.209:9091
-103.83.232.122:80
-154.85.58.149:80
-
-2024-01-17 21:17:38,635 - APP_LOG - INFO - CURRENT WORKING PROXY LIST:
-103.83.232.122:80
-106.105.218.244:80
-104.225.220.233:80
-120.37.121.209:9091
-103.83.232.122:80
-154.85.58.149:80
-
-2024-01-17 23:22:07,273 - APP_LOG - WARNING - Proxy check failed for request invalid_proxy:port: Error
-2024-01-17 23:22:07,273 - APP_LOG - WARNING - Proxy check failed for request invalid_proxy:port: Error
-2024-01-17 23:22:07,275 - APP_LOG - INFO - Proxy check succeeded
-IP: unit_test_ip
-Status Code: 200
-Response: unit_test_success
-2024-01-17 23:22:07,275 - APP_LOG - INFO - Proxy check succeeded
-IP: unit_test_ip
-Status Code: 200
-Response: unit_test_success
-2024-01-17 23:22:07,275 - APP_LOG - INFO - Proxy check succeeded
-IP: unit_test_ip
-Status Code: 200
-Response: unit_test_success
-2024-01-17 23:22:07,276 - APP_LOG - INFO - ******************************
-2024-01-17 23:22:07,276 - APP_LOG - INFO - ******************************
-2024-01-17 23:22:07,276 - APP_LOG - INFO - ******************************
-2024-01-17 23:22:07,276 - APP_LOG - INFO - ******************************
-2024-01-17 23:22:07,276 - APP_LOG - INFO - ******************************
-2024-01-17 23:22:07,276 - APP_LOG - INFO - COMMENCING PROXY LIST CHECK
-2024-01-17 23:22:07,276 - APP_LOG - INFO - COMMENCING PROXY LIST CHECK
-2024-01-17 23:22:07,276 - APP_LOG - INFO - COMMENCING PROXY LIST CHECK
-2024-01-17 23:22:07,276 - APP_LOG - INFO - COMMENCING PROXY LIST CHECK
-2024-01-17 23:22:07,276 - APP_LOG - INFO - COMMENCING PROXY LIST CHECK
-2024-01-17 23:22:20,033 - APP_LOG - INFO - CURRENT WORKING PROXY LIST:
-103.83.232.122:80
-111.59.4.88:9002
-120.37.121.209:9091
-103.83.232.122:80
-154.85.58.149:80
-
-2024-01-17 23:22:20,033 - APP_LOG - INFO - CURRENT WORKING PROXY LIST:
-103.83.232.122:80
-111.59.4.88:9002
-120.37.121.209:9091
-103.83.232.122:80
-154.85.58.149:80
-
-2024-01-17 23:22:20,033 - APP_LOG - INFO - CURRENT WORKING PROXY LIST:
-103.83.232.122:80
-111.59.4.88:9002
-120.37.121.209:9091
-103.83.232.122:80
-154.85.58.149:80
-
-2024-01-17 23:22:20,033 - APP_LOG - INFO - CURRENT WORKING PROXY LIST:
-103.83.232.122:80
-111.59.4.88:9002
-120.37.121.209:9091
-103.83.232.122:80
-154.85.58.149:80
-
-2024-01-17 23:22:20,033 - APP_LOG - INFO - CURRENT WORKING PROXY LIST:
-103.83.232.122:80
-111.59.4.88:9002
-120.37.121.209:9091
-103.83.232.122:80
-154.85.58.149:80
-
-2024-01-17 23:24:07,848 - APP_LOG - WARNING - Proxy check failed for request invalid_proxy:port: Error
-2024-01-17 23:24:07,848 - APP_LOG - WARNING - Proxy check failed for request invalid_proxy:port: Error
-2024-01-17 23:24:07,849 - APP_LOG - INFO - Proxy check succeeded
-IP: unit_test_ip
-Status Code: 200
-Response: unit_test_success
-2024-01-17 23:24:07,849 - APP_LOG - INFO - Proxy check succeeded
-IP: unit_test_ip
-Status Code: 200
-Response: unit_test_success
-2024-01-17 23:24:07,849 - APP_LOG - INFO - Proxy check succeeded
-IP: unit_test_ip
-Status Code: 200
-Response: unit_test_success
-2024-01-17 23:24:07,851 - APP_LOG - INFO - ******************************
-2024-01-17 23:24:07,851 - APP_LOG - INFO - ******************************
-2024-01-17 23:24:07,851 - APP_LOG - INFO - ******************************
-2024-01-17 23:24:07,851 - APP_LOG - INFO - ******************************
-2024-01-17 23:24:07,851 - APP_LOG - INFO - ******************************
-2024-01-17 23:24:07,851 - APP_LOG - INFO - COMMENCING PROXY LIST CHECK
-2024-01-17 23:24:07,851 - APP_LOG - INFO - COMMENCING PROXY LIST CHECK
-2024-01-17 23:24:07,851 - APP_LOG - INFO - COMMENCING PROXY LIST CHECK
-2024-01-17 23:24:07,851 - APP_LOG - INFO - COMMENCING PROXY LIST CHECK
-2024-01-17 23:24:07,851 - APP_LOG - INFO - COMMENCING PROXY LIST CHECK
-2024-01-17 23:24:21,128 - APP_LOG - INFO - CURRENT WORKING PROXY LIST:
-103.83.232.122:80
-120.37.121.209:9091
-103.83.232.122:80
-154.85.58.149:80
-
-2024-01-17 23:24:21,128 - APP_LOG - INFO - CURRENT WORKING PROXY LIST:
-103.83.232.122:80
-120.37.121.209:9091
-103.83.232.122:80
-154.85.58.149:80
-
-2024-01-17 23:24:21,128 - APP_LOG - INFO - CURRENT WORKING PROXY LIST:
-103.83.232.122:80
-120.37.121.209:9091
-103.83.232.122:80
-154.85.58.149:80
-
-2024-01-17 23:24:21,128 - APP_LOG - INFO - CURRENT WORKING PROXY LIST:
-103.83.232.122:80
-120.37.121.209:9091
-103.83.232.122:80
-154.85.58.149:80
-
-2024-01-17 23:24:21,128 - APP_LOG - INFO - CURRENT WORKING PROXY LIST:
-103.83.232.122:80
-120.37.121.209:9091
-103.83.232.122:80
-154.85.58.149:80
-
-2024-01-17 23:26:05,793 - APP_LOG - WARNING - Proxy check failed for request invalid_proxy:port: Error
-2024-01-17 23:26:05,793 - APP_LOG - WARNING - Proxy check failed for request invalid_proxy:port: Error
-2024-01-17 23:26:05,794 - APP_LOG - INFO - Proxy check succeeded
-IP: unit_test_ip
-Status Code: 200
-Response: unit_test_success
-2024-01-17 23:26:05,794 - APP_LOG - INFO - Proxy check succeeded
-IP: unit_test_ip
-Status Code: 200
-Response: unit_test_success
-2024-01-17 23:26:05,794 - APP_LOG - INFO - Proxy check succeeded
-IP: unit_test_ip
-Status Code: 200
-Response: unit_test_success
-2024-01-17 23:26:05,795 - APP_LOG - INFO - ******************************
-2024-01-17 23:26:05,795 - APP_LOG - INFO - ******************************
-2024-01-17 23:26:05,795 - APP_LOG - INFO - ******************************
-2024-01-17 23:26:05,795 - APP_LOG - INFO - ******************************
-2024-01-17 23:26:05,795 - APP_LOG - INFO - ******************************
-2024-01-17 23:26:05,795 - APP_LOG - INFO - COMMENCING PROXY LIST CHECK
-2024-01-17 23:26:05,795 - APP_LOG - INFO - COMMENCING PROXY LIST CHECK
-2024-01-17 23:26:05,795 - APP_LOG - INFO - COMMENCING PROXY LIST CHECK
-2024-01-17 23:26:05,795 - APP_LOG - INFO - COMMENCING PROXY LIST CHECK
-2024-01-17 23:26:05,795 - APP_LOG - INFO - COMMENCING PROXY LIST CHECK
-2024-01-17 23:26:18,620 - APP_LOG - INFO - CURRENT WORKING PROXY LIST:
-103.83.232.122:80
-111.59.4.88:9002
-120.37.121.209:9091
-103.83.232.122:80
-154.85.58.149:80
-
-2024-01-17 23:26:18,620 - APP_LOG - INFO - CURRENT WORKING PROXY LIST:
-103.83.232.122:80
-111.59.4.88:9002
-120.37.121.209:9091
-103.83.232.122:80
-154.85.58.149:80
-
-2024-01-17 23:26:18,620 - APP_LOG - INFO - CURRENT WORKING PROXY LIST:
-103.83.232.122:80
-111.59.4.88:9002
-120.37.121.209:9091
-103.83.232.122:80
-154.85.58.149:80
-
-2024-01-17 23:26:18,620 - APP_LOG - INFO - CURRENT WORKING PROXY LIST:
-103.83.232.122:80
-111.59.4.88:9002
-120.37.121.209:9091
-103.83.232.122:80
-154.85.58.149:80
-
-2024-01-17 23:26:18,620 - APP_LOG - INFO - CURRENT WORKING PROXY LIST:
-103.83.232.122:80
-111.59.4.88:9002
-120.37.121.209:9091
-103.83.232.122:80
-154.85.58.149:80
-
-2024-01-17 23:30:08,014 - APP_LOG - WARNING - Proxy check failed for request invalid_proxy:port: Error
-2024-01-17 23:30:08,014 - APP_LOG - WARNING - Proxy check failed for request invalid_proxy:port: Error
-2024-01-17 23:30:08,016 - APP_LOG - INFO - Proxy check succeeded
-IP: unit_test_ip
-Status Code: 200
-Response: unit_test_success
-2024-01-17 23:30:08,016 - APP_LOG - INFO - Proxy check succeeded
-IP: unit_test_ip
-Status Code: 200
-Response: unit_test_success
-2024-01-17 23:30:08,016 - APP_LOG - INFO - Proxy check succeeded
-IP: unit_test_ip
-Status Code: 200
-Response: unit_test_success
-2024-01-17 23:30:08,018 - APP_LOG - INFO - ******************************
-2024-01-17 23:30:08,018 - APP_LOG - INFO - ******************************
-2024-01-17 23:30:08,018 - APP_LOG - INFO - ******************************
-2024-01-17 23:30:08,018 - APP_LOG - INFO - ******************************
-2024-01-17 23:30:08,018 - APP_LOG - INFO - ******************************
-2024-01-17 23:30:08,018 - APP_LOG - INFO - COMMENCING PROXY LIST CHECK
-2024-01-17 23:30:08,018 - APP_LOG - INFO - COMMENCING PROXY LIST CHECK
-2024-01-17 23:30:08,018 - APP_LOG - INFO - COMMENCING PROXY LIST CHECK
-2024-01-17 23:30:08,018 - APP_LOG - INFO - COMMENCING PROXY LIST CHECK
-2024-01-17 23:30:08,018 - APP_LOG - INFO - COMMENCING PROXY LIST CHECK
-2024-01-17 23:30:21,109 - APP_LOG - INFO - CURRENT WORKING PROXY LIST:
-103.83.232.122:80
-113.161.131.43:80
-120.37.121.209:9091
-122.155.165.191:3128
-103.83.232.122:80
-154.85.58.149:80
-
-2024-01-17 23:30:21,109 - APP_LOG - INFO - CURRENT WORKING PROXY LIST:
-103.83.232.122:80
-113.161.131.43:80
-120.37.121.209:9091
-122.155.165.191:3128
-103.83.232.122:80
-154.85.58.149:80
-
-2024-01-17 23:30:21,109 - APP_LOG - INFO - CURRENT WORKING PROXY LIST:
-103.83.232.122:80
-113.161.131.43:80
-120.37.121.209:9091
-122.155.165.191:3128
-103.83.232.122:80
-154.85.58.149:80
-
-2024-01-17 23:30:21,109 - APP_LOG - INFO - CURRENT WORKING PROXY LIST:
-103.83.232.122:80
-113.161.131.43:80
-120.37.121.209:9091
-122.155.165.191:3128
-103.83.232.122:80
-154.85.58.149:80
-
-2024-01-17 23:30:21,109 - APP_LOG - INFO - CURRENT WORKING PROXY LIST:
-103.83.232.122:80
-113.161.131.43:80
-120.37.121.209:9091
-122.155.165.191:3128
-103.83.232.122:80
-154.85.58.149:80
 

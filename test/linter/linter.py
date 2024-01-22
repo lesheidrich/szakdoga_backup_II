@@ -1,5 +1,4 @@
 import os
-
 from pylint import lint
 
 
@@ -13,13 +12,13 @@ def list_files_recursively(folder_path: str) -> [str]:
     return file_list
 
 
-def run_linter(path: str) -> None:
+def run_linter(path: str, exceptions: list) -> None:
     files = list_files_recursively(path)
 
     if not os.getcwd().endswith("linter"):
         os.chdir(os.path.join(path, "test", "linter"))
 
-    files[:] = [f for f in files if not any(y in f for y in ["linter.py", "regression.py", "main.py"])]
+    files[:] = [f for f in files if not any(module in f for module in exceptions)]
 
     [lint.Run([f], exit=False) for f in files]
 
