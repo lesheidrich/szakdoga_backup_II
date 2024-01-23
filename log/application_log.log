@@ -347,3 +347,271 @@
 	can't be used to disable SSL certificate checks: True
 	additional URL query params: {}
 
+2024-01-23 17:30:32,620 - WEBSCRAPER-REQUEST - INFO - SESSION REQUEST INITIALIZED:
+	headers: {'user-agent': 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:64.0) Gecko/20100101 Firefox/64.0', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive'}
+	proxies: {}
+	cookies: <RequestsCookieJar[]>
+	client side SSL cert: None
+	can't be used to disable SSL certificate checks: True
+	additional URL query params: {}
+
+2024-01-23 17:31:09,726 - WEBSCRAPER-REQUEST - INFO - SESSION REQUEST INITIALIZED:
+	headers: {'user-agent': 'Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/27.0.1500.55 Safari/537.36', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive'}
+	proxies: {}
+	cookies: <RequestsCookieJar[]>
+	client side SSL cert: None
+	can't be used to disable SSL certificate checks: True
+	additional URL query params: {}
+
+2024-01-23 17:31:10,501 - WEBSCRAPER-REQUEST-1 - INFO - SESSION REQUEST RE-PARAMETERIZED:
+	headers: {'user-agent': 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2225.0 Safari/537.36', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive'}
+	proxies: {'http': 'None', 'https': 'None'}
+
+2024-01-23 17:31:10,503 - WEBSCRAPER-REQUEST-2 - INFO - SESSION REQUEST RE-PARAMETERIZED:
+	headers: {'user-agent': 'Mozilla/5.0 (X11; Linux; rv:74.0) Gecko/20100101 Firefox/74.0', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive'}
+	proxies: {'http': 'None', 'https': 'None'}
+
+2024-01-23 17:32:56,042 - WEBSCRAPER-REQUEST - INFO - SESSION REQUEST INITIALIZED:
+	headers: {'user-agent': 'Mozilla/5.0 (X11; OpenBSD i386) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.125 Safari/537.36', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive'}
+	proxies: {}
+	cookies: <RequestsCookieJar[]>
+	client side SSL cert: None
+	can't be used to disable SSL certificate checks: True
+	additional URL query params: {}
+
+2024-01-23 17:32:56,806 - WEBSCRAPER-REQUEST-1 - INFO - SESSION REQUEST RE-PARAMETERIZED:
+	headers: {'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive'}
+	proxies: {'http': 'None', 'https': 'None'}
+	cookies: <RequestsCookieJar[]>
+
+2024-01-23 17:32:56,808 - WEBSCRAPER-REQUEST-2 - INFO - SESSION REQUEST RE-PARAMETERIZED:
+	headers: {'user-agent': 'Chrome (AppleWebKit/537.1; Chrome50.0; Windows NT 6.3) AppleWebKit/537.36 (KHTML like Gecko) Chrome/51.0.2704.79 Safari/537.36 Edge/14.14393', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive'}
+	proxies: {'http': 'None', 'https': 'None'}
+	cookies: <RequestsCookieJar[]>
+
+2024-01-23 17:33:35,687 - WEBSCRAPER-REQUEST - INFO - SESSION REQUEST INITIALIZED:
+	headers: {'user-agent': 'Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML like Gecko) Chrome/44.0.2403.155 Safari/537.36', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive'}
+	proxies: {}
+	cookies: <RequestsCookieJar[]>
+	client side SSL cert: None
+	can't be used to disable SSL certificate checks: True
+	additional URL query params: {}
+
+2024-01-23 17:34:42,529 - WEBSCRAPER-REQUEST - INFO - SESSION REQUEST INITIALIZED:
+	headers: {'user-agent': 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.67 Safari/537.36', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive'}
+	proxies: {}
+	cookies: <RequestsCookieJar[]>
+	client side SSL cert: None
+	can't be used to disable SSL certificate checks: True
+	additional URL query params: {}
+
+2024-01-23 17:34:43,298 - WEBSCRAPER-REQUEST-1 - INFO - SESSION REQUEST RE-PARAMETERIZED:
+	headers: {'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36 Edge/18.19582', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive'}
+	proxies: {'http': 'None', 'https': 'None'}
+	cookies: None
+
+2024-01-23 17:34:43,301 - WEBSCRAPER-REQUEST-2 - INFO - SESSION REQUEST RE-PARAMETERIZED:
+	headers: {'user-agent': 'Mozilla/5.0 (X11; Linux; rv:74.0) Gecko/20100101 Firefox/74.0', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive'}
+	proxies: {'http': 'None', 'https': 'None'}
+	cookies: None
+
+2024-01-23 17:36:07,324 - WEBSCRAPER-REQUEST - INFO - SESSION REQUEST INITIALIZED:
+	headers: {'user-agent': 'Mozilla/5.0 (X11; Linux x86_64; rv:28.0) Gecko/20100101  Firefox/28.0', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive'}
+	proxies: {}
+	cookies: <RequestsCookieJar[]>
+	client side SSL cert: None
+	can't be used to disable SSL certificate checks: True
+	additional URL query params: {}
+
+2024-01-23 17:36:08,045 - WEBSCRAPER-REQUEST-1 - INFO - SESSION REQUEST RE-PARAMETERIZED:
+	headers: {'user-agent': 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.67 Safari/537.36', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive'}
+	proxies: {'http': 'None', 'https': 'None'}
+	cookies: None
+
+2024-01-23 17:36:08,048 - WEBSCRAPER-REQUEST-2 - INFO - SESSION REQUEST RE-PARAMETERIZED:
+	headers: {'user-agent': 'Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/28.0.1464.0 Safari/537.36', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive'}
+	proxies: {'http': 'None', 'https': 'None'}
+	cookies: None
+
+2024-01-23 17:36:45,759 - WEBSCRAPER-REQUEST - INFO - SESSION REQUEST INITIALIZED:
+	headers: {'user-agent': 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2919.83 Safari/537.36', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive'}
+	proxies: {}
+	cookies: <RequestsCookieJar[]>
+	client side SSL cert: None
+	can't be used to disable SSL certificate checks: True
+	additional URL query params: {}
+
+2024-01-23 17:36:46,528 - WEBSCRAPER-REQUEST-1 - INFO - SESSION REQUEST RE-PARAMETERIZED:
+	headers: {'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.5112.79 Safari/537.36', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive'}
+	proxies: {'http': 'None', 'https': 'None'}
+	cookies: <RequestsCookieJar[]>
+
+2024-01-23 17:36:46,531 - WEBSCRAPER-REQUEST-2 - INFO - SESSION REQUEST RE-PARAMETERIZED:
+	headers: {'user-agent': 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2049.0 Safari/537.36', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive'}
+	proxies: {'http': 'None', 'https': 'None'}
+	cookies: <RequestsCookieJar[]>
+
+2024-01-23 17:37:27,084 - WEBSCRAPER-REQUEST - INFO - SESSION REQUEST INITIALIZED:
+	headers: {'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2762.73 Safari/537.36', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive'}
+	proxies: {}
+	cookies: <RequestsCookieJar[]>
+	client side SSL cert: None
+	can't be used to disable SSL certificate checks: True
+	additional URL query params: {}
+
+2024-01-23 17:37:27,836 - WEBSCRAPER-REQUEST-1 - INFO - SESSION REQUEST RE-PARAMETERIZED:
+	headers: {'user-agent': 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/29.0.1547.62 Safari/537.36', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive'}
+	proxies: {'http': 'None', 'https': 'None'}
+	cookies: <RequestsCookieJar[]>
+
+2024-01-23 17:37:27,839 - WEBSCRAPER-REQUEST-2 - INFO - SESSION REQUEST RE-PARAMETERIZED:
+	headers: {'user-agent': 'Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/34.0.1866.237 Safari/537.36', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive'}
+	proxies: {'http': 'None', 'https': 'None'}
+	cookies: <RequestsCookieJar[]>
+
+2024-01-23 17:38:15,091 - WEBSCRAPER-REQUEST - INFO - SESSION REQUEST INITIALIZED:
+	headers: {'user-agent': 'Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2224.3 Safari/537.36', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive'}
+	proxies: {}
+	cookies: <RequestsCookieJar[]>
+	client side SSL cert: None
+	can't be used to disable SSL certificate checks: True
+	additional URL query params: {}
+
+2024-01-23 17:38:15,826 - WEBSCRAPER-REQUEST-1 - INFO - SESSION REQUEST RE-PARAMETERIZED:
+	headers: {'user-agent': 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/28.0.1468.0 Safari/537.36', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive'}
+	proxies: {'http': 'None', 'https': 'None'}
+	cookies: <RequestsCookieJar[]>
+
+2024-01-23 17:38:15,829 - WEBSCRAPER-REQUEST-2 - INFO - SESSION REQUEST RE-PARAMETERIZED:
+	headers: {'user-agent': 'Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/28.0.1467.0 Safari/537.36', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive'}
+	proxies: {'http': 'None', 'https': 'None'}
+	cookies: <RequestsCookieJar[]>
+
+2024-01-23 17:40:14,587 - WEBSCRAPER-REQUEST - INFO - SESSION REQUEST INITIALIZED:
+	headers: {'user-agent': 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/29.0.1547.62 Safari/537.36', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive'}
+	proxies: {}
+	cookies: <RequestsCookieJar[]>
+	client side SSL cert: None
+	can't be used to disable SSL certificate checks: True
+	additional URL query params: {}
+
+2024-01-23 17:43:50,426 - WEBSCRAPER-REQUEST - INFO - SESSION REQUEST INITIALIZED:
+	headers: {'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/32.0.1664.3 Safari/537.36', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive'}
+	proxies: {}
+	cookies: <RequestsCookieJar[]>
+	client side SSL cert: None
+	can't be used to disable SSL certificate checks: True
+	additional URL query params: {}
+
+2024-01-23 17:45:03,461 - WEBSCRAPER-REQUEST - INFO - SESSION REQUEST INITIALIZED:
+	headers: {'user-agent': 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2228.0 Safari/537.36', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive'}
+	proxies: {}
+	cookies: <RequestsCookieJar[]>
+	client side SSL cert: None
+	can't be used to disable SSL certificate checks: True
+	additional URL query params: {}
+
+2024-01-23 17:45:45,149 - WEBSCRAPER-REQUEST - INFO - SESSION REQUEST INITIALIZED:
+	headers: {'user-agent': 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:70.0) Gecko/20190101 Firefox/70.0', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive'}
+	proxies: {}
+	cookies: <RequestsCookieJar[]>
+	client side SSL cert: None
+	can't be used to disable SSL certificate checks: True
+	additional URL query params: {}
+
+2024-01-23 17:46:30,330 - WEBSCRAPER-REQUEST - INFO - SESSION REQUEST INITIALIZED:
+	headers: {'user-agent': 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/29.0.1547.62 Safari/537.36', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive'}
+	proxies: {}
+	cookies: <RequestsCookieJar[]>
+	client side SSL cert: None
+	can't be used to disable SSL certificate checks: True
+	additional URL query params: {}
+
+2024-01-23 17:51:16,145 - WEBSCRAPER-REQUEST - INFO - SESSION REQUEST INITIALIZED:
+	headers: {'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2866.71 Safari/537.36', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive'}
+	proxies: {}
+	cookies: <RequestsCookieJar[]>
+	client side SSL cert: None
+	can't be used to disable SSL certificate checks: True
+	additional URL query params: {}
+
+2024-01-23 17:51:36,531 - WEBSCRAPER-REQUEST - INFO - SESSION REQUEST INITIALIZED:
+	headers: {'user-agent': 'Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive'}
+	proxies: {}
+	cookies: <RequestsCookieJar[]>
+	client side SSL cert: None
+	can't be used to disable SSL certificate checks: True
+	additional URL query params: {}
+
+2024-01-23 17:53:14,581 - WEBSCRAPER-REQUEST - INFO - SESSION REQUEST INITIALIZED:
+	headers: {'user-agent': 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:64.0) Gecko/20100101 Firefox/64.0', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive'}
+	proxies: {}
+	cookies: <RequestsCookieJar[]>
+	client side SSL cert: None
+	can't be used to disable SSL certificate checks: True
+	additional URL query params: {}
+
+2024-01-23 20:27:52,947 - WEBSCRAPER-REQUEST - INFO - SESSION REQUEST INITIALIZED:
+	headers: {'user-agent': 'Mozilla/5.0 (X11; Ubuntu; Linux i686 on x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2820.59 Safari/537.36', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive'}
+	proxies: {}
+	cookies: <RequestsCookieJar[]>
+	client side SSL cert: None
+	can't be used to disable SSL certificate checks: True
+	additional URL query params: {}
+
+2024-01-23 20:28:13,264 - WEBSCRAPER-REQUEST - INFO - SESSION REQUEST INITIALIZED:
+	headers: {'user-agent': 'Opera/9.80 (Windows NT 6.0; U; en) Presto/2.8.99 Version/11.10', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive'}
+	proxies: {}
+	cookies: <RequestsCookieJar[]>
+	client side SSL cert: None
+	can't be used to disable SSL certificate checks: True
+	additional URL query params: {}
+
+2024-01-23 20:28:24,668 - WEBSCRAPER-REQUEST - INFO - SESSION REQUEST INITIALIZED:
+	headers: {'user-agent': 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2228.0 Safari/537.36', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive'}
+	proxies: {}
+	cookies: <RequestsCookieJar[]>
+	client side SSL cert: None
+	can't be used to disable SSL certificate checks: True
+	additional URL query params: {}
+
+2024-01-23 20:28:47,386 - WEBSCRAPER-REQUEST - INFO - SESSION REQUEST INITIALIZED:
+	headers: {'user-agent': 'Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive'}
+	proxies: {}
+	cookies: <RequestsCookieJar[]>
+	client side SSL cert: None
+	can't be used to disable SSL certificate checks: True
+	additional URL query params: {}
+
+2024-01-23 20:29:10,697 - WEBSCRAPER-REQUEST - INFO - SESSION REQUEST INITIALIZED:
+	headers: {'user-agent': 'Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/35.0.3319.102 Safari/537.36', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive'}
+	proxies: {}
+	cookies: <RequestsCookieJar[]>
+	client side SSL cert: None
+	can't be used to disable SSL certificate checks: True
+	additional URL query params: {}
+
+2024-01-23 20:38:24,878 - WEBSCRAPER-REQUEST - INFO - SESSION REQUEST INITIALIZED:
+	headers: {'user-agent': 'Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10.10; rv:75.0) Gecko/20100101 Firefox/75.0', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive'}
+	proxies: {}
+	cookies: <RequestsCookieJar[]>
+	client side SSL cert: None
+	can't be used to disable SSL certificate checks: True
+	additional URL query params: {}
+
+2024-01-23 20:53:06,673 - WEBSCRAPER-REQUEST - INFO - SESSION REQUEST INITIALIZED:
+	headers: {'user-agent': 'Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_6_6; en-gb) AppleWebKit/533.20.25 (KHTML, like Gecko) Version/5.0.4 Safari/533.20.27', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive'}
+	proxies: {}
+	cookies: <RequestsCookieJar[]>
+	client side SSL cert: None
+	can't be used to disable SSL certificate checks: True
+	additional URL query params: {}
+
+2024-01-23 20:55:11,150 - WEBSCRAPER-REQUEST - INFO - SESSION REQUEST INITIALIZED:
+	headers: {'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/32.0.1664.3 Safari/537.36', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive'}
+	proxies: {}
+	cookies: <RequestsCookieJar[]>
+	client side SSL cert: None
+	can't be used to disable SSL certificate checks: True
+	additional URL query params: {}
+

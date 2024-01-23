@@ -8,30 +8,100 @@ from webscraper.proxy.proxy_handler import ProxyHandler
 from webscraper.request_service import ContentProvider
 from secrets import PROJECT_FOLDER
 
+from selenium import webdriver
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
+from selenium.webdriver.common.by import By
+
 if __name__ == "__main__":
     url = "https://pythonprogramming.net/parsememcparsefac/"
+    urlb = "https://basketball.realgm.com/nba/teams/Boston-Celtics/2/individual-games/2006/points/Regular_Season/desc/7"
 
-    # ip1 = "192.168.0.1:02"
-    # ip2 = "not_an_ip_address"
-    #
-    # # cp = ContentProvider("proxies_test.csv")
-    # # cp = ContentProvider(ip1)
-    # cp = ContentProvider(None)
-    # sm = cp.session_manager
-    # sm_session = sm.session
-    #
-    # sauce = cp.request_sauce(url)
 
-    # pprint(sauce.headers)
-    # pprint(sauce.headers['Server'])
-    # pprint(sauce.url)
-    # pprint(sauce.ok)
-    # pprint(sauce.encoding)
-    # pprint(sauce.elapsed)
-    # pprint(sauce.cookies)
+
+
+    # # Create a new instance of the Firefox driver
+    # driver = webdriver.Firefox()
+    # print("navigating to page")
+    #
+    # # Navigate to the desired website
+    # driver.get(urlb)
+    # print("waiting")
+    #
+    # # Wait for the element with class 'tablesaw' to be present on the page
+    # wait = WebDriverWait(driver, 90)  # Set the maximum waiting time to 90 seconds or more
+    #
+    # try:
+    #     element = wait.until(EC.presence_of_element_located((By.CLASS_NAME, 'tablesaw')))
+    #     print("Element found, proceeding with further actions.")
+    #
+    #     # Now you can perform actions on the found element, if needed
+    #
+    # except Exception as e:
+    #     print(f"Element not found within the specified time: {e}")
+    #
+    # print("Done waiting, grabbing content")
+    #
+    # # Get the HTML content of the current page
+    # html_content = driver.page_source
+    #
+    # print("Grabbed content, gonna write now")
+    #
+    # # Save the HTML content to a file
+    # with open("website.html", "w", encoding="utf-8") as file:
+    #     file.write(html_content)
+    #
+    # print("Done writing")
+    #
+    # # Close the browser
+    # driver.quit()
+
+
+
+
+
+
+
+
+
+
+
+
+    ip1 = "192.168.0.1:02"
+    ip2 = "not_an_ip_address"
+
+    # cp = ContentProvider("proxies_test.csv")
+    # cp = ContentProvider(ip1)
+    cp = ContentProvider(None)
+    sm = cp.session_manager
+    sm_session = sm.session
+
+    response = cp.request_sauce(url)
+    print(response.status_code)
+
+    # pprint(response.headers)
+    # pprint(response.headers['Server'])
+    # pprint(response.url)
+    # pprint(response.ok)
+    # pprint(response.encoding)
+    # pprint(response.elapsed)
+    # pprint(response.cookies)
+    # print(response.cookies.values())
+
+    #there's already a fucking cookies.update method fucking use that
 
     # for i in range(len(sm.proxy_list) + 2):
-    #     sm.new_session_info(f"-{i+1}")
+    #     sm.new_session_info(f"-{i + 1}")
+    #     response = cp.request_sauce(url)
+    #     print(response.cookies.values()[0])
+
+
+    # sm.update_cookies(response.cookies)
+
+
+
+
+
 
     # h = ProxyHandler("proxies_test.csv")
     # working_proxy_list = h.process_proxies()
@@ -74,21 +144,18 @@ session.close()	Close the underlying connection.	Should be called to release res
 
 
 
-                    async def main():
-                        browser = await launch()
-                        page = await browser.newPage()
-                        await page.goto('http://example.com')
-                        content = await page.content()
-                        print(content)
-                        await browser.close()
+    async def main():
+        browser = await launch()
+        page = await browser.newPage()
+        await page.goto('http://example.com')
+        content = await page.content()
+        print(content)
+        await browser.close()
+    
+    # Run the event loop
+    import asyncio
+    asyncio.get_event_loop().run_until_complete(main())
                     
-                    # Run the event loop
-                    import asyncio
-                    asyncio.get_event_loop().run_until_complete(main())
-                    
-                    fail = 5 / 0
-                except Exception:
-                    print("can't get response")
     
     
     

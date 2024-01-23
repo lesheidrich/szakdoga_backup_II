@@ -123,14 +123,27 @@ class SessionManager:
                       f"\tadditional URL query params: {self.session.params}\n")
 
     def new_session_info(self, new_log_decorator: str = "") -> None:
-        self.session.headers.update(self.kit.new_header())
-        self.set_next_proxy_to_session()
-        self.session.cookies.clear()
-
+        self.close_session()
         self.update_log_name(new_log_decorator)
-        self.log.info("SESSION REQUEST RE-PARAMETERIZED:\n" +
-                      f"\theaders: {self.session.headers}\n" +
-                      f"\tproxies: {self.session.proxies}\n")
+        self.initialize_and_load_session()
+
+
+class ContentProvider:
+    def __init__(self, proxy: str | None = "proxies_full.csv", log_name_decorator: str = ""):
+        self.session_manager = SessionManager(proxy, log_name_decorator)
+
+    def request_sauce(self, url: str) -> requests.Response:
+        try:
+            print("trying")
+            response = self.session_manager.session.get(url)
+            response.raise_for_status()
+
+            return response
+        except HttpRequestError as e:
+            self.session_manager.log.warning(f"Failed to connect to proxy {self.session_manager.proxy}. {e}")
+
+    def selenium_save_html(self):
+        pass
 
 
 class HttpRequestError(Exception):
@@ -146,28 +159,32 @@ class HttpRequestError(Exception):
         return self.message
 
 
-class ContentProvider:
-    def __init__(self, proxy: str | None = "proxies_full.csv", log_name_decorator: str = ""):
-        self.session_manager = SessionManager(proxy, log_name_decorator)
+"""
+Client Errors (4xx):
+********************
+400 Bad Request: Indicates that the request could not be understood by the server.
+raise ValueError(f"Bad Request: {response.status_code}")
 
-    def request_sauce(self, url: str) -> requests.Response:
-        # try:
-        response = self.session_manager.session.get(url)
-        response.raise_for_status()
+401 Unauthorized: Indicates that the request requires user authentication.
+raise PermissionError(f"Unauthorized: {response.status_code}")
 
-        return response
-        # except OSError as e:
-        #     self.session_manager.log.warning(f"Failed to connect to proxy {self.session_manager.proxy}. {e}")
+403 Forbidden: Indicates that the server understood the request but refuses to authorize it.
+raise PermissionError(f"Forbidden: {response.status_code}")
 
-    def selenium_save_html(self):
-        pass
+404 Not Found: Indicates that the server did not find the requested resource.
+raise FileNotFoundError(f"Not Found: {response.status_code}")
 
+Server Errors (5xx):
+*******************
+500 Internal Server Error: Indicates that the server has encountered a situation it doesn't know how to handle.
+raise RuntimeError(f"Internal Server Error: {response.status_code}")
 
+502 Bad Gateway: Indicates that a server, while acting as a gateway or proxy, received an invalid response from an inbound server.
+raise RuntimeError(f"Bad Gateway: {response.status_code}")
 
-
-
-
-
+503 Service Unavailable: Indicates that the server is not ready to handle the request.
+raise RuntimeError(f"Service Unavailable: {response.status_code}")
+"""
 
 
 
