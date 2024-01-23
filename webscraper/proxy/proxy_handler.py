@@ -99,7 +99,7 @@ class ProxyHandler:
     def __init__(self, proxies_file: str = "proxies_full.csv"):
         self.test_url = "http://icanhazip.com/"  # dummy website returns req ip
         self.log = Logger(log_file="application_log.log",
-                          name="APP_LOG",
+                          name="PROXY HANDLER",
                           log_level="DEBUG")
         self.file_path = self._build_path(proxies_file)
         self.proxies = self.load_proxies()
@@ -164,5 +164,5 @@ class ProxyHandler:
             result = list(filter(None, process.map(self.handle_proxy, self.proxies)))
 
         self.log.info("CURRENT WORKING PROXY LIST:\n" + "\n".join(result) + "\n")
-        # self.log.close_log()
+        self.log.close_log()
         return result

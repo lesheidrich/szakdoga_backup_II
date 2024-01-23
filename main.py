@@ -1,41 +1,37 @@
 import os
 import re
 from datetime import datetime
+from pprint import pprint
+
 from log.logger import Logger
 from webscraper.proxy.proxy_handler import ProxyHandler
 from webscraper.request_service import ContentProvider
 from secrets import PROJECT_FOLDER
 
 if __name__ == "__main__":
+    url = "https://pythonprogramming.net/parsememcparsefac/"
 
+    # ip1 = "192.168.0.1:02"
+    # ip2 = "not_an_ip_address"
+    #
+    # # cp = ContentProvider("proxies_test.csv")
+    # # cp = ContentProvider(ip1)
+    # cp = ContentProvider(None)
+    # sm = cp.session_manager
+    # sm_session = sm.session
+    #
+    # sauce = cp.request_sauce(url)
 
-    ip1 = "192.168.0.1:02"
-    ip2 = "not_an_ip_address"
+    # pprint(sauce.headers)
+    # pprint(sauce.headers['Server'])
+    # pprint(sauce.url)
+    # pprint(sauce.ok)
+    # pprint(sauce.encoding)
+    # pprint(sauce.elapsed)
+    # pprint(sauce.cookies)
 
-    cp = ContentProvider("proxies_test.csv")
-    sm = cp.session_manager
-    ses = sm.session
-
-    print(ses.proxies)
-    print(ses.headers)
-    print(ses.cookies)
-
-    for i in range(len(sm.proxy_list) + 2):
-        print("Round: ", i+1)
-
-        sm.new_session_info()
-
-        ses.cookies = None
-        ses.params = {}
-
-        print(ses.proxies)
-        print(ses.headers)
-        print(ses.cookies)
-        print(ses.verify)
-        print(ses.cert)
-        print(ses.params, "\n")
-
-
+    # for i in range(len(sm.proxy_list) + 2):
+    #     sm.new_session_info(f"-{i+1}")
 
     # h = ProxyHandler("proxies_test.csv")
     # working_proxy_list = h.process_proxies()
@@ -73,28 +69,10 @@ session.close()	Close the underlying connection.	Should be called to release res
     - scrapy
     - unittest + integration test
     
-    
-    
-    
-    Request structure
-    try:
-        print("requests")
-        fail = 5/0
-    except Exception:
-        try:
-            print("new proxy, del old one")
-            print("scrapy")
-            fail = 5 / 0
-        except Exception:
-            try:
-                print("new proxy, del old one")
-                print("selenium")
-                fail = 5 / 0
-            except Exception:
-                try:
-                    print("new proxy, del old one")
-                    print("pyppeteer") <--cypress uses this
-                    from pyppeteer import launch
+
+
+
+
 
                     async def main():
                         browser = await launch()
@@ -151,3 +129,28 @@ session.close()	Close the underlying connection.	Should be called to release res
     # l.delete_log()
     # l.close_log()
     # print(l.has_open_handlers())
+
+"""
+REQUEST STRUCTURE
+
+
+def dothedew(dodo):
+    d = dodo.pop(0)
+    print(d)
+    # fail = 5 / 0
+
+
+def runner(dl, func):
+
+    while (len(dl) > 0):
+        try:
+            func(dl)
+        except Exception:
+            print("hoopsie")
+
+
+if __name__ == "__main__":
+    dolist = ["requests", "scrapy", "selenium", "pyppeteer"]
+
+    runner(dolist, dothedew)
+"""

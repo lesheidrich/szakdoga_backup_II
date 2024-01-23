@@ -3,6 +3,7 @@ import re
 import requests
 import time
 from fake_user_agent import user_agent
+from log.logger import Logger
 from webscraper.proxy.proxy_handler import ProxyHandler
 from typing import Literal
 
@@ -48,8 +49,11 @@ class Toolkit:
 
 
 class SessionManager:
-    def __init__(self, proxy: str | None):
+    def __init__(self, proxy: str | None, log_name_decorator: str):
         self.kit = Toolkit()
+        self.log = Logger(log_file="application_log.log",
+                          name=f"WEBSCRAPER-REQUEST{log_name_decorator}",
+                          log_level="INFO")
         self.proxy = proxy
         self.proxy_list = []
         self.session = None
@@ -64,11 +68,18 @@ class SessionManager:
 
     def close_session(self) -> None:
         self.session.close()
+        self.log.close_log()
 
     def new_session(self) -> None:
         if self.session is not None:
             self.close_session()
         self.new_emtpy_session()
+
+    def update_log_name(self, new_decorator: str) -> None:
+        self.log.close_log()
+        self.log = Logger(log_file="application_log.log",
+                          name=f"WEBSCRAPER-REQUEST{new_decorator}",
+                          log_level="INFO")
 
     def proxy_str_to_dict(self, proxy_str: str) -> dict:
         return {
@@ -103,21 +114,50 @@ class SessionManager:
         self.session.headers.update(self.kit.new_header())
         self.setup_proxy()
 
-    def new_session_info(self) -> None:
+        self.log.info("SESSION REQUEST INITIALIZED:\n" +
+                      f"\theaders: {self.session.headers}\n" +
+                      f"\tproxies: {self.session.proxies}\n" +
+                      f"\tcookies: {self.session.cookies}\n" +
+                      f"\tclient side SSL cert: {self.session.cert}\n" +
+                      f"\tcan't be used to disable SSL certificate checks: {self.session.verify}\n" +
+                      f"\tadditional URL query params: {self.session.params}\n")
+
+    def new_session_info(self, new_log_decorator: str = "") -> None:
         self.session.headers.update(self.kit.new_header())
         self.set_next_proxy_to_session()
+        self.session.cookies.clear()
+
+        self.update_log_name(new_log_decorator)
+        self.log.info("SESSION REQUEST RE-PARAMETERIZED:\n" +
+                      f"\theaders: {self.session.headers}\n" +
+                      f"\tproxies: {self.session.proxies}\n")
+
+
+class HttpRequestError(Exception):
+    def __init__(self, response):
+        self.response = response
+        self.message = f"Request to {self.response.url} failed!" \
+                       f"\n- status code: {self.response.status_code} " \
+                       f"\n- time elapsed: {self.response.elapsed}" \
+                       f"\n- response header: {self.response.headers}"
+        super().__init__(self.message)
+
+    def __str__(self):
+        return self.message
 
 
 class ContentProvider:
-    def __init__(self, proxy: str | None = "proxies_full.csv"):
-        self.session_manager = SessionManager(proxy)
+    def __init__(self, proxy: str | None = "proxies_full.csv", log_name_decorator: str = ""):
+        self.session_manager = SessionManager(proxy, log_name_decorator)
 
-    def request_sauce(self, url: str, session: requests.Session, req_type: Literal["text", "content"]) -> str:
-        try:
-            response = session.get(url)
-            return getattr(response, req_type)
-        except OSError as e:
-            print(f"Failed to connect to proxy. {e}")
+    def request_sauce(self, url: str) -> requests.Response:
+        # try:
+        response = self.session_manager.session.get(url)
+        response.raise_for_status()
+
+        return response
+        # except OSError as e:
+        #     self.session_manager.log.warning(f"Failed to connect to proxy {self.session_manager.proxy}. {e}")
 
     def selenium_save_html(self):
         pass
