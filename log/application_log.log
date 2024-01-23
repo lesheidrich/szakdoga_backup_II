@@ -615,3 +615,186 @@
 	can't be used to disable SSL certificate checks: True
 	additional URL query params: {}
 
+2024-01-23 21:04:04,560 - WEBSCRAPER-REQUEST - INFO - SESSION REQUEST INITIALIZED:
+	headers: {'user-agent': 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2049.0 Safari/537.36', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive'}
+	proxies: {}
+	cookies: <RequestsCookieJar[]>
+	client side SSL cert: None
+	can't be used to disable SSL certificate checks: True
+	additional URL query params: {}
+
+2024-01-23 21:05:25,059 - WEBSCRAPER-REQUEST - INFO - SESSION REQUEST INITIALIZED:
+	headers: {'user-agent': 'Mozilla/5.0 (Windows NT 6.1; rv:68.7) Gecko/20100101 Firefox/68.7', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive'}
+	proxies: {}
+	cookies: <RequestsCookieJar[]>
+	client side SSL cert: None
+	can't be used to disable SSL certificate checks: True
+	additional URL query params: {}
+
+2024-01-23 21:05:25,824 - WEBSCRAPER-REQUEST - WARNING - Failed to connect to proxy None. 404 Client Error: NOT FOUND for url: https://pythonprogramming.net/parsememcparsefac/
+2024-01-23 21:05:44,226 - WEBSCRAPER-REQUEST - INFO - SESSION REQUEST INITIALIZED:
+	headers: {'user-agent': 'Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/35.0.2117.157 Safari/537.36', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive'}
+	proxies: {}
+	cookies: <RequestsCookieJar[]>
+	client side SSL cert: None
+	can't be used to disable SSL certificate checks: True
+	additional URL query params: {}
+
+2024-01-23 21:05:44,994 - WEBSCRAPER-REQUEST - WARNING - Failed to connect to proxy None. 404 Client Error: NOT FOUND for url: https://pythonprogramming.net/parsememcparsefac/
+2024-01-23 21:07:52,031 - WEBSCRAPER-REQUEST - INFO - SESSION REQUEST INITIALIZED:
+	headers: {'user-agent': 'Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/29.0.1547.2 Safari/537.36', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive'}
+	proxies: {}
+	cookies: <RequestsCookieJar[]>
+	client side SSL cert: None
+	can't be used to disable SSL certificate checks: True
+	additional URL query params: {}
+
+2024-01-23 21:07:52,778 - WEBSCRAPER-REQUEST - ERROR - HTTP Error! 404 None. 404 Client Error: NOT FOUND for url: https://pythonprogramming.net/parsememcparsefac/
+2024-01-23 21:18:34,698 - WEBSCRAPER-REQUEST - INFO - SESSION REQUEST INITIALIZED:
+	headers: {'user-agent': 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.67 Safari/537.36', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive'}
+	proxies: {}
+	cookies: <RequestsCookieJar[]>
+	client side SSL cert: None
+	can't be used to disable SSL certificate checks: True
+	additional URL query params: {}
+
+2024-01-23 21:18:35,458 - WEBSCRAPER-REQUEST - ERROR - HTTP Error! Request to https://pythonprogramming.net/parsememcparsefac/ failed!
+- status code: 404 
+- time elapsed: 0:00:00.728995
+- response header: {'Date': 'Tue, 23 Jan 2024 20:18:35 GMT', 'Server': 'Apache/2.4.10 (Ubuntu)', 'Set-Cookie': 'session=eyJfaWQiOnsiIGIiOiJOV1EyTWpnMU5qUTJNbUl5TW1JeE4yVTVPR1JoTUdFd1lqUmxOVGd6WmpZPSJ9fQ.GJGwmw.YylDOm0EOO5TSNY50bdDYH-5ce8; HttpOnly; Path=/', 'Content-Length': '7878', 'Keep-Alive': 'timeout=5, max=100', 'Connection': 'Keep-Alive', 'Content-Type': 'text/html; charset=utf-8'}
+2024-01-23 21:19:07,308 - WEBSCRAPER-REQUEST - INFO - SESSION REQUEST INITIALIZED:
+	headers: {'user-agent': 'Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML like Gecko) Chrome/44.0.2403.155 Safari/537.36', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive'}
+	proxies: {}
+	cookies: <RequestsCookieJar[]>
+	client side SSL cert: None
+	can't be used to disable SSL certificate checks: True
+	additional URL query params: {}
+
+2024-01-23 21:19:08,040 - WEBSCRAPER-REQUEST - ERROR - HTTP Error! Request to https://pythonprogramming.net/parsememcparsefac/ failed!
+- status code: 404 
+- time elapsed: 0:00:00.727263
+- response header: {'Date': 'Tue, 23 Jan 2024 20:19:07 GMT', 'Server': 'Apache/2.4.10 (Ubuntu)', 'Set-Cookie': 'session=eyJfaWQiOnsiIGIiOiJPR1JsTVRsall6ZGlZbUU1TWpVeU1EUXpZakk0TXpjMVl6VXhOVEk0WXpBPSJ9fQ.GJGwuw.EMOwzEP5CmUA9W1bowklvrNHI9M; HttpOnly; Path=/', 'Content-Length': '8098', 'Keep-Alive': 'timeout=5, max=100', 'Connection': 'Keep-Alive', 'Content-Type': 'text/html; charset=utf-8'}404 Client Error: NOT FOUND for url: https://pythonprogramming.net/parsememcparsefac/
+2024-01-23 21:19:21,781 - WEBSCRAPER-REQUEST - INFO - SESSION REQUEST INITIALIZED:
+	headers: {'user-agent': 'Mozilla/5.0 (X11; Ubuntu; Linux i686 on x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2820.59 Safari/537.36', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive'}
+	proxies: {}
+	cookies: <RequestsCookieJar[]>
+	client side SSL cert: None
+	can't be used to disable SSL certificate checks: True
+	additional URL query params: {}
+
+2024-01-23 21:19:22,544 - WEBSCRAPER-REQUEST - ERROR - HTTP Error! Request to https://pythonprogramming.net/parsememcparsefac/ failed!
+- status code: 404 
+- time elapsed: 0:00:00.728566
+- response header: {'Date': 'Tue, 23 Jan 2024 20:19:22 GMT', 'Server': 'Apache/2.4.10 (Ubuntu)', 'Set-Cookie': 'session=eyJfaWQiOnsiIGIiOiJNamM0TW1abVl6VTRORFl5WXpGak1UTTBOVEJpWm1ZNE5ESTBZV1ppWTJNPSJ9fQ.GJGwyg.ihmq3FeC122M2mysbee5YrJYRv4; HttpOnly; Path=/', 'Content-Length': '7878', 'Keep-Alive': 'timeout=5, max=100', 'Connection': 'Keep-Alive', 'Content-Type': 'text/html; charset=utf-8'}
+  404 Client Error: NOT FOUND for url: https://pythonprogramming.net/parsememcparsefac/
+2024-01-23 21:20:16,006 - WEBSCRAPER-REQUEST - INFO - SESSION REQUEST INITIALIZED:
+	headers: {'user-agent': 'Mozilla/5.0 (X11; Ubuntu; Linux i686 on x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2820.59 Safari/537.36', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive'}
+	proxies: {}
+	cookies: <RequestsCookieJar[]>
+	client side SSL cert: None
+	can't be used to disable SSL certificate checks: True
+	additional URL query params: {}
+
+2024-01-23 21:20:16,728 - WEBSCRAPER-REQUEST - ERROR - HTTP Error! Request to https://pythonprogramming.net/parsememcparsefac/ failed!
+- status code: 404 
+- time elapsed: 0:00:00.719249
+- response header: {'Date': 'Tue, 23 Jan 2024 20:20:16 GMT', 'Server': 'Apache/2.4.10 (Ubuntu)', 'Set-Cookie': 'session=eyJfaWQiOnsiIGIiOiJNamM0TW1abVl6VTRORFl5WXpGak1UTTBOVEJpWm1ZNE5ESTBZV1ppWTJNPSJ9fQ.GJGxAA.Np4XTRLB51D6w--ZSWZAeYax33A; HttpOnly; Path=/', 'Content-Length': '7878', 'Keep-Alive': 'timeout=5, max=100', 'Connection': 'Keep-Alive', 'Content-Type': 'text/html; charset=utf-8'}
+- message: 404 Client Error: NOT FOUND for url: https://pythonprogramming.net/parsememcparsefac/
+2024-01-23 21:25:07,960 - WEBSCRAPER-REQUEST - INFO - SESSION REQUEST INITIALIZED:
+	headers: {'user-agent': 'Mozilla/5.0 (X11; Ubuntu; Linux i686 on x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2820.59 Safari/537.36', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive'}
+	proxies: {}
+	cookies: <RequestsCookieJar[]>
+	client side SSL cert: None
+	can't be used to disable SSL certificate checks: True
+	additional URL query params: {}
+
+2024-01-23 21:25:08,713 - WEBSCRAPER-REQUEST - ERROR - HTTP Error! Request to https://pythonprogramming.net/parsememcparsefac/ failed!
+- status code: 404 
+- time elapsed: 0:00:00.720240
+- response header: {'Date': 'Tue, 23 Jan 2024 20:25:08 GMT', 'Server': 'Apache/2.4.10 (Ubuntu)', 'Set-Cookie': 'session=eyJfaWQiOnsiIGIiOiJNamM0TW1abVl6VTRORFl5WXpGak1UTTBOVEJpWm1ZNE5ESTBZV1ppWTJNPSJ9fQ.GJGyJA.VJmbdoa52U1FHjOm5zJUx6aHSa0; HttpOnly; Path=/', 'Content-Length': '7878', 'Keep-Alive': 'timeout=5, max=100', 'Connection': 'Keep-Alive', 'Content-Type': 'text/html; charset=utf-8'}
+- message: 404 Client Error: NOT FOUND for url: https://pythonprogramming.net/parsememcparsefac/
+2024-01-23 21:27:47,435 - WEBSCRAPER-REQUEST - INFO - SESSION REQUEST INITIALIZED:
+	headers: {'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.5112.79 Safari/537.36', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive'}
+	proxies: {}
+	cookies: <RequestsCookieJar[]>
+	client side SSL cert: None
+	can't be used to disable SSL certificate checks: True
+	additional URL query params: {}
+
+2024-01-23 21:27:48,163 - WEBSCRAPER-REQUEST - ERROR - HTTP Error! Request to https://pythonprogramming.net/parsememcparsefac/ failed!
+- status code: 404 
+- time elapsed: 0:00:00.724445
+- response header: {'Date': 'Tue, 23 Jan 2024 20:27:47 GMT', 'Server': 'Apache/2.4.10 (Ubuntu)', 'Set-Cookie': 'session=eyJfaWQiOnsiIGIiOiJaV0prTjJFeE5qVXlZakJpTXpVM01HRXdOalF5WlRJMk1XSXdNRGN6TXprPSJ9fQ.GJGyww.FGrUuHao68HG-PCrIGN46xt1fH0; HttpOnly; Path=/', 'Content-Length': '7878', 'Keep-Alive': 'timeout=5, max=100', 'Connection': 'Keep-Alive', 'Content-Type': 'text/html; charset=utf-8'}
+- message: 404 Client Error: NOT FOUND for url: https://pythonprogramming.net/parsememcparsefac/
+2024-01-23 21:29:49,196 - WEBSCRAPER-REQUEST - INFO - SESSION REQUEST INITIALIZED:
+	headers: {'user-agent': 'Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/32.0.1667.0 Safari/537.36', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive'}
+	proxies: {}
+	cookies: <RequestsCookieJar[]>
+	client side SSL cert: None
+	can't be used to disable SSL certificate checks: True
+	additional URL query params: {}
+
+2024-01-23 22:12:29,293 - WEBSCRAPER-REQUEST - INFO - SESSION REQUEST INITIALIZED:
+	headers: {'user-agent': 'Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML like Gecko) Chrome/46.0.2486.0 Safari/537.36 Edge/13.9200', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive'}
+	proxies: {}
+	cookies: <RequestsCookieJar[]>
+	client side SSL cert: None
+	can't be used to disable SSL certificate checks: True
+	additional URL query params: {}
+
+2024-01-23 23:56:30,581 - WEBSCRAPER-REQUEST - INFO - SESSION REQUEST INITIALIZED:
+	headers: {'user-agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.517 Safari/537.36', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive'}
+	proxies: {}
+	cookies: <RequestsCookieJar[]>
+	client side SSL cert: None
+	can't be used to disable SSL certificate checks: True
+	additional URL query params: {}
+
+2024-01-24 00:07:11,385 - WEBSCRAPER-REQUEST - INFO - SESSION REQUEST INITIALIZED:
+	headers: {'user-agent': 'Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/27.0.1500.55 Safari/537.36', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive'}
+	proxies: {}
+	cookies: <RequestsCookieJar[]>
+	client side SSL cert: None
+	can't be used to disable SSL certificate checks: True
+	additional URL query params: {}
+
+2024-01-24 00:20:56,942 - WEBSCRAPER-REQUEST - INFO - SESSION REQUEST INITIALIZED:
+	headers: {'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/32.0.1664.3 Safari/537.36', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive'}
+	proxies: {}
+	cookies: <RequestsCookieJar[]>
+	client side SSL cert: None
+	can't be used to disable SSL certificate checks: True
+	additional URL query params: {}
+
+2024-01-24 00:21:53,081 - WEBSCRAPER-REQUEST - INFO - SESSION REQUEST INITIALIZED:
+	headers: {'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive'}
+	proxies: {}
+	cookies: <RequestsCookieJar[]>
+	client side SSL cert: None
+	can't be used to disable SSL certificate checks: True
+	additional URL query params: {}
+
+2024-01-24 00:23:15,654 - WEBSCRAPER-REQUEST - INFO - SESSION REQUEST INITIALIZED:
+	headers: {'user-agent': 'Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/29.0.1547.2 Safari/537.36', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive'}
+	proxies: {}
+	cookies: <RequestsCookieJar[]>
+	client side SSL cert: None
+	can't be used to disable SSL certificate checks: True
+	additional URL query params: {}
+
+2024-01-24 00:23:54,604 - WEBSCRAPER-REQUEST - INFO - SESSION REQUEST INITIALIZED:
+	headers: {'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2227.1 Safari/537.36', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive'}
+	proxies: {}
+	cookies: <RequestsCookieJar[]>
+	client side SSL cert: None
+	can't be used to disable SSL certificate checks: True
+	additional URL query params: {}
+
+2024-01-24 00:24:49,107 - WEBSCRAPER-REQUEST - INFO - SESSION REQUEST INITIALIZED:
+	headers: {'user-agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2227.0 Safari/537.36', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive'}
+	proxies: {}
+	cookies: <RequestsCookieJar[]>
+	client side SSL cert: None
+	can't be used to disable SSL certificate checks: True
+	additional URL query params: {}
+

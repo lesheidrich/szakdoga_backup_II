@@ -3,9 +3,19 @@ import re
 import requests
 import time
 from fake_user_agent import user_agent
+from requests import HTTPError
+from selenium.common import TimeoutException
+from selenium.webdriver import ActionChains
+
 from log.logger import Logger
 from webscraper.proxy.proxy_handler import ProxyHandler
 from typing import Literal
+
+from selenium import webdriver
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
+from selenium.webdriver.common.by import By
+# from webdriver_manager.chrome import ChromeDriverManager
 
 """
 content/result provider
@@ -133,31 +143,151 @@ class ContentProvider:
         self.session_manager = SessionManager(proxy, log_name_decorator)
 
     def request_sauce(self, url: str) -> requests.Response:
+        response = self.session_manager.session.get(url)
+        response.raise_for_status()
+
+        return response
+
+    def firefox_webdriver_save_html(self, url: str):
+        driver = webdriver.Firefox()
+        driver.get(url)
+        wait = WebDriverWait(driver, 90)  # Set the maximum waiting time to 90 seconds or more
+
         try:
-            print("trying")
-            response = self.session_manager.session.get(url)
-            response.raise_for_status()
+            wait.until(EC.presence_of_element_located((By.TAG_NAME, 'body')))
 
-            return response
-        except HttpRequestError as e:
-            self.session_manager.log.warning(f"Failed to connect to proxy {self.session_manager.proxy}. {e}")
+            first_div = driver.find_element(By.XPATH, '//body//div[1]')
+            action_chains = ActionChains(driver)
+            action_chains.move_to_element(first_div).perform()
+            html_content = driver.page_source
+        except TimeoutException as e:
+            print(f"Page failed to load within alotted timespan: {e}")
+        finally:
+            driver.quit()
+            return html_content
 
-    def selenium_save_html(self):
-        pass
+    def edge_webdriver_save_html(self, url: str):
+        # Specify the path to the Microsoft Edge WebDriver executable
+        edge_driver_path = '/path/to/msedgedriver'
+
+        # Initialize Microsoft Edge WebDriver
+        driver = webdriver.Edge()
+        driver.get(url)
+
+        wait = WebDriverWait(driver, 90)  # Set the maximum waiting time to 90 seconds or more
+
+        try:
+            # Wait for the presence of the 'body' tag
+            wait.until(EC.presence_of_element_located((By.TAG_NAME, 'body')))
+
+            # Find the first div inside the body
+            first_div = driver.find_element(By.XPATH, '//body//div[1]')
+
+            # Move the mouse to the first div
+            action_chains = webdriver.ActionChains(driver)
+            action_chains.move_to_element(first_div).perform()
+
+            # Capture HTML content after mouse movement
+            html_content = driver.page_source
+
+            # Uncomment the following lines to save HTML content to a file
+            # with open("website.html", "w", encoding="utf-8") as file:
+            #     file.write(html_content)
+
+        except Exception as e:
+            print(f"An error occurred: {e}")
+
+        finally:
+            driver.quit()
+            return html_content
+
+    def chrome_webdriver_save_html(self, url: str):
+        # Specify the path to the ChromeDriver executable
+        chrome_driver_path = 'C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe'
+
+        # Initialize Chrome WebDriver
+        driver = webdriver.Chrome()
+        driver.get(url)
+
+        wait = WebDriverWait(driver, 90)  # Set the maximum waiting time to 90 seconds or more
+
+        try:
+            # Wait for the presence of the 'body' tag
+            wait.until(EC.presence_of_element_located((By.TAG_NAME, 'body')))
+
+            # Find the first div inside the body
+            first_div = driver.find_element(By.XPATH, '//body//div[1]')
+
+            # Move the mouse to the first div
+            action_chains = webdriver.ActionChains(driver)
+            action_chains.move_to_element(first_div).perform()
+
+            # Capture HTML content after mouse movement
+            html_content = driver.page_source
+
+            # Uncomment the following lines to save HTML content to a file
+            # with open("website.html", "w", encoding="utf-8") as file:
+            #     file.write(html_content)
+
+        except Exception as e:
+            print(f"An error occurred: {e}")
+
+        finally:
+            driver.quit()
+            return html_content
+
+    def safari_webdriver_save_html(self, url: str):
+        # Initialize Safari WebDriver
+        driver = webdriver.Safari()
+        driver.get(url)
+
+        wait = WebDriverWait(driver, 90)  # Set the maximum waiting time to 90 seconds or more
+
+        try:
+            # Wait for the presence of the 'body' tag
+            wait.until(EC.presence_of_element_located((By.TAG_NAME, 'body')))
+
+            # Find the first div inside the body
+            first_div = driver.find_element(By.XPATH, '//body//div[1]')
+
+            # Move the mouse to the first div (Safari doesn't support mouse movements)
+
+            # Capture HTML content after mouse movement
+            html_content = driver.page_source
+
+            # Uncomment the following lines to save HTML content to a file
+            # with open("website.html", "w", encoding="utf-8") as file:
+            #     file.write(html_content)
+
+        except Exception as e:
+            print(f"An error occurred: {e}")
+
+        finally:
+            driver.quit()
+            return html_content
 
 
-class HttpRequestError(Exception):
-    def __init__(self, response):
-        self.response = response
-        self.message = f"Request to {self.response.url} failed!" \
-                       f"\n- status code: {self.response.status_code} " \
-                       f"\n- time elapsed: {self.response.elapsed}" \
-                       f"\n- response header: {self.response.headers}"
-        super().__init__(self.message)
+# class HttpRequestError(Exception):
+#     def __init__(self, response):
+#         print("initializing")
+#         self.response = response
+#         self.message = f"Request to {self.response.url} failed!" \
+#                        f"\n- status code: {self.response.status_code} " \
+#                        f"\n- time elapsed: {self.response.elapsed}" \
+#                        f"\n- response header: {self.response.headers}"
+#         super().__init__(self.message)
+#
+#     def __str__(self):
+#         print("printing")
+#         return self.message
 
-    def __str__(self):
-        return self.message
 
+# except HTTPError as e:
+#     self.session_manager.log.error(f"HTTP Error! Request to {url} failed!"
+#                                    f"\n- status code: {e.response.status_code} "
+#                                    f"\n- time elapsed: {e.response.elapsed}"
+#                                    f"\n- response header: {e.response.headers}"
+#                                    f"\n- message: {e}")
 
 """
 Client Errors (4xx):
