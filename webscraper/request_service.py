@@ -3,27 +3,14 @@ import re
 import requests
 import time
 from fake_user_agent import user_agent
-from scraper.proxy.proxy_handler import ProxyHandler
+from webscraper.proxy.proxy_handler import ProxyHandler
 from typing import Literal
 
 """
-toolskit
-    - new header
-    - random delay
-    - generate proxy list
-    - next proxy in proxy list
-    - selenium.move_mouse
-
-setup / request setup
-    - reqest setup
-        - add header -> session.headers.update(self.new_header())
-        - add proxy -> if proxy:
-                          session.proxies.update(a)
-                          session.proxies.update({'http': proxy, 'https': proxy})
-
 content/result provider
     - request.get
     - selenium.savehtml
+            -> move mouse in here
     
 parse -> scrapeservice -> bs4 get all the shit from website and put it together into df
                           (maybe with DTO)
@@ -31,21 +18,6 @@ parse -> scrapeservice -> bs4 get all the shit from website and put it together 
 
 # add log and log error as well
 # put get number of pages here as well (unless there's a way to build it into it)
-
-# def new_proxy(self):
-#     try:
-#         try:  # get next proxy
-#             l = [5]
-#             print(l.pop(0))
-#             print(l)
-#         except IndexError:
-#             print(None)
-#         return {  # load next proxy
-#             'http': f"{self.current_proxy}",
-#             'https': f"{self.current_proxy}"
-#         }
-#     except IndexError as e:
-#         return None
 
 
 class Toolkit:
@@ -73,9 +45,6 @@ class Toolkit:
     def random_delay(self, min_sec: float = 1.0, max_sec: float = 5.0) -> None:
         delay = random.uniform(min_sec, max_sec)
         time.sleep(delay)
-
-    def move_mouse(self) -> None:
-        pass
 
 
 class SessionManager:

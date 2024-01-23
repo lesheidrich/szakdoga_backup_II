@@ -2,8 +2,8 @@ import os
 import re
 from datetime import datetime
 from log.logger import Logger
-from scraper.proxy.proxy_handler import ProxyHandler
-from scraper.webscraper import ContentProvider
+from webscraper.proxy.proxy_handler import ProxyHandler
+from webscraper.request_service import ContentProvider
 from secrets import PROJECT_FOLDER
 
 if __name__ == "__main__":

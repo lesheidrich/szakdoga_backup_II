@@ -27,7 +27,7 @@ import unittest
 from unittest.mock import patch, Mock
 import secrets
 import requests
-from scraper.proxy.proxy_handler import ProxyHandler
+from webscraper.proxy.proxy_handler import ProxyHandler
 
 
 class TestProxyHandler(unittest.TestCase):
@@ -63,7 +63,7 @@ class TestProxyHandler(unittest.TestCase):
         :return: None
         """
         test_path = self.handler._build_path("proxies_test.csv")
-        absolute_path = secrets.get_project_folder() + "\\scraper\\proxy\\proxies_test.csv"
+        absolute_path = secrets.get_project_folder() + "\\webscraper\\proxy\\proxies_test.csv"
         self.assertEqual(absolute_path, test_path)
 
     def test_absolute_build_path(self):
@@ -71,7 +71,7 @@ class TestProxyHandler(unittest.TestCase):
         Ensures _build_path() returns correct absolute path for absolute path input.
         :return: None
         """
-        absolute_path = secrets.get_project_folder() + "\\scraper\\proxy\\proxies_test.csv"
+        absolute_path = secrets.get_project_folder() + "\\webscraper\\proxy\\proxies_test.csv"
         test_path = self.handler._build_path(absolute_path)
         self.assertEqual(absolute_path, test_path)
 
@@ -82,7 +82,7 @@ class TestProxyHandler(unittest.TestCase):
         """
         self.assertIn("103.84.134.1:1080", self.handler.proxies)
 
-    @patch('scraper.proxy.proxy_handler.requests.get')
+    @patch('webscraper.proxy.proxy_handler.requests.get')
     def test_handle_proxy_success(self, mock_requests_get):
         """
         Tests successful run of handle_proxy() with mock data.
@@ -96,7 +96,7 @@ class TestProxyHandler(unittest.TestCase):
         result = self.handler.handle_proxy("unit_test_ip")
         self.assertEqual(result, "unit_test_ip")
 
-    @patch('scraper.proxy.proxy_handler.requests.get')
+    @patch('webscraper.proxy.proxy_handler.requests.get')
     def test_handle_proxy_failure(self, mock_requests_get):
         """
         Ensures RequestException Error is thrown and handled properly in handle_proxy()
