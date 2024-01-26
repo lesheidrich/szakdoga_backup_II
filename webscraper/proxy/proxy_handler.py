@@ -141,7 +141,8 @@ class ProxyHandler:
             res = requests.get(self.test_url, proxies=proxies, timeout=1)
             response_txt = res.text
 
-            if res.status_code == 200 and 0 < len(response_txt) < 22:
+            # if res.status_code == 200 and 0 < len(response_txt) < 22:
+            if res.status_code == 200 and proxy_address.split(":")[0] in response_txt:
                 # weed out html res to unset ubuntu servers
                 self.log.info(
                     f"Proxy check succeeded\nIP: {proxy_address}\nStatus Code: {res.status_code}"

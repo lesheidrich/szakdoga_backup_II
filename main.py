@@ -5,6 +5,9 @@ import subprocess
 from datetime import datetime
 from pprint import pprint
 
+import requests
+from selenium.common import NoSuchDriverException
+
 from log.logger import Logger
 from webscraper.proxy.proxy_handler import ProxyHandler
 from webscraper.request_service import ContentProvider
@@ -15,73 +18,10 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.common.by import By
 
+
 if __name__ == "__main__":
     url = "https://pythonprogramming.net/parsememcparseface/"
     urlb = "https://basketball.realgm.com/nba/teams/Boston-Celtics/2/individual-games/2006/points/Regular_Season/desc/7"
-
-
-
-
-
-    # # MIGHT WORK FOR ALL OS - INSTALL FIREFOX
-    # import os
-    # import platform
-    # import subprocess
-    # import urllib.request
-    #
-    #
-    # def is_firefox_installed():
-    #     try:
-    #         subprocess.run(["where", "firefox"], check=True, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
-    #         return True
-    #     except subprocess.CalledProcessError:
-    #         return False
-    #
-    #
-    # def install_firefox():
-    #     try:
-    #         system = platform.system().lower()
-    #         if system == "linux":
-    #             # Use the appropriate package manager command for your system
-    #             # For example, on Ubuntu/Debian-based systems:
-    #             subprocess.run(["sudo", "apt-get", "install", "firefox", "-y"], check=True)
-    #
-    #         elif system == "darwin":
-    #             # Use Homebrew to install Firefox on macOS
-    #             subprocess.run(["brew", "install", "firefox"], check=True)
-    #
-    #         elif system == "windows":
-    #             # Download the Firefox installer
-    #             url = "https://download.mozilla.org/?product=firefox-latest&os=win64&lang=en-US"
-    #             installer_path = "firefox_installer.exe"
-    #
-    #             urllib.request.urlretrieve(url, installer_path)
-    #
-    #             # Run the installer silently
-    #             subprocess.run([installer_path, "/S"], check=True)
-    #
-    #             # Clean up the installer
-    #             os.remove(installer_path)
-    #
-    #         else:
-    #             print(f"Unsupported operating system: {system}")
-    #             return
-    #
-    #         print("Firefox installed successfully.")
-    #     except subprocess.CalledProcessError as e:
-    #         print(f"Failed to install Firefox: {e}")
-    #
-    #
-    # if __name__ == "__main__":
-    #     if not is_firefox_installed():
-    #         install_firefox()
-    #     else:
-    #         print("Firefox is already installed.")
-
-
-
-
-
 
 
 
@@ -102,106 +42,6 @@ if __name__ == "__main__":
     #     # Your Windows-specific code here
     # else:
     #     print(f"Unsupported operating system: {os_type}")
-
-
-
-    # INSTALL FOR LINUX
-    # import sh
-    # def install_firefox():
-    #     try:
-    #         # Use the appropriate package manager command for your system
-    #         # For example, on Ubuntu/Debian-based systems:
-    #         sh.sudo("apt-get", "install", "firefox", "-y")
-    #         print("Firefox installed successfully.")
-    #     except sh.ErrorReturnCode as e:
-    #         print(f"Failed to install Firefox: {e}")
-    #
-    # if not is_firefox_installed():
-    #     install_firefox()
-    # else:
-    #     print("Firefox is already installed.")
-
-
-    ## INSTALL FOR MAC
-    # import sh
-    # import platform
-    # def is_firefox_installed():
-    #     try:
-    #         sh.which("firefox")
-    #         return True
-    #     except sh.ErrorReturnCode_1:
-    #         return False
-    # def install_firefox():
-    #     try:
-    #         system = platform.system().lower()
-    #         if system == "darwin":
-    #             # Use Homebrew to install Firefox on macOS
-    #             sh.brew("install", "firefox")
-    #         elif system == "linux":
-    #             # Use the appropriate package manager command for your Linux distribution
-    #             # For example, on Ubuntu/Debian-based systems:
-    #             sh.sudo("apt-get", "install", "firefox", "-y")
-    #         else:
-    #             print(f"Unsupported operating system: {system}")
-    #             return
-    #
-    #         print("Firefox installed successfully.")
-    #     except sh.ErrorReturnCode as e:
-    #         print(f"Failed to install Firefox: {e}")
-    #
-    # if not is_firefox_installed():
-    #     install_firefox()
-    # else:
-    #     print("Firefox is already installed.")
-
-
-
-
-
-
-    # # WIN INSTALL LINUX
-    # import os
-    # import platform
-    # import subprocess
-    # import urllib.request
-    # def is_firefox_installed():
-    #     try:
-    #         subprocess.run(["where", "firefox"], check=True)
-    #         return True
-    #     except subprocess.CalledProcessError:
-    #         return False
-    # def install_firefox():
-    #     try:
-    #         system = platform.system().lower()
-    #         if system == "windows":
-    #             # Download the Firefox installer
-    #             url = "https://download.mozilla.org/?product=firefox-latest&os=win64&lang=en-US"
-    #             installer_path = "firefox_installer.exe"
-    #
-    #             urllib.request.urlretrieve(url, installer_path)
-    #
-    #             # Run the installer
-    #             subprocess.run([installer_path], check=True)
-    #
-    #             # Clean up the installer
-    #             os.remove(installer_path)
-    #
-    #         else:
-    #             print(f"Unsupported operating system: {system}")
-    #             return
-    #
-    #         print("Firefox installed successfully.")
-    #     except subprocess.CalledProcessError as e:
-    #         print(f"Failed to install Firefox: {e}")
-    #
-    # if not is_firefox_installed():
-    #     install_firefox()
-    # else:
-    #     print("Firefox is already installed.")
-
-
-
-
 
 
 
@@ -253,24 +93,58 @@ if __name__ == "__main__":
 
 
 
+    # url = "https://whatismyipaddress.com/"
+    # url = "https://www.whatismyip.com/"
+    # url = "https://icanhazip.com/"
 
-
-    # ip1 = "192.168.0.1:02"
-    # ip2 = "not_an_ip_address"
+    # ip = "103.126.87.29"
+    # port = "8080"
+    # new_proxy_address = ip + ":" + port
     #
-    # # cp = ContentProvider("proxies_test.csv")
-    # # cp = ContentProvider(ip1)
-    cp = ContentProvider(None)
-    sm = cp.session_manager
+    #
+    #
+    cp = ContentProvider("proxies_test.csv")
+    # cp = ContentProvider(new_proxy_address)
+    # cp = ContentProvider(None)
+    # sm = cp.session_manager
     # sm_session = sm.session
+    #
+    # proxy_amount = 1
+    # while proxy_amount > 0:
+    #     # new_proxy = sm.proxy_list.pop(0)
+    #     # [print(k, v) for k, v in sm.session.proxies.items()]
+    #     proxy = sm.proxy_list.pop()
+    #     proxy_amount = len(sm.proxy_list)
+    #     print("popped proxy: ", proxy)
+    #     proxy_dict = sm.proxy_str_to_dict(proxy)
+    #     try:
+    #         # soup = cp.chrome_webdriver_save_html(url, new_proxy)
+    #         # pprint(soup)
+    #
+    #         response = requests.get(url, proxies=proxy_dict)
+    #         print(response.status_code)
+    #
+    #         sm.load_fixed_proxy(proxy)
+    #         response_cp = cp.request_sauce(url)
+    #         print(response_cp.status_code)
+    #
+    #     except Exception:
+    #         print("nope: ", proxy)
 
-    soup = cp.firefox_webdriver_save_html(urlb)
-    # soup = cp.chrome_webdriver_save_html(urlb)
-    # soup = cp.edge_webdriver_save_html(urlb)
-    # soup = cp.safari_webdriver_save_html(urlb)
-    # For edge and safari check the system and use the one that matches
 
-    pprint(soup)
+
+
+
+
+    # try:
+    #     # soup = cp.firefox_webdriver_save_html(urlb)
+    #     soup = cp.chrome_webdriver_save_html(url)
+    #     # soup = cp.edge_webdriver_save_html(urlb)
+    #     # soup = cp.safari_webdriver_save_html(urlb)
+    #     # For edge and safari check the system and use the one that matches
+    # except NoSuchDriverException as e:
+    #     print("Not installed")
+    # pprint(soup)
 
     # try:
     #     response = cp.request_sauce(url)

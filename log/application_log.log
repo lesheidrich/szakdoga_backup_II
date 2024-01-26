@@ -798,3 +798,1778 @@
 	can't be used to disable SSL certificate checks: True
 	additional URL query params: {}
 
+2024-01-24 13:18:09,956 - WEBSCRAPER-REQUEST - INFO - SESSION REQUEST INITIALIZED:
+	headers: {'user-agent': 'Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML like Gecko) Chrome/44.0.2403.155 Safari/537.36', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive'}
+	proxies: {}
+	cookies: <RequestsCookieJar[]>
+	client side SSL cert: None
+	can't be used to disable SSL certificate checks: True
+	additional URL query params: {}
+
+2024-01-24 13:21:29,137 - WEBSCRAPER-REQUEST - INFO - SESSION REQUEST INITIALIZED:
+	headers: {'user-agent': 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:29.0) Gecko/20120101 Firefox/29.0', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive'}
+	proxies: {}
+	cookies: <RequestsCookieJar[]>
+	client side SSL cert: None
+	can't be used to disable SSL certificate checks: True
+	additional URL query params: {}
+
+2024-01-24 13:23:21,995 - WEBSCRAPER-REQUEST - INFO - SESSION REQUEST INITIALIZED:
+	headers: {'user-agent': 'Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2224.3 Safari/537.36', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive'}
+	proxies: {}
+	cookies: <RequestsCookieJar[]>
+	client side SSL cert: None
+	can't be used to disable SSL certificate checks: True
+	additional URL query params: {}
+
+2024-01-24 13:48:53,664 - WEBSCRAPER-REQUEST - INFO - SESSION REQUEST INITIALIZED:
+	headers: {'user-agent': 'Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML like Gecko) Chrome/44.0.2403.155 Safari/537.36', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive'}
+	proxies: {}
+	cookies: <RequestsCookieJar[]>
+	client side SSL cert: None
+	can't be used to disable SSL certificate checks: True
+	additional URL query params: {}
+
+2024-01-24 14:17:27,979 - WEBSCRAPER-REQUEST - INFO - SESSION REQUEST INITIALIZED:
+	headers: {'user-agent': 'Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.8810.3391 Safari/537.36 Edge/18.14383', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive'}
+	proxies: {}
+	cookies: <RequestsCookieJar[]>
+	client side SSL cert: None
+	can't be used to disable SSL certificate checks: True
+	additional URL query params: {}
+
+2024-01-24 14:19:00,611 - WEBSCRAPER-REQUEST - INFO - SESSION REQUEST INITIALIZED:
+	headers: {'user-agent': 'Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/27.0.1500.55 Safari/537.36', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive'}
+	proxies: {}
+	cookies: <RequestsCookieJar[]>
+	client side SSL cert: None
+	can't be used to disable SSL certificate checks: True
+	additional URL query params: {}
+
+2024-01-24 14:29:23,651 - WEBSCRAPER-REQUEST - INFO - SESSION REQUEST INITIALIZED:
+	headers: {'user-agent': 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2228.0 Safari/537.36', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive'}
+	proxies: {}
+	cookies: <RequestsCookieJar[]>
+	client side SSL cert: None
+	can't be used to disable SSL certificate checks: True
+	additional URL query params: {}
+
+2024-01-24 14:29:50,249 - WEBSCRAPER-REQUEST - INFO - SESSION REQUEST INITIALIZED:
+	headers: {'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2227.1 Safari/537.36', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive'}
+	proxies: {}
+	cookies: <RequestsCookieJar[]>
+	client side SSL cert: None
+	can't be used to disable SSL certificate checks: True
+	additional URL query params: {}
+
+2024-01-24 14:30:50,700 - WEBSCRAPER-REQUEST - INFO - SESSION REQUEST INITIALIZED:
+	headers: {'user-agent': 'Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive'}
+	proxies: {}
+	cookies: <RequestsCookieJar[]>
+	client side SSL cert: None
+	can't be used to disable SSL certificate checks: True
+	additional URL query params: {}
+
+2024-01-24 14:32:52,244 - WEBSCRAPER-REQUEST - INFO - SESSION REQUEST INITIALIZED:
+	headers: {'user-agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2227.0 Safari/537.36', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive'}
+	proxies: {}
+	cookies: <RequestsCookieJar[]>
+	client side SSL cert: None
+	can't be used to disable SSL certificate checks: True
+	additional URL query params: {}
+
+2024-01-24 14:34:07,613 - WEBSCRAPER-REQUEST - INFO - SESSION REQUEST INITIALIZED:
+	headers: {'user-agent': 'Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.16 Safari/537.36', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive'}
+	proxies: {}
+	cookies: <RequestsCookieJar[]>
+	client side SSL cert: None
+	can't be used to disable SSL certificate checks: True
+	additional URL query params: {}
+
+2024-01-24 14:35:09,156 - WEBSCRAPER-REQUEST - INFO - SESSION REQUEST INITIALIZED:
+	headers: {'user-agent': 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1623.0 Safari/537.36', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive'}
+	proxies: {}
+	cookies: <RequestsCookieJar[]>
+	client side SSL cert: None
+	can't be used to disable SSL certificate checks: True
+	additional URL query params: {}
+
+2024-01-24 14:37:17,924 - WEBSCRAPER-REQUEST - INFO - SESSION REQUEST INITIALIZED:
+	headers: {'user-agent': 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2049.0 Safari/537.36', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive'}
+	proxies: {}
+	cookies: <RequestsCookieJar[]>
+	client side SSL cert: None
+	can't be used to disable SSL certificate checks: True
+	additional URL query params: {}
+
+2024-01-24 15:33:38,738 - WEBSCRAPER-REQUEST - INFO - SESSION REQUEST INITIALIZED:
+	headers: {'user-agent': 'Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/28.0.1464.0 Safari/537.36', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive'}
+	proxies: {}
+	cookies: <RequestsCookieJar[]>
+	client side SSL cert: None
+	can't be used to disable SSL certificate checks: True
+	additional URL query params: {}
+
+2024-01-24 15:33:53,722 - WEBSCRAPER-REQUEST - INFO - SESSION REQUEST INITIALIZED:
+	headers: {'user-agent': 'Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/34.0.1847.116 Safari/537.36 Mozilla/5.0 (iPad; U; CPU OS 3_2 like Mac OS X; en-us) AppleWebKit/531.21.10 (KHTML, like Gecko) Version/4.0.4 Mobile/7B334b Safari/531.21.10', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive'}
+	proxies: {}
+	cookies: <RequestsCookieJar[]>
+	client side SSL cert: None
+	can't be used to disable SSL certificate checks: True
+	additional URL query params: {}
+
+2024-01-24 15:34:53,098 - WEBSCRAPER-REQUEST - INFO - SESSION REQUEST INITIALIZED:
+	headers: {'user-agent': 'Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML like Gecko) Chrome/46.0.2486.0 Safari/537.36 Edge/13.9200', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive'}
+	proxies: {}
+	cookies: <RequestsCookieJar[]>
+	client side SSL cert: None
+	can't be used to disable SSL certificate checks: True
+	additional URL query params: {}
+
+2024-01-24 15:35:52,097 - WEBSCRAPER-REQUEST - INFO - SESSION REQUEST INITIALIZED:
+	headers: {'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10; rv:33.0) Gecko/20100101 Firefox/33.0', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive'}
+	proxies: {}
+	cookies: <RequestsCookieJar[]>
+	client side SSL cert: None
+	can't be used to disable SSL certificate checks: True
+	additional URL query params: {}
+
+2024-01-24 15:51:37,383 - WEBSCRAPER-REQUEST - INFO - SESSION REQUEST INITIALIZED:
+	headers: {'user-agent': 'Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/35.0.3319.102 Safari/537.36', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive'}
+	proxies: {}
+	cookies: <RequestsCookieJar[]>
+	client side SSL cert: None
+	can't be used to disable SSL certificate checks: True
+	additional URL query params: {}
+
+2024-01-24 15:51:46,973 - WEBSCRAPER-REQUEST - INFO - SESSION REQUEST INITIALIZED:
+	headers: {'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2227.1 Safari/537.36', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive'}
+	proxies: {}
+	cookies: <RequestsCookieJar[]>
+	client side SSL cert: None
+	can't be used to disable SSL certificate checks: True
+	additional URL query params: {}
+
+2024-01-24 15:52:00,854 - WEBSCRAPER-REQUEST - INFO - SESSION REQUEST INITIALIZED:
+	headers: {'user-agent': 'Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/30.0.1599.17 Safari/537.36', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive'}
+	proxies: {}
+	cookies: <RequestsCookieJar[]>
+	client side SSL cert: None
+	can't be used to disable SSL certificate checks: True
+	additional URL query params: {}
+
+2024-01-24 15:52:47,967 - WEBSCRAPER-REQUEST - INFO - SESSION REQUEST INITIALIZED:
+	headers: {'user-agent': 'Opera/12.80 (Windows NT 5.1; U; en) Presto/2.10.289 Version/12.02', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive'}
+	proxies: {}
+	cookies: <RequestsCookieJar[]>
+	client side SSL cert: None
+	can't be used to disable SSL certificate checks: True
+	additional URL query params: {}
+
+2024-01-24 15:53:39,824 - WEBSCRAPER-REQUEST - INFO - SESSION REQUEST INITIALIZED:
+	headers: {'user-agent': 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2226.0 Safari/537.36', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive'}
+	proxies: {}
+	cookies: <RequestsCookieJar[]>
+	client side SSL cert: None
+	can't be used to disable SSL certificate checks: True
+	additional URL query params: {}
+
+2024-01-24 15:53:54,335 - WEBSCRAPER-REQUEST - INFO - SESSION REQUEST INITIALIZED:
+	headers: {'user-agent': 'Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.16 Safari/537.36', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive'}
+	proxies: {}
+	cookies: <RequestsCookieJar[]>
+	client side SSL cert: None
+	can't be used to disable SSL certificate checks: True
+	additional URL query params: {}
+
+2024-01-24 15:56:37,196 - WEBSCRAPER-REQUEST - INFO - SESSION REQUEST INITIALIZED:
+	headers: {'user-agent': 'Mozilla/5.0 (X11; CrOS i686 4319.74.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/29.0.1547.57 Safari/537.36', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive'}
+	proxies: {}
+	cookies: <RequestsCookieJar[]>
+	client side SSL cert: None
+	can't be used to disable SSL certificate checks: True
+	additional URL query params: {}
+
+2024-01-24 15:58:03,784 - WEBSCRAPER-REQUEST - INFO - SESSION REQUEST INITIALIZED:
+	headers: {'user-agent': 'Mozilla/5.0 (X11; Ubuntu; Linux i686 on x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2820.59 Safari/537.36', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive'}
+	proxies: {}
+	cookies: <RequestsCookieJar[]>
+	client side SSL cert: None
+	can't be used to disable SSL certificate checks: True
+	additional URL query params: {}
+
+2024-01-24 16:00:44,670 - WEBSCRAPER-REQUEST - INFO - SESSION REQUEST INITIALIZED:
+	headers: {'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2656.18 Safari/537.36', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive'}
+	proxies: {}
+	cookies: <RequestsCookieJar[]>
+	client side SSL cert: None
+	can't be used to disable SSL certificate checks: True
+	additional URL query params: {}
+
+2024-01-24 16:01:38,522 - WEBSCRAPER-REQUEST - INFO - SESSION REQUEST INITIALIZED:
+	headers: {'user-agent': 'Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_6_6; ja-jp) AppleWebKit/533.20.25 (KHTML, like Gecko) Version/5.0.4 Safari/533.20.27', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive'}
+	proxies: {}
+	cookies: <RequestsCookieJar[]>
+	client side SSL cert: None
+	can't be used to disable SSL certificate checks: True
+	additional URL query params: {}
+
+2024-01-24 16:23:02,486 - WEBSCRAPER-REQUEST - INFO - SESSION REQUEST INITIALIZED:
+	headers: {'user-agent': 'Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/30.0.1599.17 Safari/537.36', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive'}
+	proxies: {}
+	cookies: <RequestsCookieJar[]>
+	client side SSL cert: None
+	can't be used to disable SSL certificate checks: True
+	additional URL query params: {}
+
+2024-01-24 16:51:41,621 - WEBSCRAPER-REQUEST - INFO - SESSION REQUEST INITIALIZED:
+	headers: {'user-agent': 'Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.67 Safari/537.36', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive'}
+	proxies: {}
+	cookies: <RequestsCookieJar[]>
+	client side SSL cert: None
+	can't be used to disable SSL certificate checks: True
+	additional URL query params: {}
+
+2024-01-24 16:51:58,846 - WEBSCRAPER-REQUEST - INFO - SESSION REQUEST INITIALIZED:
+	headers: {'user-agent': 'Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/35.0.2117.157 Safari/537.36', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive'}
+	proxies: {}
+	cookies: <RequestsCookieJar[]>
+	client side SSL cert: None
+	can't be used to disable SSL certificate checks: True
+	additional URL query params: {}
+
+2024-01-24 16:56:58,744 - WEBSCRAPER-REQUEST - INFO - SESSION REQUEST INITIALIZED:
+	headers: {'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:61.0) Gecko/20100101 Firefox/73.0', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive'}
+	proxies: {}
+	cookies: <RequestsCookieJar[]>
+	client side SSL cert: None
+	can't be used to disable SSL certificate checks: True
+	additional URL query params: {}
+
+2024-01-24 16:57:22,161 - WEBSCRAPER-REQUEST - INFO - SESSION REQUEST INITIALIZED:
+	headers: {'user-agent': 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/28.0.1468.0 Safari/537.36', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive'}
+	proxies: {}
+	cookies: <RequestsCookieJar[]>
+	client side SSL cert: None
+	can't be used to disable SSL certificate checks: True
+	additional URL query params: {}
+
+2024-01-24 16:57:41,436 - WEBSCRAPER-REQUEST - INFO - SESSION REQUEST INITIALIZED:
+	headers: {'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1944.0 Safari/537.36', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive'}
+	proxies: {}
+	cookies: <RequestsCookieJar[]>
+	client side SSL cert: None
+	can't be used to disable SSL certificate checks: True
+	additional URL query params: {}
+
+2024-01-24 17:05:54,125 - WEBSCRAPER-REQUEST - INFO - SESSION REQUEST INITIALIZED:
+	headers: {'user-agent': 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/29.0.1547.62 Safari/537.36', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive'}
+	proxies: {}
+	cookies: <RequestsCookieJar[]>
+	client side SSL cert: None
+	can't be used to disable SSL certificate checks: True
+	additional URL query params: {}
+
+2024-01-24 17:06:30,752 - WEBSCRAPER-REQUEST - INFO - SESSION REQUEST INITIALIZED:
+	headers: {'user-agent': 'Opera/9.80 (Macintosh; Intel Mac OS X 10.6.8; U; fr) Presto/2.9.168 Version/11.52', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive'}
+	proxies: {}
+	cookies: <RequestsCookieJar[]>
+	client side SSL cert: None
+	can't be used to disable SSL certificate checks: True
+	additional URL query params: {}
+
+2024-01-24 17:09:39,885 - WEBSCRAPER-REQUEST - INFO - SESSION REQUEST INITIALIZED:
+	headers: {'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive'}
+	proxies: {}
+	cookies: <RequestsCookieJar[]>
+	client side SSL cert: None
+	can't be used to disable SSL certificate checks: True
+	additional URL query params: {}
+
+2024-01-24 17:09:50,723 - WEBSCRAPER-REQUEST - INFO - SESSION REQUEST INITIALIZED:
+	headers: {'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Firefox/58.0.1', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive'}
+	proxies: {}
+	cookies: <RequestsCookieJar[]>
+	client side SSL cert: None
+	can't be used to disable SSL certificate checks: True
+	additional URL query params: {}
+
+2024-01-24 17:10:09,582 - WEBSCRAPER-REQUEST - INFO - SESSION REQUEST INITIALIZED:
+	headers: {'user-agent': 'Mozilla/5.0 (Windows; U; Windows NT 6.0; fr-FR) AppleWebKit/533.18.1 (KHTML, like Gecko) Version/5.0.2 Safari/533.18.5', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive'}
+	proxies: {}
+	cookies: <RequestsCookieJar[]>
+	client side SSL cert: None
+	can't be used to disable SSL certificate checks: True
+	additional URL query params: {}
+
+2024-01-24 17:10:18,248 - WEBSCRAPER-REQUEST - INFO - SESSION REQUEST INITIALIZED:
+	headers: {'user-agent': 'Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/30.0.1599.17 Safari/537.36', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive'}
+	proxies: {}
+	cookies: <RequestsCookieJar[]>
+	client side SSL cert: None
+	can't be used to disable SSL certificate checks: True
+	additional URL query params: {}
+
+2024-01-24 17:10:24,115 - WEBSCRAPER-REQUEST - INFO - SESSION REQUEST INITIALIZED:
+	headers: {'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive'}
+	proxies: {}
+	cookies: <RequestsCookieJar[]>
+	client side SSL cert: None
+	can't be used to disable SSL certificate checks: True
+	additional URL query params: {}
+
+2024-01-24 17:10:39,864 - WEBSCRAPER-REQUEST - INFO - SESSION REQUEST INITIALIZED:
+	headers: {'user-agent': 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2049.0 Safari/537.36', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive'}
+	proxies: {}
+	cookies: <RequestsCookieJar[]>
+	client side SSL cert: None
+	can't be used to disable SSL certificate checks: True
+	additional URL query params: {}
+
+2024-01-24 17:10:44,930 - WEBSCRAPER-REQUEST - INFO - SESSION REQUEST INITIALIZED:
+	headers: {'user-agent': 'Mozilla/5.0 (Windows NT 6.3; WOW64; rv:71.0) Gecko/20100101 Firefox/71.0', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive'}
+	proxies: {}
+	cookies: <RequestsCookieJar[]>
+	client side SSL cert: None
+	can't be used to disable SSL certificate checks: True
+	additional URL query params: {}
+
+2024-01-24 17:49:03,037 - WEBSCRAPER-REQUEST - INFO - SESSION REQUEST INITIALIZED:
+	headers: {'user-agent': 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.67 Safari/537.36', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive'}
+	proxies: {}
+	cookies: <RequestsCookieJar[]>
+	client side SSL cert: None
+	can't be used to disable SSL certificate checks: True
+	additional URL query params: {}
+
+2024-01-24 17:51:27,283 - WEBSCRAPER-REQUEST - INFO - SESSION REQUEST INITIALIZED:
+	headers: {'user-agent': 'Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.67 Safari/537.36', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive'}
+	proxies: {}
+	cookies: <RequestsCookieJar[]>
+	client side SSL cert: None
+	can't be used to disable SSL certificate checks: True
+	additional URL query params: {}
+
+2024-01-24 17:53:12,820 - WEBSCRAPER-REQUEST - INFO - SESSION REQUEST INITIALIZED:
+	headers: {'user-agent': 'Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.67 Safari/537.36', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive'}
+	proxies: {}
+	cookies: <RequestsCookieJar[]>
+	client side SSL cert: None
+	can't be used to disable SSL certificate checks: True
+	additional URL query params: {}
+
+2024-01-24 17:55:31,995 - WEBSCRAPER-REQUEST - INFO - SESSION REQUEST INITIALIZED:
+	headers: {'user-agent': 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.67 Safari/537.36', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive'}
+	proxies: {}
+	cookies: <RequestsCookieJar[]>
+	client side SSL cert: None
+	can't be used to disable SSL certificate checks: True
+	additional URL query params: {}
+
+2024-01-24 17:55:55,282 - WEBSCRAPER-REQUEST - INFO - SESSION REQUEST INITIALIZED:
+	headers: {'user-agent': 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:46.0) Gecko/20120121 Firefox/46.0', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive'}
+	proxies: {}
+	cookies: <RequestsCookieJar[]>
+	client side SSL cert: None
+	can't be used to disable SSL certificate checks: True
+	additional URL query params: {}
+
+2024-01-24 18:16:39,090 - WEBSCRAPER-REQUEST - INFO - SESSION REQUEST INITIALIZED:
+	headers: {'user-agent': 'Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.8810.3391 Safari/537.36 Edge/18.14383', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive'}
+	proxies: {}
+	cookies: <RequestsCookieJar[]>
+	client side SSL cert: None
+	can't be used to disable SSL certificate checks: True
+	additional URL query params: {}
+
+2024-01-24 18:25:12,482 - WEBSCRAPER-REQUEST - INFO - SESSION REQUEST INITIALIZED:
+	headers: {'user-agent': 'Mozilla/5.0 (Windows NT 6.4; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2225.0 Safari/537.36', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive'}
+	proxies: {}
+	cookies: <RequestsCookieJar[]>
+	client side SSL cert: None
+	can't be used to disable SSL certificate checks: True
+	additional URL query params: {}
+
+2024-01-24 18:26:54,697 - WEBSCRAPER-REQUEST - INFO - SESSION REQUEST INITIALIZED:
+	headers: {'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.5112.79 Safari/537.36', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive'}
+	proxies: {}
+	cookies: <RequestsCookieJar[]>
+	client side SSL cert: None
+	can't be used to disable SSL certificate checks: True
+	additional URL query params: {}
+
+2024-01-24 18:27:22,108 - WEBSCRAPER-REQUEST - INFO - SESSION REQUEST INITIALIZED:
+	headers: {'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive'}
+	proxies: {}
+	cookies: <RequestsCookieJar[]>
+	client side SSL cert: None
+	can't be used to disable SSL certificate checks: True
+	additional URL query params: {}
+
+2024-01-24 18:28:49,839 - WEBSCRAPER-REQUEST - INFO - SESSION REQUEST INITIALIZED:
+	headers: {'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2656.18 Safari/537.36', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive'}
+	proxies: {}
+	cookies: <RequestsCookieJar[]>
+	client side SSL cert: None
+	can't be used to disable SSL certificate checks: True
+	additional URL query params: {}
+
+2024-01-24 18:36:40,656 - WEBSCRAPER-REQUEST - INFO - SESSION REQUEST INITIALIZED:
+	headers: {'user-agent': 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:46.0) Gecko/20120121 Firefox/46.0', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive'}
+	proxies: {}
+	cookies: <RequestsCookieJar[]>
+	client side SSL cert: None
+	can't be used to disable SSL certificate checks: True
+	additional URL query params: {}
+
+2024-01-24 18:37:00,008 - WEBSCRAPER-REQUEST - INFO - SESSION REQUEST INITIALIZED:
+	headers: {'user-agent': 'Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/28.0.1467.0 Safari/537.36', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive'}
+	proxies: {}
+	cookies: <RequestsCookieJar[]>
+	client side SSL cert: None
+	can't be used to disable SSL certificate checks: True
+	additional URL query params: {}
+
+2024-01-24 18:38:42,286 - WEBSCRAPER-REQUEST - INFO - SESSION REQUEST INITIALIZED:
+	headers: {'user-agent': 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2227.0 Safari/537.36', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive'}
+	proxies: {}
+	cookies: <RequestsCookieJar[]>
+	client side SSL cert: None
+	can't be used to disable SSL certificate checks: True
+	additional URL query params: {}
+
+2024-01-24 18:39:26,799 - WEBSCRAPER-REQUEST - INFO - SESSION REQUEST INITIALIZED:
+	headers: {'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.5112.79 Safari/537.36', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive'}
+	proxies: {}
+	cookies: <RequestsCookieJar[]>
+	client side SSL cert: None
+	can't be used to disable SSL certificate checks: True
+	additional URL query params: {}
+
+2024-01-24 18:41:10,184 - WEBSCRAPER-REQUEST - INFO - SESSION REQUEST INITIALIZED:
+	headers: {'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2762.73 Safari/537.36', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive'}
+	proxies: {}
+	cookies: <RequestsCookieJar[]>
+	client side SSL cert: None
+	can't be used to disable SSL certificate checks: True
+	additional URL query params: {}
+
+2024-01-24 18:42:07,852 - WEBSCRAPER-REQUEST - INFO - SESSION REQUEST INITIALIZED:
+	headers: {'user-agent': 'Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML like Gecko) Chrome/46.0.2486.0 Safari/537.36 Edge/13.9200', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive'}
+	proxies: {}
+	cookies: <RequestsCookieJar[]>
+	client side SSL cert: None
+	can't be used to disable SSL certificate checks: True
+	additional URL query params: {}
+
+2024-01-24 18:43:06,651 - WEBSCRAPER-REQUEST - INFO - SESSION REQUEST INITIALIZED:
+	headers: {'user-agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.517 Safari/537.36', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive'}
+	proxies: {}
+	cookies: <RequestsCookieJar[]>
+	client side SSL cert: None
+	can't be used to disable SSL certificate checks: True
+	additional URL query params: {}
+
+2024-01-24 18:43:45,516 - WEBSCRAPER-REQUEST - INFO - SESSION REQUEST INITIALIZED:
+	headers: {'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36 Edge/12.246', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive'}
+	proxies: {}
+	cookies: <RequestsCookieJar[]>
+	client side SSL cert: None
+	can't be used to disable SSL certificate checks: True
+	additional URL query params: {}
+
+2024-01-24 18:44:37,557 - WEBSCRAPER-REQUEST - INFO - SESSION REQUEST INITIALIZED:
+	headers: {'user-agent': 'Mozilla/5.0 (X11; Linux i586; rv:31.0) Gecko/20100101 Firefox/31.0', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive'}
+	proxies: {}
+	cookies: <RequestsCookieJar[]>
+	client side SSL cert: None
+	can't be used to disable SSL certificate checks: True
+	additional URL query params: {}
+
+2024-01-24 18:45:21,010 - WEBSCRAPER-REQUEST - INFO - SESSION REQUEST INITIALIZED:
+	headers: {'user-agent': 'Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_6_7; da-dk) AppleWebKit/533.21.1 (KHTML, like Gecko) Version/5.0.5 Safari/533.21.1', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive'}
+	proxies: {}
+	cookies: <RequestsCookieJar[]>
+	client side SSL cert: None
+	can't be used to disable SSL certificate checks: True
+	additional URL query params: {}
+
+2024-01-24 18:52:02,958 - WEBSCRAPER-REQUEST - INFO - SESSION REQUEST INITIALIZED:
+	headers: {'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.124 Safari/537.36', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive'}
+	proxies: {}
+	cookies: <RequestsCookieJar[]>
+	client side SSL cert: None
+	can't be used to disable SSL certificate checks: True
+	additional URL query params: {}
+
+2024-01-24 18:53:13,311 - WEBSCRAPER-REQUEST - INFO - SESSION REQUEST INITIALIZED:
+	headers: {'user-agent': 'Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/28.0.1467.0 Safari/537.36', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive'}
+	proxies: {}
+	cookies: <RequestsCookieJar[]>
+	client side SSL cert: None
+	can't be used to disable SSL certificate checks: True
+	additional URL query params: {}
+
+2024-01-24 18:56:09,817 - WEBSCRAPER-REQUEST - INFO - SESSION REQUEST INITIALIZED:
+	headers: {'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/32.0.1664.3 Safari/537.36', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive'}
+	proxies: {}
+	cookies: <RequestsCookieJar[]>
+	client side SSL cert: None
+	can't be used to disable SSL certificate checks: True
+	additional URL query params: {}
+
+2024-01-24 18:57:34,417 - WEBSCRAPER-REQUEST - INFO - SESSION REQUEST INITIALIZED:
+	headers: {'user-agent': 'Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/34.0.1866.237 Safari/537.36', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive'}
+	proxies: {}
+	cookies: <RequestsCookieJar[]>
+	client side SSL cert: None
+	can't be used to disable SSL certificate checks: True
+	additional URL query params: {}
+
+2024-01-24 18:58:27,189 - WEBSCRAPER-REQUEST - INFO - SESSION REQUEST INITIALIZED:
+	headers: {'user-agent': 'Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/27.0.1453.93 Safari/537.36', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive'}
+	proxies: {}
+	cookies: <RequestsCookieJar[]>
+	client side SSL cert: None
+	can't be used to disable SSL certificate checks: True
+	additional URL query params: {}
+
+2024-01-24 18:59:42,115 - WEBSCRAPER-REQUEST - INFO - SESSION REQUEST INITIALIZED:
+	headers: {'user-agent': 'Mozilla/5.0 (Windows NT 4.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2049.0 Safari/537.36', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive'}
+	proxies: {}
+	cookies: <RequestsCookieJar[]>
+	client side SSL cert: None
+	can't be used to disable SSL certificate checks: True
+	additional URL query params: {}
+
+2024-01-24 19:09:32,548 - WEBSCRAPER-REQUEST - INFO - SESSION REQUEST INITIALIZED:
+	headers: {'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1944.0 Safari/537.36', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive'}
+	proxies: {}
+	cookies: <RequestsCookieJar[]>
+	client side SSL cert: None
+	can't be used to disable SSL certificate checks: True
+	additional URL query params: {}
+
+2024-01-24 19:10:03,989 - WEBSCRAPER-REQUEST - INFO - SESSION REQUEST INITIALIZED:
+	headers: {'user-agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/34.0.1847.137 Safari/4E423F', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive'}
+	proxies: {}
+	cookies: <RequestsCookieJar[]>
+	client side SSL cert: None
+	can't be used to disable SSL certificate checks: True
+	additional URL query params: {}
+
+2024-01-24 19:13:49,803 - WEBSCRAPER-REQUEST - INFO - SESSION REQUEST INITIALIZED:
+	headers: {'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2762.73 Safari/537.36', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive'}
+	proxies: {}
+	cookies: <RequestsCookieJar[]>
+	client side SSL cert: None
+	can't be used to disable SSL certificate checks: True
+	additional URL query params: {}
+
+2024-01-24 19:28:32,618 - WEBSCRAPER-REQUEST - INFO - SESSION REQUEST INITIALIZED:
+	headers: {'user-agent': 'Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML like Gecko) Chrome/44.0.2403.155 Safari/537.36', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive'}
+	proxies: {}
+	cookies: <RequestsCookieJar[]>
+	client side SSL cert: None
+	can't be used to disable SSL certificate checks: True
+	additional URL query params: {}
+
+2024-01-24 19:35:14,935 - WEBSCRAPER-REQUEST - INFO - SESSION REQUEST INITIALIZED:
+	headers: {'user-agent': 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/29.0.1547.62 Safari/537.36', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive'}
+	proxies: {}
+	cookies: <RequestsCookieJar[]>
+	client side SSL cert: None
+	can't be used to disable SSL certificate checks: True
+	additional URL query params: {}
+
+2024-01-24 19:35:54,727 - WEBSCRAPER-REQUEST - INFO - SESSION REQUEST INITIALIZED:
+	headers: {'user-agent': 'Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/28.0.1467.0 Safari/537.36', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive'}
+	proxies: {}
+	cookies: <RequestsCookieJar[]>
+	client side SSL cert: None
+	can't be used to disable SSL certificate checks: True
+	additional URL query params: {}
+
+2024-01-24 19:36:09,426 - WEBSCRAPER-REQUEST - INFO - SESSION REQUEST INITIALIZED:
+	headers: {'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/35.0.1916.47 Safari/537.36', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive'}
+	proxies: {}
+	cookies: <RequestsCookieJar[]>
+	client side SSL cert: None
+	can't be used to disable SSL certificate checks: True
+	additional URL query params: {}
+
+2024-01-24 19:37:18,580 - WEBSCRAPER-REQUEST - INFO - SESSION REQUEST INITIALIZED:
+	headers: {'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML like Gecko) Chrome/46.0.2486.0 Safari/537.36 Edge/13.10586', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive'}
+	proxies: {}
+	cookies: <RequestsCookieJar[]>
+	client side SSL cert: None
+	can't be used to disable SSL certificate checks: True
+	additional URL query params: {}
+
+2024-01-24 19:37:47,992 - WEBSCRAPER-REQUEST - INFO - SESSION REQUEST INITIALIZED:
+	headers: {'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.5112.79 Safari/537.36', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive'}
+	proxies: {}
+	cookies: <RequestsCookieJar[]>
+	client side SSL cert: None
+	can't be used to disable SSL certificate checks: True
+	additional URL query params: {}
+
+2024-01-24 19:40:29,145 - WEBSCRAPER-REQUEST - INFO - SESSION REQUEST INITIALIZED:
+	headers: {'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:99.0) Gecko/20100101 Firefox/99.0', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive'}
+	proxies: {}
+	cookies: <RequestsCookieJar[]>
+	client side SSL cert: None
+	can't be used to disable SSL certificate checks: True
+	additional URL query params: {}
+
+2024-01-24 19:41:54,219 - WEBSCRAPER-REQUEST - INFO - SESSION REQUEST INITIALIZED:
+	headers: {'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:10.0) Gecko/20100101 Firefox/62.0', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive'}
+	proxies: {}
+	cookies: <RequestsCookieJar[]>
+	client side SSL cert: None
+	can't be used to disable SSL certificate checks: True
+	additional URL query params: {}
+
+2024-01-24 19:46:37,634 - WEBSCRAPER-REQUEST - INFO - SESSION REQUEST INITIALIZED:
+	headers: {'user-agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.53 Safari/537.36', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive'}
+	proxies: {}
+	cookies: <RequestsCookieJar[]>
+	client side SSL cert: None
+	can't be used to disable SSL certificate checks: True
+	additional URL query params: {}
+
+2024-01-24 19:46:56,654 - WEBSCRAPER-REQUEST - INFO - SESSION REQUEST INITIALIZED:
+	headers: {'user-agent': 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2049.0 Safari/537.36', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive'}
+	proxies: {}
+	cookies: <RequestsCookieJar[]>
+	client side SSL cert: None
+	can't be used to disable SSL certificate checks: True
+	additional URL query params: {}
+
+2024-01-24 19:48:37,254 - WEBSCRAPER-REQUEST - INFO - SESSION REQUEST INITIALIZED:
+	headers: {'user-agent': 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2228.0 Safari/537.36', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive'}
+	proxies: {}
+	cookies: <RequestsCookieJar[]>
+	client side SSL cert: None
+	can't be used to disable SSL certificate checks: True
+	additional URL query params: {}
+
+2024-01-24 19:50:41,874 - WEBSCRAPER-REQUEST - INFO - SESSION REQUEST INITIALIZED:
+	headers: {'user-agent': 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/28.0.1468.0 Safari/537.36', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive'}
+	proxies: {}
+	cookies: <RequestsCookieJar[]>
+	client side SSL cert: None
+	can't be used to disable SSL certificate checks: True
+	additional URL query params: {}
+
+2024-01-24 19:52:09,399 - WEBSCRAPER-REQUEST - INFO - SESSION REQUEST INITIALIZED:
+	headers: {'user-agent': 'Mozilla/5.0 (X11; Linux x86_64; rv:54.0) Gecko/20100101 Firefox/64.0', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive'}
+	proxies: {}
+	cookies: <RequestsCookieJar[]>
+	client side SSL cert: None
+	can't be used to disable SSL certificate checks: True
+	additional URL query params: {}
+
+2024-01-24 19:52:53,277 - WEBSCRAPER-REQUEST - INFO - SESSION REQUEST INITIALIZED:
+	headers: {'user-agent': 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/29.0.1547.62 Safari/537.36', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive'}
+	proxies: {}
+	cookies: <RequestsCookieJar[]>
+	client side SSL cert: None
+	can't be used to disable SSL certificate checks: True
+	additional URL query params: {}
+
+2024-01-24 19:57:20,261 - WEBSCRAPER-REQUEST - INFO - SESSION REQUEST INITIALIZED:
+	headers: {'user-agent': 'Mozilla/5.0 (Windows; U; Windows NT 6.0; en-US) AppleWebKit/533.20.25 (KHTML, like Gecko) Version/5.0.4 Safari/533.20.27', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive'}
+	proxies: {}
+	cookies: <RequestsCookieJar[]>
+	client side SSL cert: None
+	can't be used to disable SSL certificate checks: True
+	additional URL query params: {}
+
+2024-01-24 23:40:18,995 - WEBSCRAPER-REQUEST - INFO - SESSION REQUEST INITIALIZED:
+	headers: {'user-agent': 'Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/34.0.1866.237 Safari/537.36', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive'}
+	proxies: {}
+	cookies: <RequestsCookieJar[]>
+	client side SSL cert: None
+	can't be used to disable SSL certificate checks: True
+	additional URL query params: {}
+
+2024-01-24 23:41:08,027 - WEBSCRAPER-REQUEST - INFO - SESSION REQUEST INITIALIZED:
+	headers: {'user-agent': 'Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/35.0.3319.102 Safari/537.36', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive'}
+	proxies: {}
+	cookies: <RequestsCookieJar[]>
+	client side SSL cert: None
+	can't be used to disable SSL certificate checks: True
+	additional URL query params: {}
+
+2024-01-24 23:42:05,568 - WEBSCRAPER-REQUEST - INFO - SESSION REQUEST INITIALIZED:
+	headers: {'user-agent': 'Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/35.0.2309.372 Safari/537.36', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive'}
+	proxies: {}
+	cookies: <RequestsCookieJar[]>
+	client side SSL cert: None
+	can't be used to disable SSL certificate checks: True
+	additional URL query params: {}
+
+2024-01-24 23:42:52,799 - WEBSCRAPER-REQUEST - INFO - SESSION REQUEST INITIALIZED:
+	headers: {'user-agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/34.0.1847.137 Safari/4E423F', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive'}
+	proxies: {}
+	cookies: <RequestsCookieJar[]>
+	client side SSL cert: None
+	can't be used to disable SSL certificate checks: True
+	additional URL query params: {}
+
+2024-01-24 23:43:43,614 - WEBSCRAPER-REQUEST - INFO - SESSION REQUEST INITIALIZED:
+	headers: {'user-agent': 'Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/32.0.1667.0 Safari/537.36', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive'}
+	proxies: {}
+	cookies: <RequestsCookieJar[]>
+	client side SSL cert: None
+	can't be used to disable SSL certificate checks: True
+	additional URL query params: {}
+
+2024-01-24 23:44:05,721 - WEBSCRAPER-REQUEST - INFO - SESSION REQUEST INITIALIZED:
+	headers: {'user-agent': 'Mozilla/5.0 (X11; CrOS i686 4319.74.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/29.0.1547.57 Safari/537.36', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive'}
+	proxies: {}
+	cookies: <RequestsCookieJar[]>
+	client side SSL cert: None
+	can't be used to disable SSL certificate checks: True
+	additional URL query params: {}
+
+2024-01-24 23:44:42,412 - WEBSCRAPER-REQUEST - INFO - SESSION REQUEST INITIALIZED:
+	headers: {'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/35.0.1916.47 Safari/537.36', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive'}
+	proxies: {}
+	cookies: <RequestsCookieJar[]>
+	client side SSL cert: None
+	can't be used to disable SSL certificate checks: True
+	additional URL query params: {}
+
+2024-01-24 23:48:53,115 - WEBSCRAPER-REQUEST - INFO - SESSION REQUEST INITIALIZED:
+	headers: {'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:10.0) Gecko/20100101 Firefox/62.0', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive'}
+	proxies: {}
+	cookies: <RequestsCookieJar[]>
+	client side SSL cert: None
+	can't be used to disable SSL certificate checks: True
+	additional URL query params: {}
+
+2024-01-24 23:49:43,681 - WEBSCRAPER-REQUEST - INFO - SESSION REQUEST INITIALIZED:
+	headers: {'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2656.18 Safari/537.36', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive'}
+	proxies: {}
+	cookies: <RequestsCookieJar[]>
+	client side SSL cert: None
+	can't be used to disable SSL certificate checks: True
+	additional URL query params: {}
+
+2024-01-24 23:50:15,057 - WEBSCRAPER-REQUEST - INFO - SESSION REQUEST INITIALIZED:
+	headers: {'user-agent': 'Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML like Gecko) Chrome/44.0.2403.155 Safari/537.36', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive'}
+	proxies: {}
+	cookies: <RequestsCookieJar[]>
+	client side SSL cert: None
+	can't be used to disable SSL certificate checks: True
+	additional URL query params: {}
+
+2024-01-24 23:51:43,046 - WEBSCRAPER-REQUEST - INFO - SESSION REQUEST INITIALIZED:
+	headers: {'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2762.73 Safari/537.36', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive'}
+	proxies: {}
+	cookies: <RequestsCookieJar[]>
+	client side SSL cert: None
+	can't be used to disable SSL certificate checks: True
+	additional URL query params: {}
+
+2024-01-24 23:52:11,698 - WEBSCRAPER-REQUEST - INFO - SESSION REQUEST INITIALIZED:
+	headers: {'user-agent': 'Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive'}
+	proxies: {}
+	cookies: <RequestsCookieJar[]>
+	client side SSL cert: None
+	can't be used to disable SSL certificate checks: True
+	additional URL query params: {}
+
+2024-01-24 23:58:34,688 - WEBSCRAPER-REQUEST - INFO - SESSION REQUEST INITIALIZED:
+	headers: {'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/35.0.1916.47 Safari/537.36', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive'}
+	proxies: {'http': '153.127.194.62:80', 'https': '153.127.194.62:80'}
+	cookies: <RequestsCookieJar[]>
+	client side SSL cert: None
+	can't be used to disable SSL certificate checks: True
+	additional URL query params: {}
+
+2024-01-24 23:59:17,384 - WEBSCRAPER-REQUEST - INFO - SESSION REQUEST INITIALIZED:
+	headers: {'user-agent': 'Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/35.0.2117.157 Safari/537.36', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive'}
+	proxies: {'http': '143.110.232.177:80', 'https': '143.110.232.177:80'}
+	cookies: <RequestsCookieJar[]>
+	client side SSL cert: None
+	can't be used to disable SSL certificate checks: True
+	additional URL query params: {}
+
+2024-01-24 23:59:30,942 - WEBSCRAPER-REQUEST - INFO - SESSION REQUEST INITIALIZED:
+	headers: {'user-agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/34.0.1847.137 Safari/4E423F', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive'}
+	proxies: {'http': '119.13.111.169:80', 'https': '119.13.111.169:80'}
+	cookies: <RequestsCookieJar[]>
+	client side SSL cert: None
+	can't be used to disable SSL certificate checks: True
+	additional URL query params: {}
+
+2024-01-25 00:00:02,849 - WEBSCRAPER-REQUEST - INFO - SESSION REQUEST INITIALIZED:
+	headers: {'user-agent': 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2226.0 Safari/537.36', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive'}
+	proxies: {'http': '34.122.187.196:80', 'https': '34.122.187.196:80'}
+	cookies: <RequestsCookieJar[]>
+	client side SSL cert: None
+	can't be used to disable SSL certificate checks: True
+	additional URL query params: {}
+
+2024-01-25 00:02:11,429 - WEBSCRAPER-REQUEST - INFO - SESSION REQUEST INITIALIZED:
+	headers: {'user-agent': 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/28.0.1468.0 Safari/537.36', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive'}
+	proxies: {}
+	cookies: <RequestsCookieJar[]>
+	client side SSL cert: None
+	can't be used to disable SSL certificate checks: True
+	additional URL query params: {}
+
+2024-01-25 00:03:01,972 - WEBSCRAPER-REQUEST - INFO - SESSION REQUEST INITIALIZED:
+	headers: {'user-agent': 'Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2224.3 Safari/537.36', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive'}
+	proxies: {'http': '103.126.87.29:8080', 'https': '103.126.87.29:8080'}
+	cookies: <RequestsCookieJar[]>
+	client side SSL cert: None
+	can't be used to disable SSL certificate checks: True
+	additional URL query params: {}
+
+2024-01-25 00:04:02,871 - PROXY HANDLER - INFO - ******************************
+2024-01-25 00:04:02,872 - PROXY HANDLER - INFO - COMMENCING PROXY LIST CHECK
+2024-01-25 00:04:14,175 - PROXY HANDLER - INFO - CURRENT WORKING PROXY LIST:
+103.83.232.122:80
+106.105.218.244:80
+113.161.131.43:80
+120.37.121.209:9091
+106.105.218.244:80
+103.83.232.122:80
+154.85.58.149:80
+
+2024-01-25 00:04:14,176 - WEBSCRAPER-REQUEST - INFO - SESSION REQUEST INITIALIZED:
+	headers: {'user-agent': 'Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.8810.3391 Safari/537.36 Edge/18.14383', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive'}
+	proxies: {'http': '103.83.232.122:80', 'https': '103.83.232.122:80'}
+	cookies: <RequestsCookieJar[]>
+	client side SSL cert: None
+	can't be used to disable SSL certificate checks: True
+	additional URL query params: {}
+
+2024-01-25 00:05:43,823 - PROXY HANDLER - INFO - ******************************
+2024-01-25 00:05:43,824 - PROXY HANDLER - INFO - COMMENCING PROXY LIST CHECK
+2024-01-25 00:05:55,190 - PROXY HANDLER - INFO - CURRENT WORKING PROXY LIST:
+103.83.232.122:80
+106.105.218.244:80
+113.161.131.43:80
+120.37.121.209:9091
+106.105.218.244:80
+122.155.165.191:3128
+103.83.232.122:80
+154.85.58.149:80
+
+2024-01-25 00:05:55,191 - WEBSCRAPER-REQUEST - INFO - SESSION REQUEST INITIALIZED:
+	headers: {'user-agent': 'Mozilla/5.0 (Windows NT 5.1; U; en; rv:1.8.1) Gecko/20061208 Firefox/5.0 Opera 11.11', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive'}
+	proxies: {'http': '103.83.232.122:80', 'https': '103.83.232.122:80'}
+	cookies: <RequestsCookieJar[]>
+	client side SSL cert: None
+	can't be used to disable SSL certificate checks: True
+	additional URL query params: {}
+
+2024-01-25 00:13:32,660 - PROXY HANDLER - INFO - ******************************
+2024-01-25 00:13:32,661 - PROXY HANDLER - INFO - COMMENCING PROXY LIST CHECK
+2024-01-25 00:13:43,985 - PROXY HANDLER - INFO - CURRENT WORKING PROXY LIST:
+103.83.232.122:80
+113.161.131.43:80
+120.37.121.209:9091
+106.105.218.244:80
+122.155.165.191:3128
+103.83.232.122:80
+154.85.58.149:80
+
+2024-01-25 00:13:43,986 - WEBSCRAPER-REQUEST - INFO - SESSION REQUEST INITIALIZED:
+	headers: {'user-agent': 'Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/27.0.1453.93 Safari/537.36', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive'}
+	proxies: {'http': '103.83.232.122:80', 'https': '103.83.232.122:80'}
+	cookies: <RequestsCookieJar[]>
+	client side SSL cert: None
+	can't be used to disable SSL certificate checks: True
+	additional URL query params: {}
+
+2024-01-25 00:14:54,161 - PROXY HANDLER - INFO - ******************************
+2024-01-25 00:14:54,161 - PROXY HANDLER - INFO - COMMENCING PROXY LIST CHECK
+2024-01-25 00:15:05,111 - PROXY HANDLER - INFO - CURRENT WORKING PROXY LIST:
+103.83.232.122:80
+106.105.218.244:80
+113.161.131.43:80
+120.37.121.209:9091
+106.105.218.244:80
+103.83.232.122:80
+154.85.58.149:80
+
+2024-01-25 00:15:05,113 - WEBSCRAPER-REQUEST - INFO - SESSION REQUEST INITIALIZED:
+	headers: {'user-agent': 'Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/29.0.1547.2 Safari/537.36', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive'}
+	proxies: {'http': '103.83.232.122:80', 'https': '103.83.232.122:80'}
+	cookies: <RequestsCookieJar[]>
+	client side SSL cert: None
+	can't be used to disable SSL certificate checks: True
+	additional URL query params: {}
+
+2024-01-25 00:17:17,974 - PROXY HANDLER - INFO - ******************************
+2024-01-25 00:17:17,975 - PROXY HANDLER - INFO - COMMENCING PROXY LIST CHECK
+2024-01-25 00:17:28,998 - PROXY HANDLER - INFO - CURRENT WORKING PROXY LIST:
+103.83.232.122:80
+106.105.218.244:80
+113.161.131.43:80
+120.37.121.209:9091
+106.105.218.244:80
+103.83.232.122:80
+154.85.58.149:80
+
+2024-01-25 00:17:28,999 - WEBSCRAPER-REQUEST - INFO - SESSION REQUEST INITIALIZED:
+	headers: {'user-agent': 'Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/27.0.1453.93 Safari/537.36', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive'}
+	proxies: {'http': '103.83.232.122:80', 'https': '103.83.232.122:80'}
+	cookies: <RequestsCookieJar[]>
+	client side SSL cert: None
+	can't be used to disable SSL certificate checks: True
+	additional URL query params: {}
+
+2024-01-25 00:28:41,583 - PROXY HANDLER - INFO - ******************************
+2024-01-25 00:28:41,583 - PROXY HANDLER - INFO - COMMENCING PROXY LIST CHECK
+2024-01-25 00:28:52,615 - PROXY HANDLER - INFO - CURRENT WORKING PROXY LIST:
+103.83.232.122:80
+113.161.131.43:80
+120.37.121.209:9091
+106.105.218.244:80
+103.83.232.122:80
+154.85.58.149:80
+
+2024-01-25 00:28:52,616 - WEBSCRAPER-REQUEST - INFO - SESSION REQUEST INITIALIZED:
+	headers: {'user-agent': 'Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/28.0.1467.0 Safari/537.36', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive'}
+	proxies: {'http': '103.83.232.122:80', 'https': '103.83.232.122:80'}
+	cookies: <RequestsCookieJar[]>
+	client side SSL cert: None
+	can't be used to disable SSL certificate checks: True
+	additional URL query params: {}
+
+2024-01-25 00:29:27,719 - PROXY HANDLER - INFO - ******************************
+2024-01-25 00:29:27,719 - PROXY HANDLER - INFO - COMMENCING PROXY LIST CHECK
+2024-01-25 00:29:38,600 - PROXY HANDLER - INFO - CURRENT WORKING PROXY LIST:
+103.83.232.122:80
+106.105.218.244:80
+113.161.131.43:80
+120.37.121.209:9091
+103.83.232.122:80
+154.85.58.149:80
+
+2024-01-25 00:29:38,600 - WEBSCRAPER-REQUEST - INFO - SESSION REQUEST INITIALIZED:
+	headers: {'user-agent': 'Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/35.0.2309.372 Safari/537.36', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive'}
+	proxies: {'http': '103.83.232.122:80', 'https': '103.83.232.122:80'}
+	cookies: <RequestsCookieJar[]>
+	client side SSL cert: None
+	can't be used to disable SSL certificate checks: True
+	additional URL query params: {}
+
+2024-01-25 00:30:24,232 - PROXY HANDLER - INFO - ******************************
+2024-01-25 00:30:24,233 - PROXY HANDLER - INFO - COMMENCING PROXY LIST CHECK
+2024-01-25 00:30:35,060 - PROXY HANDLER - INFO - CURRENT WORKING PROXY LIST:
+103.83.232.122:80
+113.161.131.43:80
+120.37.121.209:9091
+103.83.232.122:80
+
+2024-01-25 00:30:35,060 - WEBSCRAPER-REQUEST - INFO - SESSION REQUEST INITIALIZED:
+	headers: {'user-agent': 'Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/29.0.1547.2 Safari/537.36', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive'}
+	proxies: {'http': '103.83.232.122:80', 'https': '103.83.232.122:80'}
+	cookies: <RequestsCookieJar[]>
+	client side SSL cert: None
+	can't be used to disable SSL certificate checks: True
+	additional URL query params: {}
+
+2024-01-25 00:45:08,826 - PROXY HANDLER - INFO - ******************************
+2024-01-25 00:45:08,826 - PROXY HANDLER - INFO - COMMENCING PROXY LIST CHECK
+2024-01-25 00:45:19,808 - PROXY HANDLER - INFO - CURRENT WORKING PROXY LIST:
+103.83.232.122:80
+106.105.218.244:80
+113.161.131.43:80
+120.37.121.209:9091
+106.105.218.244:80
+122.155.165.191:3128
+103.83.232.122:80
+154.85.58.149:80
+
+2024-01-25 00:45:19,809 - WEBSCRAPER-REQUEST - INFO - SESSION REQUEST INITIALIZED:
+	headers: {'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/32.0.1664.3 Safari/537.36', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive'}
+	proxies: {'http': '103.83.232.122:80', 'https': '103.83.232.122:80'}
+	cookies: <RequestsCookieJar[]>
+	client side SSL cert: None
+	can't be used to disable SSL certificate checks: True
+	additional URL query params: {}
+
+2024-01-25 11:09:03,730 - PROXY HANDLER - INFO - ******************************
+2024-01-25 11:09:03,731 - PROXY HANDLER - INFO - COMMENCING PROXY LIST CHECK
+2024-01-25 11:09:14,861 - PROXY HANDLER - INFO - CURRENT WORKING PROXY LIST:
+103.83.232.122:80
+106.105.218.244:80
+113.161.131.43:80
+120.37.121.209:9091
+122.155.165.191:3128
+103.83.232.122:80
+154.85.58.149:80
+
+2024-01-25 11:09:14,862 - WEBSCRAPER-REQUEST - INFO - SESSION REQUEST INITIALIZED:
+	headers: {'user-agent': 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2919.83 Safari/537.36', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive'}
+	proxies: {'http': '103.83.232.122:80', 'https': '103.83.232.122:80'}
+	cookies: <RequestsCookieJar[]>
+	client side SSL cert: None
+	can't be used to disable SSL certificate checks: True
+	additional URL query params: {}
+
+2024-01-25 11:09:47,519 - PROXY HANDLER - INFO - ******************************
+2024-01-25 11:09:47,519 - PROXY HANDLER - INFO - COMMENCING PROXY LIST CHECK
+2024-01-25 11:09:58,904 - PROXY HANDLER - INFO - CURRENT WORKING PROXY LIST:
+103.83.232.122:80
+106.105.218.244:80
+120.37.121.209:9091
+122.155.165.191:3128
+103.83.232.122:80
+
+2024-01-25 11:09:58,905 - WEBSCRAPER-REQUEST - INFO - SESSION REQUEST INITIALIZED:
+	headers: {'user-agent': 'Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/32.0.1667.0 Safari/537.36', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive'}
+	proxies: {'http': '103.83.232.122:80', 'https': '103.83.232.122:80'}
+	cookies: <RequestsCookieJar[]>
+	client side SSL cert: None
+	can't be used to disable SSL certificate checks: True
+	additional URL query params: {}
+
+2024-01-25 11:13:58,655 - PROXY HANDLER - INFO - ******************************
+2024-01-25 11:13:58,655 - PROXY HANDLER - INFO - COMMENCING PROXY LIST CHECK
+2024-01-25 11:14:10,052 - PROXY HANDLER - INFO - CURRENT WORKING PROXY LIST:
+103.83.232.122:80
+113.161.131.43:80
+120.37.121.209:9091
+122.155.165.191:3128
+103.83.232.122:80
+154.85.58.149:80
+
+2024-01-25 11:14:10,052 - WEBSCRAPER-REQUEST - INFO - SESSION REQUEST INITIALIZED:
+	headers: {'user-agent': 'Mozilla/5.0 (X11; OpenBSD i386) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.125 Safari/537.36', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive'}
+	proxies: {'http': '103.83.232.122:80', 'https': '103.83.232.122:80'}
+	cookies: <RequestsCookieJar[]>
+	client side SSL cert: None
+	can't be used to disable SSL certificate checks: True
+	additional URL query params: {}
+
+2024-01-25 18:22:08,271 - WEBSCRAPER-REQUEST - INFO - SESSION REQUEST INITIALIZED:
+	headers: {'user-agent': 'Chrome (AppleWebKit/537.1; Chrome50.0; Windows NT 6.3) AppleWebKit/537.36 (KHTML like Gecko) Chrome/51.0.2704.79 Safari/537.36 Edge/14.14393', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive'}
+	proxies: {}
+	cookies: <RequestsCookieJar[]>
+	client side SSL cert: None
+	can't be used to disable SSL certificate checks: True
+	additional URL query params: {}
+
+2024-01-25 18:25:49,567 - WEBSCRAPER-REQUEST - INFO - SESSION REQUEST INITIALIZED:
+	headers: {'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2762.73 Safari/537.36', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive'}
+	proxies: {}
+	cookies: <RequestsCookieJar[]>
+	client side SSL cert: None
+	can't be used to disable SSL certificate checks: True
+	additional URL query params: {}
+
+2024-01-25 18:31:00,466 - WEBSCRAPER-REQUEST - INFO - SESSION REQUEST INITIALIZED:
+	headers: {'user-agent': 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/28.0.1468.0 Safari/537.36', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive'}
+	proxies: {}
+	cookies: <RequestsCookieJar[]>
+	client side SSL cert: None
+	can't be used to disable SSL certificate checks: True
+	additional URL query params: {}
+
+2024-01-25 18:31:08,738 - WEBSCRAPER-REQUEST - INFO - SESSION REQUEST INITIALIZED:
+	headers: {'user-agent': 'Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/35.0.2309.372 Safari/537.36', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive'}
+	proxies: {}
+	cookies: <RequestsCookieJar[]>
+	client side SSL cert: None
+	can't be used to disable SSL certificate checks: True
+	additional URL query params: {}
+
+2024-01-25 18:31:14,993 - WEBSCRAPER-REQUEST - INFO - SESSION REQUEST INITIALIZED:
+	headers: {'user-agent': 'Mozilla/5.0 (X11; CrOS i686 4319.74.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/29.0.1547.57 Safari/537.36', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive'}
+	proxies: {}
+	cookies: <RequestsCookieJar[]>
+	client side SSL cert: None
+	can't be used to disable SSL certificate checks: True
+	additional URL query params: {}
+
+2024-01-25 18:32:14,704 - WEBSCRAPER-REQUEST - INFO - SESSION REQUEST INITIALIZED:
+	headers: {'user-agent': 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2226.0 Safari/537.36', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive'}
+	proxies: {}
+	cookies: <RequestsCookieJar[]>
+	client side SSL cert: None
+	can't be used to disable SSL certificate checks: True
+	additional URL query params: {}
+
+2024-01-25 19:24:00,783 - WEBSCRAPER-REQUEST - INFO - SESSION REQUEST INITIALIZED:
+	headers: {'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML like Gecko) Chrome/51.0.2704.79 Safari/537.36 Edge/14.14931', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive'}
+	proxies: {}
+	cookies: <RequestsCookieJar[]>
+	client side SSL cert: None
+	can't be used to disable SSL certificate checks: True
+	additional URL query params: {}
+
+2024-01-25 19:44:18,989 - WEBSCRAPER-REQUEST - INFO - SESSION REQUEST INITIALIZED:
+	headers: {'user-agent': 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2225.0 Safari/537.36', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive'}
+	proxies: {}
+	cookies: <RequestsCookieJar[]>
+	client side SSL cert: None
+	can't be used to disable SSL certificate checks: True
+	additional URL query params: {}
+
+2024-01-25 19:44:44,736 - WEBSCRAPER-REQUEST - INFO - SESSION REQUEST INITIALIZED:
+	headers: {'user-agent': 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2228.0 Safari/537.36', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive'}
+	proxies: {}
+	cookies: <RequestsCookieJar[]>
+	client side SSL cert: None
+	can't be used to disable SSL certificate checks: True
+	additional URL query params: {}
+
+2024-01-25 19:50:23,421 - PROXY HANDLER - INFO - ******************************
+2024-01-25 19:50:23,422 - PROXY HANDLER - INFO - COMMENCING PROXY LIST CHECK
+2024-01-25 19:50:24,754 - PROXY HANDLER - INFO - ******************************
+2024-01-25 19:50:24,754 - PROXY HANDLER - INFO - COMMENCING PROXY LIST CHECK
+2024-01-25 19:50:24,763 - PROXY HANDLER - INFO - ******************************
+2024-01-25 19:50:24,763 - PROXY HANDLER - INFO - COMMENCING PROXY LIST CHECK
+2024-01-25 19:50:24,789 - PROXY HANDLER - INFO - ******************************
+2024-01-25 19:50:24,789 - PROXY HANDLER - INFO - COMMENCING PROXY LIST CHECK
+2024-01-25 19:50:24,873 - PROXY HANDLER - INFO - ******************************
+2024-01-25 19:50:24,873 - PROXY HANDLER - INFO - COMMENCING PROXY LIST CHECK
+2024-01-25 19:50:26,388 - PROXY HANDLER - INFO - ******************************
+2024-01-25 19:50:26,389 - PROXY HANDLER - INFO - COMMENCING PROXY LIST CHECK
+2024-01-25 19:50:26,434 - PROXY HANDLER - INFO - ******************************
+2024-01-25 19:50:26,434 - PROXY HANDLER - INFO - COMMENCING PROXY LIST CHECK
+2024-01-25 19:50:26,476 - PROXY HANDLER - INFO - ******************************
+2024-01-25 19:50:26,476 - PROXY HANDLER - INFO - COMMENCING PROXY LIST CHECK
+2024-01-25 19:50:26,536 - PROXY HANDLER - INFO - ******************************
+2024-01-25 19:50:26,537 - PROXY HANDLER - INFO - COMMENCING PROXY LIST CHECK
+2024-01-25 19:50:27,944 - PROXY HANDLER - INFO - ******************************
+2024-01-25 19:50:27,944 - PROXY HANDLER - INFO - COMMENCING PROXY LIST CHECK
+2024-01-25 19:50:27,975 - PROXY HANDLER - INFO - ******************************
+2024-01-25 19:50:27,975 - PROXY HANDLER - INFO - COMMENCING PROXY LIST CHECK
+2024-01-25 19:50:27,991 - PROXY HANDLER - INFO - ******************************
+2024-01-25 19:50:27,992 - PROXY HANDLER - INFO - COMMENCING PROXY LIST CHECK
+2024-01-25 19:50:28,043 - PROXY HANDLER - INFO - ******************************
+2024-01-25 19:50:28,044 - PROXY HANDLER - INFO - COMMENCING PROXY LIST CHECK
+2024-01-25 19:50:29,738 - PROXY HANDLER - INFO - ******************************
+2024-01-25 19:50:29,738 - PROXY HANDLER - INFO - COMMENCING PROXY LIST CHECK
+2024-01-25 19:50:29,779 - PROXY HANDLER - INFO - ******************************
+2024-01-25 19:50:29,779 - PROXY HANDLER - INFO - COMMENCING PROXY LIST CHECK
+2024-01-25 19:50:29,790 - PROXY HANDLER - INFO - ******************************
+2024-01-25 19:50:29,791 - PROXY HANDLER - INFO - COMMENCING PROXY LIST CHECK
+2024-01-25 19:50:29,831 - PROXY HANDLER - INFO - ******************************
+2024-01-25 19:50:29,832 - PROXY HANDLER - INFO - COMMENCING PROXY LIST CHECK
+2024-01-25 19:50:31,256 - PROXY HANDLER - INFO - ******************************
+2024-01-25 19:50:31,256 - PROXY HANDLER - INFO - COMMENCING PROXY LIST CHECK
+2024-01-25 19:50:31,280 - PROXY HANDLER - INFO - ******************************
+2024-01-25 19:50:31,280 - PROXY HANDLER - INFO - COMMENCING PROXY LIST CHECK
+2024-01-25 19:50:31,302 - PROXY HANDLER - INFO - ******************************
+2024-01-25 19:50:31,305 - PROXY HANDLER - INFO - COMMENCING PROXY LIST CHECK
+2024-01-25 19:50:31,325 - PROXY HANDLER - INFO - ******************************
+2024-01-25 19:50:31,326 - PROXY HANDLER - INFO - COMMENCING PROXY LIST CHECK
+2024-01-25 19:50:32,764 - PROXY HANDLER - INFO - ******************************
+2024-01-25 19:50:32,764 - PROXY HANDLER - INFO - COMMENCING PROXY LIST CHECK
+2024-01-25 19:50:32,772 - PROXY HANDLER - INFO - ******************************
+2024-01-25 19:50:32,772 - PROXY HANDLER - INFO - COMMENCING PROXY LIST CHECK
+2024-01-25 19:50:32,790 - PROXY HANDLER - INFO - ******************************
+2024-01-25 19:50:32,791 - PROXY HANDLER - INFO - COMMENCING PROXY LIST CHECK
+2024-01-25 19:50:32,801 - PROXY HANDLER - INFO - ******************************
+2024-01-25 19:50:32,802 - PROXY HANDLER - INFO - COMMENCING PROXY LIST CHECK
+2024-01-25 19:50:34,238 - PROXY HANDLER - INFO - ******************************
+2024-01-25 19:50:34,238 - PROXY HANDLER - INFO - COMMENCING PROXY LIST CHECK
+2024-01-25 19:50:34,273 - PROXY HANDLER - INFO - ******************************
+2024-01-25 19:50:34,273 - PROXY HANDLER - INFO - COMMENCING PROXY LIST CHECK
+2024-01-25 19:50:34,282 - PROXY HANDLER - INFO - ******************************
+2024-01-25 19:50:34,282 - PROXY HANDLER - INFO - COMMENCING PROXY LIST CHECK
+2024-01-25 19:50:34,283 - PROXY HANDLER - INFO - ******************************
+2024-01-25 19:50:34,283 - PROXY HANDLER - INFO - COMMENCING PROXY LIST CHECK
+2024-01-25 19:51:07,228 - PROXY HANDLER - INFO - ******************************
+2024-01-25 19:51:07,229 - PROXY HANDLER - INFO - COMMENCING PROXY LIST CHECK
+2024-01-25 19:51:08,560 - PROXY HANDLER - INFO - ******************************
+2024-01-25 19:51:08,560 - PROXY HANDLER - INFO - COMMENCING PROXY LIST CHECK
+2024-01-25 19:51:08,619 - PROXY HANDLER - INFO - ******************************
+2024-01-25 19:51:08,619 - PROXY HANDLER - INFO - COMMENCING PROXY LIST CHECK
+2024-01-25 19:51:08,640 - PROXY HANDLER - INFO - ******************************
+2024-01-25 19:51:08,640 - PROXY HANDLER - INFO - COMMENCING PROXY LIST CHECK
+2024-01-25 19:51:08,979 - PROXY HANDLER - INFO - ******************************
+2024-01-25 19:51:08,979 - PROXY HANDLER - INFO - COMMENCING PROXY LIST CHECK
+2024-01-25 19:51:10,238 - PROXY HANDLER - INFO - ******************************
+2024-01-25 19:51:10,238 - PROXY HANDLER - INFO - COMMENCING PROXY LIST CHECK
+2024-01-25 19:51:10,274 - PROXY HANDLER - INFO - ******************************
+2024-01-25 19:51:10,274 - PROXY HANDLER - INFO - COMMENCING PROXY LIST CHECK
+2024-01-25 19:51:10,276 - PROXY HANDLER - INFO - ******************************
+2024-01-25 19:51:10,277 - PROXY HANDLER - INFO - COMMENCING PROXY LIST CHECK
+2024-01-25 19:51:10,655 - PROXY HANDLER - INFO - ******************************
+2024-01-25 19:51:10,655 - PROXY HANDLER - INFO - COMMENCING PROXY LIST CHECK
+2024-01-25 19:51:11,766 - PROXY HANDLER - INFO - ******************************
+2024-01-25 19:51:11,767 - PROXY HANDLER - INFO - COMMENCING PROXY LIST CHECK
+2024-01-25 19:51:11,832 - PROXY HANDLER - INFO - ******************************
+2024-01-25 19:51:11,832 - PROXY HANDLER - INFO - COMMENCING PROXY LIST CHECK
+2024-01-25 19:51:11,840 - PROXY HANDLER - INFO - ******************************
+2024-01-25 19:51:11,840 - PROXY HANDLER - INFO - COMMENCING PROXY LIST CHECK
+2024-01-25 19:51:12,179 - PROXY HANDLER - INFO - ******************************
+2024-01-25 19:51:12,179 - PROXY HANDLER - INFO - COMMENCING PROXY LIST CHECK
+2024-01-25 19:51:13,299 - PROXY HANDLER - INFO - ******************************
+2024-01-25 19:51:13,300 - PROXY HANDLER - INFO - COMMENCING PROXY LIST CHECK
+2024-01-25 19:51:13,363 - PROXY HANDLER - INFO - ******************************
+2024-01-25 19:51:13,363 - PROXY HANDLER - INFO - COMMENCING PROXY LIST CHECK
+2024-01-25 19:51:13,374 - PROXY HANDLER - INFO - ******************************
+2024-01-25 19:51:13,374 - PROXY HANDLER - INFO - COMMENCING PROXY LIST CHECK
+2024-01-25 19:51:13,776 - PROXY HANDLER - INFO - ******************************
+2024-01-25 19:51:13,776 - PROXY HANDLER - INFO - COMMENCING PROXY LIST CHECK
+2024-01-25 19:51:14,847 - PROXY HANDLER - INFO - ******************************
+2024-01-25 19:51:14,847 - PROXY HANDLER - INFO - COMMENCING PROXY LIST CHECK
+2024-01-25 19:51:14,858 - PROXY HANDLER - INFO - ******************************
+2024-01-25 19:51:14,858 - PROXY HANDLER - INFO - COMMENCING PROXY LIST CHECK
+2024-01-25 19:51:14,899 - PROXY HANDLER - INFO - ******************************
+2024-01-25 19:51:14,900 - PROXY HANDLER - INFO - COMMENCING PROXY LIST CHECK
+2024-01-25 19:51:15,338 - PROXY HANDLER - INFO - ******************************
+2024-01-25 19:51:15,339 - PROXY HANDLER - INFO - COMMENCING PROXY LIST CHECK
+2024-01-25 19:51:16,362 - PROXY HANDLER - INFO - ******************************
+2024-01-25 19:51:16,362 - PROXY HANDLER - INFO - COMMENCING PROXY LIST CHECK
+2024-01-25 19:51:16,432 - PROXY HANDLER - INFO - ******************************
+2024-01-25 19:51:16,432 - PROXY HANDLER - INFO - COMMENCING PROXY LIST CHECK
+2024-01-25 19:51:16,508 - PROXY HANDLER - INFO - ******************************
+2024-01-25 19:51:16,508 - PROXY HANDLER - INFO - COMMENCING PROXY LIST CHECK
+2024-01-25 19:51:16,972 - PROXY HANDLER - INFO - ******************************
+2024-01-25 19:51:16,973 - PROXY HANDLER - INFO - COMMENCING PROXY LIST CHECK
+2024-01-25 19:51:17,937 - PROXY HANDLER - INFO - ******************************
+2024-01-25 19:51:17,937 - PROXY HANDLER - INFO - COMMENCING PROXY LIST CHECK
+2024-01-25 19:51:17,972 - PROXY HANDLER - INFO - ******************************
+2024-01-25 19:51:17,973 - PROXY HANDLER - INFO - COMMENCING PROXY LIST CHECK
+2024-01-25 19:51:17,997 - PROXY HANDLER - INFO - ******************************
+2024-01-25 19:51:17,997 - PROXY HANDLER - INFO - COMMENCING PROXY LIST CHECK
+2024-01-25 19:51:18,627 - PROXY HANDLER - INFO - ******************************
+2024-01-25 19:51:18,628 - PROXY HANDLER - INFO - COMMENCING PROXY LIST CHECK
+2024-01-25 19:51:19,491 - PROXY HANDLER - INFO - ******************************
+2024-01-25 19:51:19,491 - PROXY HANDLER - INFO - COMMENCING PROXY LIST CHECK
+2024-01-25 19:51:19,534 - PROXY HANDLER - INFO - ******************************
+2024-01-25 19:51:19,534 - PROXY HANDLER - INFO - COMMENCING PROXY LIST CHECK
+2024-01-25 19:51:19,574 - PROXY HANDLER - INFO - ******************************
+2024-01-25 19:51:19,574 - PROXY HANDLER - INFO - COMMENCING PROXY LIST CHECK
+2024-01-25 19:51:20,237 - PROXY HANDLER - INFO - ******************************
+2024-01-25 19:51:20,237 - PROXY HANDLER - INFO - COMMENCING PROXY LIST CHECK
+2024-01-25 19:51:21,134 - PROXY HANDLER - INFO - ******************************
+2024-01-25 19:51:21,134 - PROXY HANDLER - INFO - COMMENCING PROXY LIST CHECK
+2024-01-25 19:51:21,173 - PROXY HANDLER - INFO - ******************************
+2024-01-25 19:51:21,173 - PROXY HANDLER - INFO - COMMENCING PROXY LIST CHECK
+2024-01-25 19:51:21,196 - PROXY HANDLER - INFO - ******************************
+2024-01-25 19:51:21,196 - PROXY HANDLER - INFO - COMMENCING PROXY LIST CHECK
+2024-01-25 19:51:23,312 - PROXY HANDLER - INFO - ******************************
+2024-01-25 19:51:23,312 - PROXY HANDLER - INFO - COMMENCING PROXY LIST CHECK
+2024-01-25 19:51:23,384 - PROXY HANDLER - INFO - ******************************
+2024-01-25 19:51:23,384 - PROXY HANDLER - INFO - COMMENCING PROXY LIST CHECK
+2024-01-25 19:51:23,385 - PROXY HANDLER - INFO - ******************************
+2024-01-25 19:51:23,385 - PROXY HANDLER - INFO - COMMENCING PROXY LIST CHECK
+2024-01-25 19:51:23,443 - PROXY HANDLER - INFO - ******************************
+2024-01-25 19:51:23,444 - PROXY HANDLER - INFO - COMMENCING PROXY LIST CHECK
+2024-01-25 19:52:24,112 - PROXY HANDLER - INFO - ******************************
+2024-01-25 19:52:24,112 - PROXY HANDLER - INFO - COMMENCING PROXY LIST CHECK
+2024-01-25 19:52:37,801 - PROXY HANDLER - INFO - CURRENT WORKING PROXY LIST:
+103.83.232.122:80
+106.105.218.244:80
+111.59.4.88:9002
+120.37.121.209:9091
+106.105.218.244:80
+103.83.232.122:80
+
+2024-01-25 19:52:37,802 - WEBSCRAPER-REQUEST - INFO - SESSION REQUEST INITIALIZED:
+	headers: {'user-agent': 'Mozilla/5.0 (Windows NT 4.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2049.0 Safari/537.36', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive'}
+	proxies: {'http': '103.83.232.122:80', 'https': '103.83.232.122:80'}
+	cookies: <RequestsCookieJar[]>
+	client side SSL cert: None
+	can't be used to disable SSL certificate checks: True
+	additional URL query params: {}
+
+2024-01-25 20:44:29,382 - PROXY HANDLER - INFO - ******************************
+2024-01-25 20:44:29,382 - PROXY HANDLER - INFO - COMMENCING PROXY LIST CHECK
+2024-01-25 20:44:30,667 - PROXY HANDLER - INFO - ******************************
+2024-01-25 20:44:30,668 - PROXY HANDLER - INFO - COMMENCING PROXY LIST CHECK
+2024-01-25 20:44:30,675 - PROXY HANDLER - INFO - ******************************
+2024-01-25 20:44:30,675 - PROXY HANDLER - INFO - COMMENCING PROXY LIST CHECK
+2024-01-25 20:44:30,698 - PROXY HANDLER - INFO - ******************************
+2024-01-25 20:44:30,699 - PROXY HANDLER - INFO - COMMENCING PROXY LIST CHECK
+2024-01-25 20:44:30,780 - PROXY HANDLER - INFO - ******************************
+2024-01-25 20:44:30,781 - PROXY HANDLER - INFO - COMMENCING PROXY LIST CHECK
+2024-01-25 20:44:32,229 - PROXY HANDLER - INFO - ******************************
+2024-01-25 20:44:32,229 - PROXY HANDLER - INFO - COMMENCING PROXY LIST CHECK
+2024-01-25 20:44:32,230 - PROXY HANDLER - INFO - ******************************
+2024-01-25 20:44:32,230 - PROXY HANDLER - INFO - COMMENCING PROXY LIST CHECK
+2024-01-25 20:44:32,234 - PROXY HANDLER - INFO - ******************************
+2024-01-25 20:44:32,235 - PROXY HANDLER - INFO - COMMENCING PROXY LIST CHECK
+2024-01-25 20:44:32,353 - PROXY HANDLER - INFO - ******************************
+2024-01-25 20:44:32,354 - PROXY HANDLER - INFO - COMMENCING PROXY LIST CHECK
+2024-01-25 20:44:33,825 - PROXY HANDLER - INFO - ******************************
+2024-01-25 20:44:33,825 - PROXY HANDLER - INFO - COMMENCING PROXY LIST CHECK
+2024-01-25 20:44:33,826 - PROXY HANDLER - INFO - ******************************
+2024-01-25 20:44:33,826 - PROXY HANDLER - INFO - COMMENCING PROXY LIST CHECK
+2024-01-25 20:44:33,826 - PROXY HANDLER - INFO - ******************************
+2024-01-25 20:44:33,826 - PROXY HANDLER - INFO - COMMENCING PROXY LIST CHECK
+2024-01-25 20:44:34,119 - PROXY HANDLER - INFO - ******************************
+2024-01-25 20:44:34,120 - PROXY HANDLER - INFO - COMMENCING PROXY LIST CHECK
+2024-01-25 20:44:35,401 - PROXY HANDLER - INFO - ******************************
+2024-01-25 20:44:35,402 - PROXY HANDLER - INFO - COMMENCING PROXY LIST CHECK
+2024-01-25 20:44:35,446 - PROXY HANDLER - INFO - ******************************
+2024-01-25 20:44:35,446 - PROXY HANDLER - INFO - COMMENCING PROXY LIST CHECK
+2024-01-25 20:44:35,464 - PROXY HANDLER - INFO - ******************************
+2024-01-25 20:44:35,464 - PROXY HANDLER - INFO - COMMENCING PROXY LIST CHECK
+2024-01-25 20:44:35,882 - PROXY HANDLER - INFO - ******************************
+2024-01-25 20:44:35,882 - PROXY HANDLER - INFO - COMMENCING PROXY LIST CHECK
+2024-01-25 20:44:36,982 - PROXY HANDLER - INFO - ******************************
+2024-01-25 20:44:36,982 - PROXY HANDLER - INFO - COMMENCING PROXY LIST CHECK
+2024-01-25 20:44:37,012 - PROXY HANDLER - INFO - ******************************
+2024-01-25 20:44:37,012 - PROXY HANDLER - INFO - COMMENCING PROXY LIST CHECK
+2024-01-25 20:44:37,148 - PROXY HANDLER - INFO - ******************************
+2024-01-25 20:44:37,148 - PROXY HANDLER - INFO - COMMENCING PROXY LIST CHECK
+2024-01-25 20:44:37,521 - PROXY HANDLER - INFO - ******************************
+2024-01-25 20:44:37,522 - PROXY HANDLER - INFO - COMMENCING PROXY LIST CHECK
+2024-01-25 20:44:38,622 - PROXY HANDLER - INFO - ******************************
+2024-01-25 20:44:38,622 - PROXY HANDLER - INFO - COMMENCING PROXY LIST CHECK
+2024-01-25 20:44:38,631 - PROXY HANDLER - INFO - ******************************
+2024-01-25 20:44:38,632 - PROXY HANDLER - INFO - COMMENCING PROXY LIST CHECK
+2024-01-25 20:44:38,795 - PROXY HANDLER - INFO - ******************************
+2024-01-25 20:44:38,795 - PROXY HANDLER - INFO - COMMENCING PROXY LIST CHECK
+2024-01-25 20:44:40,683 - PROXY HANDLER - INFO - ******************************
+2024-01-25 20:44:40,683 - PROXY HANDLER - INFO - COMMENCING PROXY LIST CHECK
+2024-01-25 20:44:40,694 - PROXY HANDLER - INFO - ******************************
+2024-01-25 20:44:40,695 - PROXY HANDLER - INFO - COMMENCING PROXY LIST CHECK
+2024-01-25 20:44:41,010 - PROXY HANDLER - INFO - ******************************
+2024-01-25 20:44:41,010 - PROXY HANDLER - INFO - COMMENCING PROXY LIST CHECK
+2024-01-25 20:44:41,110 - PROXY HANDLER - INFO - ******************************
+2024-01-25 20:44:41,111 - PROXY HANDLER - INFO - COMMENCING PROXY LIST CHECK
+2024-01-25 20:44:42,800 - PROXY HANDLER - INFO - ******************************
+2024-01-25 20:44:42,800 - PROXY HANDLER - INFO - COMMENCING PROXY LIST CHECK
+2024-01-25 20:44:42,812 - PROXY HANDLER - INFO - ******************************
+2024-01-25 20:44:42,812 - PROXY HANDLER - INFO - COMMENCING PROXY LIST CHECK
+2024-01-25 20:44:43,082 - PROXY HANDLER - INFO - ******************************
+2024-01-25 20:44:43,082 - PROXY HANDLER - INFO - COMMENCING PROXY LIST CHECK
+2024-01-25 20:44:43,086 - PROXY HANDLER - INFO - ******************************
+2024-01-25 20:44:43,086 - PROXY HANDLER - INFO - COMMENCING PROXY LIST CHECK
+2024-01-25 20:44:44,269 - PROXY HANDLER - INFO - ******************************
+2024-01-25 20:44:44,270 - PROXY HANDLER - INFO - COMMENCING PROXY LIST CHECK
+2024-01-25 20:44:44,275 - PROXY HANDLER - INFO - ******************************
+2024-01-25 20:44:44,275 - PROXY HANDLER - INFO - COMMENCING PROXY LIST CHECK
+2024-01-25 20:44:44,523 - PROXY HANDLER - INFO - ******************************
+2024-01-25 20:44:44,523 - PROXY HANDLER - INFO - COMMENCING PROXY LIST CHECK
+2024-01-25 20:44:44,613 - PROXY HANDLER - INFO - ******************************
+2024-01-25 20:44:44,613 - PROXY HANDLER - INFO - COMMENCING PROXY LIST CHECK
+2024-01-25 20:44:45,783 - PROXY HANDLER - INFO - ******************************
+2024-01-25 20:44:45,784 - PROXY HANDLER - INFO - COMMENCING PROXY LIST CHECK
+2024-01-25 20:44:45,849 - PROXY HANDLER - INFO - ******************************
+2024-01-25 20:44:45,849 - PROXY HANDLER - INFO - COMMENCING PROXY LIST CHECK
+2024-01-25 20:44:46,031 - PROXY HANDLER - INFO - ******************************
+2024-01-25 20:44:46,031 - PROXY HANDLER - INFO - COMMENCING PROXY LIST CHECK
+2024-01-25 20:44:46,157 - PROXY HANDLER - INFO - ******************************
+2024-01-25 20:44:46,157 - PROXY HANDLER - INFO - COMMENCING PROXY LIST CHECK
+2024-01-25 20:44:47,252 - PROXY HANDLER - INFO - ******************************
+2024-01-25 20:44:47,252 - PROXY HANDLER - INFO - COMMENCING PROXY LIST CHECK
+2024-01-25 20:44:47,312 - PROXY HANDLER - INFO - ******************************
+2024-01-25 20:44:47,312 - PROXY HANDLER - INFO - COMMENCING PROXY LIST CHECK
+2024-01-25 20:44:47,493 - PROXY HANDLER - INFO - ******************************
+2024-01-25 20:44:47,493 - PROXY HANDLER - INFO - COMMENCING PROXY LIST CHECK
+2024-01-25 20:44:47,625 - PROXY HANDLER - INFO - ******************************
+2024-01-25 20:44:47,625 - PROXY HANDLER - INFO - COMMENCING PROXY LIST CHECK
+2024-01-25 20:44:49,262 - PROXY HANDLER - INFO - ******************************
+2024-01-25 20:44:49,262 - PROXY HANDLER - INFO - COMMENCING PROXY LIST CHECK
+2024-01-25 20:44:49,340 - PROXY HANDLER - INFO - ******************************
+2024-01-25 20:44:49,341 - PROXY HANDLER - INFO - COMMENCING PROXY LIST CHECK
+2024-01-25 20:44:49,566 - PROXY HANDLER - INFO - ******************************
+2024-01-25 20:44:49,567 - PROXY HANDLER - INFO - COMMENCING PROXY LIST CHECK
+2024-01-25 20:44:49,600 - PROXY HANDLER - INFO - ******************************
+2024-01-25 20:44:49,600 - PROXY HANDLER - INFO - COMMENCING PROXY LIST CHECK
+2024-01-25 20:44:51,183 - PROXY HANDLER - INFO - ******************************
+2024-01-25 20:44:51,184 - PROXY HANDLER - INFO - COMMENCING PROXY LIST CHECK
+2024-01-25 20:44:51,315 - PROXY HANDLER - INFO - ******************************
+2024-01-25 20:44:51,315 - PROXY HANDLER - INFO - COMMENCING PROXY LIST CHECK
+2024-01-25 20:44:51,350 - PROXY HANDLER - INFO - ******************************
+2024-01-25 20:44:51,351 - PROXY HANDLER - INFO - COMMENCING PROXY LIST CHECK
+2024-01-25 20:44:51,385 - PROXY HANDLER - INFO - ******************************
+2024-01-25 20:44:51,386 - PROXY HANDLER - INFO - COMMENCING PROXY LIST CHECK
+2024-01-25 20:45:34,809 - PROXY HANDLER - INFO - ******************************
+2024-01-25 20:45:34,809 - PROXY HANDLER - INFO - COMMENCING PROXY LIST CHECK
+2024-01-25 20:45:48,282 - PROXY HANDLER - INFO - CURRENT WORKING PROXY LIST:
+103.83.232.122:80
+106.105.218.244:80
+111.59.4.88:9002
+120.37.121.209:9091
+122.155.165.191:3128
+103.83.232.122:80
+
+2024-01-25 20:45:48,283 - WEBSCRAPER-REQUEST - INFO - SESSION REQUEST INITIALIZED:
+	headers: {'user-agent': 'Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/35.0.3319.102 Safari/537.36', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive'}
+	proxies: {'http': '103.83.232.122:80', 'https': '103.83.232.122:80'}
+	cookies: <RequestsCookieJar[]>
+	client side SSL cert: None
+	can't be used to disable SSL certificate checks: True
+	additional URL query params: {}
+
+2024-01-25 20:46:15,154 - PROXY HANDLER - INFO - ******************************
+2024-01-25 20:46:15,154 - PROXY HANDLER - INFO - COMMENCING PROXY LIST CHECK
+2024-01-25 20:46:28,598 - PROXY HANDLER - INFO - CURRENT WORKING PROXY LIST:
+103.83.232.122:80
+106.105.218.244:80
+111.59.4.88:9002
+120.37.121.209:9091
+103.83.232.122:80
+
+2024-01-25 20:46:28,599 - WEBSCRAPER-REQUEST - INFO - SESSION REQUEST INITIALIZED:
+	headers: {'user-agent': 'Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.16 Safari/537.36', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive'}
+	proxies: {'http': '103.83.232.122:80', 'https': '103.83.232.122:80'}
+	cookies: <RequestsCookieJar[]>
+	client side SSL cert: None
+	can't be used to disable SSL certificate checks: True
+	additional URL query params: {}
+
+2024-01-25 20:48:54,876 - PROXY HANDLER - INFO - ******************************
+2024-01-25 20:48:54,877 - PROXY HANDLER - INFO - COMMENCING PROXY LIST CHECK
+2024-01-25 20:49:08,380 - PROXY HANDLER - INFO - CURRENT WORKING PROXY LIST:
+103.83.232.122:80
+106.105.218.244:80
+111.59.4.88:9002
+120.37.121.209:9091
+106.105.218.244:80
+122.155.165.191:3128
+103.83.232.122:80
+
+2024-01-25 20:49:08,380 - WEBSCRAPER-REQUEST - INFO - SESSION REQUEST INITIALIZED:
+	headers: {'user-agent': 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/28.0.1468.0 Safari/537.36', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive'}
+	proxies: {'http': '103.83.232.122:80', 'https': '103.83.232.122:80'}
+	cookies: <RequestsCookieJar[]>
+	client side SSL cert: None
+	can't be used to disable SSL certificate checks: True
+	additional URL query params: {}
+
+2024-01-25 20:50:03,307 - PROXY HANDLER - INFO - ******************************
+2024-01-25 20:50:03,307 - PROXY HANDLER - INFO - COMMENCING PROXY LIST CHECK
+2024-01-25 20:50:16,832 - PROXY HANDLER - INFO - CURRENT WORKING PROXY LIST:
+103.83.232.122:80
+106.105.218.244:80
+111.59.4.88:9002
+120.37.121.209:9091
+106.105.218.244:80
+122.155.165.191:3128
+103.83.232.122:80
+
+2024-01-25 20:50:16,832 - WEBSCRAPER-REQUEST - INFO - SESSION REQUEST INITIALIZED:
+	headers: {'user-agent': 'Mozilla/5.0 (X11; Linux; rv:74.0) Gecko/20100101 Firefox/74.0', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive'}
+	proxies: {'http': '103.83.232.122:80', 'https': '103.83.232.122:80'}
+	cookies: <RequestsCookieJar[]>
+	client side SSL cert: None
+	can't be used to disable SSL certificate checks: True
+	additional URL query params: {}
+
+2024-01-25 20:51:34,222 - PROXY HANDLER - INFO - ******************************
+2024-01-25 20:51:34,222 - PROXY HANDLER - INFO - COMMENCING PROXY LIST CHECK
+2024-01-25 20:51:48,146 - PROXY HANDLER - INFO - CURRENT WORKING PROXY LIST:
+103.83.232.122:80
+106.105.218.244:80
+111.59.4.88:9002
+120.37.121.209:9091
+106.105.218.244:80
+103.83.232.122:80
+
+2024-01-25 20:51:48,147 - WEBSCRAPER-REQUEST - INFO - SESSION REQUEST INITIALIZED:
+	headers: {'user-agent': 'Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/27.0.1453.93 Safari/537.36', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive'}
+	proxies: {'http': '103.83.232.122:80', 'https': '103.83.232.122:80'}
+	cookies: <RequestsCookieJar[]>
+	client side SSL cert: None
+	can't be used to disable SSL certificate checks: True
+	additional URL query params: {}
+
+2024-01-25 20:52:48,551 - PROXY HANDLER - INFO - ******************************
+2024-01-25 20:52:48,551 - PROXY HANDLER - INFO - COMMENCING PROXY LIST CHECK
+2024-01-25 20:53:02,055 - PROXY HANDLER - INFO - CURRENT WORKING PROXY LIST:
+103.83.232.122:80
+106.105.218.244:80
+111.59.4.88:9002
+120.37.121.209:9091
+106.105.218.244:80
+103.83.232.122:80
+
+2024-01-25 20:53:02,055 - WEBSCRAPER-REQUEST - INFO - SESSION REQUEST INITIALIZED:
+	headers: {'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive'}
+	proxies: {'http': '103.83.232.122:80', 'https': '103.83.232.122:80'}
+	cookies: <RequestsCookieJar[]>
+	client side SSL cert: None
+	can't be used to disable SSL certificate checks: True
+	additional URL query params: {}
+
+2024-01-25 20:56:10,959 - PROXY HANDLER - INFO - ******************************
+2024-01-25 20:56:10,959 - PROXY HANDLER - INFO - COMMENCING PROXY LIST CHECK
+2024-01-25 20:56:24,458 - PROXY HANDLER - INFO - CURRENT WORKING PROXY LIST:
+103.83.232.122:80
+106.105.218.244:80
+111.59.4.88:9002
+120.37.121.209:9091
+106.105.218.244:80
+103.83.232.122:80
+
+2024-01-25 20:56:24,458 - WEBSCRAPER-REQUEST - INFO - SESSION REQUEST INITIALIZED:
+	headers: {'user-agent': 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/28.0.1468.0 Safari/537.36', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive'}
+	proxies: {'http': '103.83.232.122:80', 'https': '103.83.232.122:80'}
+	cookies: <RequestsCookieJar[]>
+	client side SSL cert: None
+	can't be used to disable SSL certificate checks: True
+	additional URL query params: {}
+
+2024-01-25 20:57:41,714 - PROXY HANDLER - INFO - ******************************
+2024-01-25 20:57:41,714 - PROXY HANDLER - INFO - COMMENCING PROXY LIST CHECK
+2024-01-25 20:57:55,227 - PROXY HANDLER - INFO - CURRENT WORKING PROXY LIST:
+103.83.232.122:80
+111.59.4.88:9002
+120.37.121.209:9091
+103.83.232.122:80
+
+2024-01-25 20:57:55,228 - WEBSCRAPER-REQUEST - INFO - SESSION REQUEST INITIALIZED:
+	headers: {'user-agent': 'Opera/9.80 (Windows NT 6.1; U; zh-cn) Presto/2.7.62 Version/11.01', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive'}
+	proxies: {'http': '103.83.232.122:80', 'https': '103.83.232.122:80'}
+	cookies: <RequestsCookieJar[]>
+	client side SSL cert: None
+	can't be used to disable SSL certificate checks: True
+	additional URL query params: {}
+
+2024-01-25 23:46:58,195 - PROXY HANDLER - INFO - ******************************
+2024-01-25 23:46:58,195 - PROXY HANDLER - INFO - COMMENCING PROXY LIST CHECK
+2024-01-25 23:47:11,693 - PROXY HANDLER - INFO - CURRENT WORKING PROXY LIST:
+103.83.232.122:80
+106.105.218.244:80
+111.59.4.88:9002
+120.37.121.209:9091
+106.105.218.244:80
+103.83.232.122:80
+
+2024-01-25 23:48:15,745 - PROXY HANDLER - INFO - ******************************
+2024-01-25 23:48:15,745 - PROXY HANDLER - INFO - COMMENCING PROXY LIST CHECK
+2024-01-25 23:48:29,771 - PROXY HANDLER - INFO - CURRENT WORKING PROXY LIST:
+103.83.232.122:80
+106.105.218.244:80
+111.59.4.88:9002
+120.37.121.209:9091
+106.105.218.244:80
+103.83.232.122:80
+
+2024-01-25 23:49:58,684 - PROXY HANDLER - INFO - ******************************
+2024-01-25 23:49:58,684 - PROXY HANDLER - INFO - COMMENCING PROXY LIST CHECK
+2024-01-25 23:50:12,216 - PROXY HANDLER - INFO - CURRENT WORKING PROXY LIST:
+103.83.232.122:80
+111.59.4.88:9002
+120.37.121.209:9091
+106.105.218.244:80
+122.155.165.191:3128
+103.83.232.122:80
+
+2024-01-25 23:51:44,288 - PROXY HANDLER - INFO - ******************************
+2024-01-25 23:51:44,289 - PROXY HANDLER - INFO - COMMENCING PROXY LIST CHECK
+2024-01-25 23:51:57,815 - PROXY HANDLER - INFO - CURRENT WORKING PROXY LIST:
+103.83.232.122:80
+106.105.218.244:80
+111.59.4.88:9002
+106.105.218.244:80
+103.83.232.122:80
+
+2024-01-25 23:52:18,125 - PROXY HANDLER - INFO - ******************************
+2024-01-25 23:52:18,125 - PROXY HANDLER - INFO - COMMENCING PROXY LIST CHECK
+2024-01-25 23:52:31,750 - PROXY HANDLER - INFO - CURRENT WORKING PROXY LIST:
+103.83.232.122:80
+106.105.218.244:80
+111.59.4.88:9002
+120.37.121.209:9091
+103.83.232.122:80
+
+2024-01-25 23:53:09,057 - PROXY HANDLER - INFO - ******************************
+2024-01-25 23:53:09,057 - PROXY HANDLER - INFO - COMMENCING PROXY LIST CHECK
+2024-01-25 23:53:22,547 - PROXY HANDLER - INFO - CURRENT WORKING PROXY LIST:
+103.83.232.122:80
+106.105.218.244:80
+111.59.4.88:9002
+120.37.121.209:9091
+106.105.218.244:80
+103.83.232.122:80
+
+2024-01-26 01:00:48,542 - PROXY HANDLER - INFO - ******************************
+2024-01-26 01:00:48,543 - PROXY HANDLER - INFO - COMMENCING PROXY LIST CHECK
+2024-01-26 01:01:02,094 - PROXY HANDLER - INFO - CURRENT WORKING PROXY LIST:
+103.83.232.122:80
+106.105.218.244:80
+111.59.4.88:9002
+120.37.121.209:9091
+106.105.218.244:80
+103.83.232.122:80
+
+2024-01-26 01:01:24,672 - PROXY HANDLER - INFO - ******************************
+2024-01-26 01:01:24,672 - PROXY HANDLER - INFO - COMMENCING PROXY LIST CHECK
+2024-01-26 01:01:38,180 - PROXY HANDLER - INFO - CURRENT WORKING PROXY LIST:
+111.59.4.88:9002
+120.37.121.209:9091
+103.83.232.122:80
+
+2024-01-26 01:05:34,194 - PROXY HANDLER - INFO - ******************************
+2024-01-26 01:05:34,195 - PROXY HANDLER - INFO - COMMENCING PROXY LIST CHECK
+2024-01-26 01:05:47,729 - PROXY HANDLER - INFO - CURRENT WORKING PROXY LIST:
+106.105.218.244:80
+111.59.4.88:9002
+120.37.121.209:9091
+106.105.218.244:80
+103.83.232.122:80
+
+2024-01-26 01:06:59,226 - PROXY HANDLER - INFO - ******************************
+2024-01-26 01:06:59,226 - PROXY HANDLER - INFO - COMMENCING PROXY LIST CHECK
+2024-01-26 01:07:12,735 - PROXY HANDLER - INFO - CURRENT WORKING PROXY LIST:
+103.83.232.122:80
+106.105.218.244:80
+111.59.4.88:9002
+120.37.121.209:9091
+106.105.218.244:80
+122.155.165.191:3128
+103.83.232.122:80
+
+2024-01-26 01:07:51,510 - PROXY HANDLER - INFO - ******************************
+2024-01-26 01:07:51,511 - PROXY HANDLER - INFO - COMMENCING PROXY LIST CHECK
+2024-01-26 01:08:05,044 - PROXY HANDLER - INFO - CURRENT WORKING PROXY LIST:
+103.83.232.122:80
+111.59.4.88:9002
+120.37.121.209:9091
+122.155.165.191:3128
+103.83.232.122:80
+
+2024-01-26 01:08:19,423 - PROXY HANDLER - INFO - ******************************
+2024-01-26 01:08:19,424 - PROXY HANDLER - INFO - COMMENCING PROXY LIST CHECK
+2024-01-26 01:08:33,239 - PROXY HANDLER - INFO - CURRENT WORKING PROXY LIST:
+103.83.232.122:80
+106.105.218.244:80
+111.59.4.88:9002
+120.37.121.209:9091
+103.83.232.122:80
+
+2024-01-26 01:10:37,910 - PROXY HANDLER - INFO - ******************************
+2024-01-26 01:10:37,910 - PROXY HANDLER - INFO - COMMENCING PROXY LIST CHECK
+2024-01-26 01:10:51,853 - PROXY HANDLER - INFO - CURRENT WORKING PROXY LIST:
+103.83.232.122:80
+106.105.218.244:80
+111.59.4.88:9002
+120.37.121.209:9091
+106.105.218.244:80
+103.83.232.122:80
+
+2024-01-26 01:13:30,240 - PROXY HANDLER - INFO - ******************************
+2024-01-26 01:13:30,240 - PROXY HANDLER - INFO - COMMENCING PROXY LIST CHECK
+2024-01-26 01:13:43,755 - PROXY HANDLER - INFO - CURRENT WORKING PROXY LIST:
+103.83.232.122:80
+106.105.218.244:80
+111.59.4.88:9002
+120.37.121.209:9091
+106.105.218.244:80
+103.83.232.122:80
+
+2024-01-26 01:13:55,656 - PROXY HANDLER - INFO - ******************************
+2024-01-26 01:13:55,657 - PROXY HANDLER - INFO - COMMENCING PROXY LIST CHECK
+2024-01-26 01:14:09,119 - PROXY HANDLER - INFO - CURRENT WORKING PROXY LIST:
+103.83.232.122:80
+106.105.218.244:80
+111.59.4.88:9002
+120.37.121.209:9091
+106.105.218.244:80
+103.83.232.122:80
+
+2024-01-26 01:24:25,636 - PROXY HANDLER - INFO - ******************************
+2024-01-26 01:24:25,636 - PROXY HANDLER - INFO - COMMENCING PROXY LIST CHECK
+2024-01-26 01:24:27,444 - PROXY HANDLER - INFO - ******************************
+2024-01-26 01:24:27,444 - PROXY HANDLER - INFO - COMMENCING PROXY LIST CHECK
+2024-01-26 01:24:27,444 - PROXY HANDLER - INFO - ******************************
+2024-01-26 01:24:27,444 - PROXY HANDLER - INFO - COMMENCING PROXY LIST CHECK
+2024-01-26 01:24:27,479 - PROXY HANDLER - INFO - ******************************
+2024-01-26 01:24:27,479 - PROXY HANDLER - INFO - COMMENCING PROXY LIST CHECK
+2024-01-26 01:24:27,539 - PROXY HANDLER - INFO - ******************************
+2024-01-26 01:24:27,539 - PROXY HANDLER - INFO - COMMENCING PROXY LIST CHECK
+2024-01-26 01:24:29,137 - PROXY HANDLER - INFO - ******************************
+2024-01-26 01:24:29,137 - PROXY HANDLER - INFO - COMMENCING PROXY LIST CHECK
+2024-01-26 01:24:29,147 - PROXY HANDLER - INFO - ******************************
+2024-01-26 01:24:29,148 - PROXY HANDLER - INFO - COMMENCING PROXY LIST CHECK
+2024-01-26 01:24:29,174 - PROXY HANDLER - INFO - ******************************
+2024-01-26 01:24:29,174 - PROXY HANDLER - INFO - COMMENCING PROXY LIST CHECK
+2024-01-26 01:24:29,195 - PROXY HANDLER - INFO - ******************************
+2024-01-26 01:24:29,196 - PROXY HANDLER - INFO - COMMENCING PROXY LIST CHECK
+2024-01-26 01:24:30,698 - PROXY HANDLER - INFO - ******************************
+2024-01-26 01:24:30,698 - PROXY HANDLER - INFO - COMMENCING PROXY LIST CHECK
+2024-01-26 01:24:30,707 - PROXY HANDLER - INFO - ******************************
+2024-01-26 01:24:30,707 - PROXY HANDLER - INFO - COMMENCING PROXY LIST CHECK
+2024-01-26 01:24:30,765 - PROXY HANDLER - INFO - ******************************
+2024-01-26 01:24:30,765 - PROXY HANDLER - INFO - COMMENCING PROXY LIST CHECK
+2024-01-26 01:24:30,831 - PROXY HANDLER - INFO - ******************************
+2024-01-26 01:24:30,831 - PROXY HANDLER - INFO - COMMENCING PROXY LIST CHECK
+2024-01-26 01:24:33,543 - PROXY HANDLER - INFO - ******************************
+2024-01-26 01:24:33,543 - PROXY HANDLER - INFO - COMMENCING PROXY LIST CHECK
+2024-01-26 01:24:33,591 - PROXY HANDLER - INFO - ******************************
+2024-01-26 01:24:33,591 - PROXY HANDLER - INFO - COMMENCING PROXY LIST CHECK
+2024-01-26 01:24:33,635 - PROXY HANDLER - INFO - ******************************
+2024-01-26 01:24:33,635 - PROXY HANDLER - INFO - COMMENCING PROXY LIST CHECK
+2024-01-26 01:24:33,927 - PROXY HANDLER - INFO - ******************************
+2024-01-26 01:24:33,927 - PROXY HANDLER - INFO - COMMENCING PROXY LIST CHECK
+2024-01-26 01:25:07,154 - PROXY HANDLER - INFO - ******************************
+2024-01-26 01:25:07,155 - PROXY HANDLER - INFO - COMMENCING PROXY LIST CHECK
+2024-01-26 01:25:22,385 - PROXY HANDLER - INFO - CURRENT WORKING PROXY LIST:
+103.83.232.122:80
+106.105.218.244:80
+120.37.121.209:9091
+106.105.218.244:80
+122.155.165.191:3128
+103.83.232.122:80
+
+2024-01-26 01:28:38,945 - PROXY HANDLER - INFO - ******************************
+2024-01-26 01:28:38,945 - PROXY HANDLER - INFO - COMMENCING PROXY LIST CHECK
+2024-01-26 01:28:53,446 - PROXY HANDLER - INFO - CURRENT WORKING PROXY LIST:
+103.83.232.122:80
+120.37.121.209:9091
+106.105.218.244:80
+103.83.232.122:80
+
+2024-01-26 01:30:32,032 - PROXY HANDLER - INFO - ******************************
+2024-01-26 01:30:32,032 - PROXY HANDLER - INFO - COMMENCING PROXY LIST CHECK
+2024-01-26 01:30:46,965 - PROXY HANDLER - INFO - CURRENT WORKING PROXY LIST:
+103.83.232.122:80
+120.37.121.209:9091
+122.155.165.191:3128
+103.83.232.122:80
+
+2024-01-26 01:31:51,653 - PROXY HANDLER - INFO - ******************************
+2024-01-26 01:31:51,653 - PROXY HANDLER - INFO - COMMENCING PROXY LIST CHECK
+2024-01-26 01:32:06,405 - PROXY HANDLER - INFO - CURRENT WORKING PROXY LIST:
+103.83.232.122:80
+106.105.218.244:80
+120.37.121.209:9091
+103.83.232.122:80
+
+2024-01-26 01:33:10,993 - PROXY HANDLER - INFO - ******************************
+2024-01-26 01:33:10,993 - PROXY HANDLER - INFO - COMMENCING PROXY LIST CHECK
+2024-01-26 01:33:25,962 - PROXY HANDLER - INFO - CURRENT WORKING PROXY LIST:
+103.83.232.122:80
+106.105.218.244:80
+120.37.121.209:9091
+106.105.218.244:80
+103.83.232.122:80
+
+2024-01-26 01:34:31,047 - PROXY HANDLER - INFO - ******************************
+2024-01-26 01:34:31,047 - PROXY HANDLER - INFO - COMMENCING PROXY LIST CHECK
+2024-01-26 01:34:45,508 - PROXY HANDLER - INFO - CURRENT WORKING PROXY LIST:
+103.83.232.122:80
+106.105.218.244:80
+106.105.218.244:80
+122.155.165.191:3128
+103.83.232.122:80
+
+2024-01-26 01:35:08,392 - PROXY HANDLER - INFO - ******************************
+2024-01-26 01:35:08,392 - PROXY HANDLER - INFO - COMMENCING PROXY LIST CHECK
+2024-01-26 01:35:23,507 - PROXY HANDLER - INFO - CURRENT WORKING PROXY LIST:
+103.83.232.122:80
+106.105.218.244:80
+120.37.121.209:9091
+106.105.218.244:80
+122.155.165.191:3128
+103.83.232.122:80
+
+2024-01-26 01:36:40,313 - PROXY HANDLER - INFO - ******************************
+2024-01-26 01:36:40,313 - PROXY HANDLER - INFO - COMMENCING PROXY LIST CHECK
+2024-01-26 01:36:55,174 - PROXY HANDLER - INFO - CURRENT WORKING PROXY LIST:
+103.83.232.122:80
+106.105.218.244:80
+103.83.232.122:80
+
