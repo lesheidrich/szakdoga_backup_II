@@ -1,6 +1,7 @@
 import random
 import re
 import time
+import requests
 from fake_user_agent import user_agent
 from selenium.webdriver import ActionChains
 from webscraper.proxy.proxy_handler import ProxyHandler
@@ -80,15 +81,23 @@ class ProxyKit:
 
         return None
 
-    def apply_rotating_proxy(self, function: Callable, url: str, *args, **kwargs):
-        while True:
+    def apply_rotating_proxy(self, function: Callable, url: str, *args, **kwargs) -> requests.Response | str:
+        while len(self.proxy_list) > 0:
             proxy = self.pop_random_proxy()
 
             try:
+
+                print(f"apply rotating proxy: using proxy: {proxy}")
+
                 response = function(url, proxy, *args, **kwargs)
-                if response.status_code == 200:
+                if (isinstance(response, requests.Response) and response.status_code == 200) or \
+                        (isinstance(response, str) and "<body>" in response):
                     self.proxy_list.append(proxy)
                     return response
             except RequestException as e:
                 print(f"ProxyKit.apply_rotating_proxy encountered an error while connecting to: {proxy}"
                       f" for {url}! {e}")
+            except Exception as e:
+                print("Exception: ", e)
+
+        raise ValueError("Conneciton could not be established for any proxy in the provided csv!")

@@ -43,8 +43,7 @@ Methods:
 import csv
 import multiprocessing
 import os
-
-import secrets
+import project_secrets
 import requests
 from log.logger import Logger
 
@@ -115,7 +114,7 @@ class ProxyHandler:
 
         if ":\\" in file_name:
             return file_name
-        return os.path.join(secrets.get_project_folder(), "webscraper", "proxy", file_name)
+        return os.path.join(project_secrets.get_project_folder(), "webscraper", "proxy", file_name)
 
     def load_proxies(self) -> [str]:
         """

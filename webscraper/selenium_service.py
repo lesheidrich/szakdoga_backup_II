@@ -27,7 +27,6 @@ class WebDriver(ABC):
         wait = WebDriverWait(driver, 90)  # Set the maximum waiting time to 90 seconds or more
         wait.until(EC.presence_of_element_located((By.TAG_NAME, 'body')))
         WebKit.move_mouse(driver)
-        # WebKit.random_delay()
         return driver.page_source
 
     def _return_and_quit(self, driver, url: str):
@@ -64,6 +63,7 @@ class FirefoxDriver(WebDriver):
         if proxy_address:
             self._setup_proxy(firefox_options, proxy_address)
         firefox_driver = Firefox(options=firefox_options)
+
         return self._return_and_quit(firefox_driver, url)
 
 

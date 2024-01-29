@@ -1,10 +1,7 @@
 from typing import Optional
-
 import requests
-
-from webscraper.request_service import RequestManager
 from webscraper.selenium_service import WebDriverFactory
-from webscraper.utilities import ProxyKit
+from webscraper.utilities import ProxyKit, WebKit
 
 
 class ScraperFacade:
@@ -13,27 +10,40 @@ class ScraperFacade:
 
     def firefox_selenium_scrape(self, url: str, proxy=None):
         firefox = WebDriverFactory().firefox()
+        WebKit.random_delay()
         return firefox.return_content(url, proxy)
 
+    def firefox_selenium_scrape_proxy(self, url: str):
+        return self.proxy_kit.apply_rotating_proxy(self.firefox_selenium_scrape, url)
+
     def chrome_selenium_scrape(self, url: str, proxy=None):
-        chrome = WebDriverFactory().firefox()
+        chrome = WebDriverFactory().chrome()
+        WebKit.random_delay()
         return chrome.return_content(url, proxy)
 
+    def chrome_selenium_scrape_proxy(self, url: str):
+        return self.proxy_kit.apply_rotating_proxy(self.chrome_selenium_scrape, url)
+
     def undetected_chrome_selenium_scrape(self, url: str, proxy=None):
-        uc = WebDriverFactory().firefox()
+        uc = WebDriverFactory().undetected_chrome()
+        WebKit.random_delay()
         return uc.return_content(url, proxy)
 
-    def firefox_selenium_scrape_proxy(self):
+    def undetected_chrome_selenium_scrape_proxy(self, url: str):
+        return self.proxy_kit.apply_rotating_proxy(self.undetected_chrome_selenium_scrape, url)
+
+    def requests_scrape(self, url: str, proxy: str = None, timeout=120) -> requests.Response:
+        header = WebKit.new_header()
+        proxy_dict = ProxyKit.proxy_to_dict(proxy)
+        WebKit.random_delay()
+        return requests.get(url, headers=header, proxies=proxy_dict, timeout=timeout)
+
+    def requests_scrape_proxy(self, url: str):
+        return self.proxy_kit.apply_rotating_proxy(self.requests_scrape, url)
+
+    def scrapy_scrape(self, url: str):
+        WebKit.random_delay()
         pass
 
-    def chrome_selenium_scrape_proxy(self):
+    def scrapy_scrape_proxy(self, url: str):
         pass
-
-    def undetected_chrome_selenium_scrape_proxy(self):
-        pass
-
-    def request_scrape(self, url: str, proxy: str = None, timeout=120) -> requests.Response:
-        return RequestManager.request_response(url, proxy, timeout)
-
-    def request_scrape_proxy(self, url: str):
-        return self.proxy_kit.apply_rotating_proxy(RequestManager.request_response, url)
